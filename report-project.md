@@ -81,3 +81,20 @@
         *   **Ads Section (Ceklis):** Integrasi 3 banner iklan eksternal dengan teknik **Intrinsic Responsive Image** agar gambar tampil utuh.
         *   **Content Segmentation:** Memecah stream berita menjadi section "Terbaru" dan "Terpopuler" untuk variasi konten.
     *   **Visual Integrity:** Standardisasi warna judul menggunakan **Maiyah Blue** untuk keterbacaan maksimal di atas background terang.
+
+### [29-12-2024] - Phase 7: Advanced Dynamic Content & UI Polishing
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **Custom Author Integration:**
+        *   Backend: Implementasi ACF Field Group untuk Custom Author (Nama, Foto, Bio).
+        *   Frontend: Logic fallback pintar (Custom > Default WP) di Halaman Berita.
+    *   **Redesign Single Post Hero:**
+        *   Evolusi UI ke **"Cinema Mode Clean Stacked"**.
+        *   Gambar ditampilkan utuh (contain) dengan ambience blur background.
+        *   Judul & Meta dipisah ke bawah gambar untuk keterbacaan 100%.
+    *   **Dynamic Homepage Ads:**
+        *   Implementasi Backend ACF Repeater pada "Front Page" untuk manajemen banner iklan.
+        *   Integrasi Frontend dengan struktur GraphQL yang aman (`node` edge support).
+    *   **Documentation:**
+        *   Update `manual.md` dengan panduan deployment lengkap.
+        *   Backup konfigurasi ACF (`.json`) ke dalam repo.
