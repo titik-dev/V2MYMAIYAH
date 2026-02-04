@@ -117,4 +117,6 @@
     *   **Critical Browser Compatibility Fixes:**
         *   **Mobile Overflow Fix:** Menangani isu layout "pecah/geser" pada browser Brave/Safari Mobile dengan menerapkan `overflow-x-hidden` global pada `<body>` dan `max-width: 100vw` wrapper.
         *   **Scroll Mechanics:** Mengaktifkan `-webkit-overflow-scrolling: touch` untuk scroll menu yang mulus di iOS.
-
+    *   **Final Deployment:**
+        *   **Vercel Production:** Sukses mendeploy aplikasi ke Vercel (`mymaiyah-news.vercel.app`) dengan koneksi backend `assets.mymaiyah.id` yang stabil.
+        *   **Status Verifikasi:** Website Live, Cepat, dan Gambar terload sempurna. Fitur Judul Merah tervalidasi sukses di production.
