@@ -40,6 +40,7 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen pb-20">
+      <h1 className="sr-only">MyMaiyah.id - Portal Berita Maiyah Terkini</h1>
 
       {/* Hero Section (Standalone Video) */}
       <section className="container mx-auto px-4 pt-6 pb-8">
@@ -111,7 +112,7 @@ export default async function Home() {
                   alt={altText}
                   width={0}
                   height={0}
-                  sizes="100vw"
+                  sizes="(max-width: 768px) 100vw, 33vw"
                   style={{ width: '100%', height: 'auto' }}
                   className="group-hover:scale-102 transition-transform duration-500"
                 />
@@ -138,6 +139,7 @@ export default async function Home() {
                     src={node.featuredImage.node.sourceUrl}
                     alt={node.featuredImage.node.altText || node.title}
                     fill
+                    sizes="(max-width: 768px) 33vw, 33vw"
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
                 ) : (
@@ -187,6 +189,7 @@ export default async function Home() {
                       src={node.featuredImage.node.sourceUrl}
                       alt={node.featuredImage.node.altText || node.title}
                       fill
+                      sizes="(max-width: 768px) 33vw, 33vw"
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
                   ) : (

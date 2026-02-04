@@ -18,6 +18,9 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://mymaiyah.id'),
+  alternates: {
+    canonical: './',
+  },
   title: {
     default: "MyMaiyah.id - Mandiri, Otentik, Berdaulat",
     template: "%s | MyMaiyah.id",
@@ -35,7 +38,7 @@ export const metadata: Metadata = {
     siteName: "MyMaiyah.id",
     images: [
       {
-        url: "http://assets.mymaiyah.id/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png",
+        url: "https://assets.mymaiyah.id/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png",
         width: 1200,
         height: 630,
         alt: "MyMaiyah.id Logo",
@@ -46,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@MyMaiyahID",
     creator: "@MyMaiyahID",
-    images: ["http://assets.mymaiyah.id/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png"],
+    images: ["https://assets.mymaiyah.id/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png"],
   },
   robots: {
     index: true,

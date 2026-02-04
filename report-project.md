@@ -133,3 +133,16 @@
     *   **Bottom Nav Refinement:**
         *   Update default items: Beranda, Maiyah's Wisdom, Kolom Maiyah, Daur Maiyahan, Opini.
         *   Menambahkan mapping ikon lengkap (Home, Heart, Newspaper, Calendar, Pencil, dll) untuk dukungan dinamis.
+
+### [07-01-2026] - Phase 10: SEO Audit & Performance Tuning
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **SEO Metadata Hardening:**
+        *   Implementasi `canonical` link tag untuk mencegah duplikat konten.
+        *   Menambahkan semantic `<h1 class="sr-only">` pada Homepage untuk aksesibilitas dan SEO yang lebih baik.
+        *   Update semua Social Open Graph Images (OG Image) menjadi `https` untuk keamanan.
+    *   **Performance Boost:**
+        *   Reset konfigurasi `next.config.ts` (menghapus `unoptimized: true`) untuk mengaktifkan **Next.js Image Optimization**.
+        *   Menambahkan properti `sizes` responsive pada Image Component untuk Iklan dan Berita, mengurangi payload gambar drastis di Mobile.
+        *   Audit aset menunjukkan penurunan ukuran file JS dan Image yang signifikan saat mode Production.
+
