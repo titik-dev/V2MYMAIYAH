@@ -76,6 +76,29 @@ JIKA TERPAKSA (Hosting murah tanpa Node.js):
 
 ---
 
+## Cara Update Kode Website 🔄
+Jika Anda mengedit kode di masa depan (misal mengganti link iklan atau mengubah video banner), lakukan langkah ini agar website live ikut berubah.
+
+**Jika Menggunakan Vercel:**
+Cukup jalankan 3 perintah ini di Terminal VS Code Anda:
+
+```bash
+git add .
+git commit -m "Update konten website"
+git push origin main
+```
+
+*Penjelasan:*
+1.  `git add .` : Memilih semua file yang berubah.
+2.  `git commit ...` : Menyimpan perubahan dengan pesan catatan.
+3.  `git push ...` : Mengirim kode ke GitHub.
+*Setelah kode sampai di GitHub, Vercel akan OTOMATIS mendeteksi dan mengupdate website live Anda dalam 1-2 menit.*
+
+**Jika Menggunakan cPanel:**
+Anda harus mengulangi proses **Build** dan **Upload** (hapus file lama di hosting, upload file `.next` baru), lalu restart App Node.js di cPanel.
+
+---
+
 ## Catatan Penting
 *   **Update Konten Berita:** Cukup posting di WordPress Backend (`assets.mymaiyah.id`). Frontend akan otomatis update (Tergantung setting Cache Revalidation, biasanya sekitar 60 detik).
 *   **Gambar Iklan:** Jika ganti gambar iklan, harus edit kode dan deploy ulang (Opsi 1 tinggal push ke Git, Vercel otomatis update).

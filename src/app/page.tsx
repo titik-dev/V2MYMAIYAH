@@ -13,23 +13,53 @@ export default async function Home() {
   }
 
   // Slice posts for different sections
-  const latestPosts = posts.slice(0, 5);
-  const popularPosts = posts.slice(5, 10);
+  const latestPosts = posts.slice(0, 6);
+  const popularPosts = posts.slice(6, 12);
 
   return (
     <main className="min-h-screen pb-20">
 
       {/* Hero Section (Standalone Video) */}
       <section className="container mx-auto px-4 pt-6 pb-8">
-        <div className="relative aspect-[9/16] md:aspect-[21/9] w-full overflow-hidden rounded-2xl shadow-lg group">
-          <video
-            src="https://mymaiyah.id/72Th%20Mbah%20Nun.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="object-cover w-full h-full"
-          />
+        <div className="relative w-full rounded-2xl shadow-lg overflow-hidden group bg-gray-900">
+
+          {/* Mobile Layout: Full Portrait (Immersive) */}
+          <div className="md:hidden aspect-[9/16] relative w-full">
+            <video
+              src="https://mymaiyah.id/72Th%20Mbah%20Nun.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="object-cover w-full h-full"
+            />
+          </div>
+
+          {/* Desktop Layout: Cinema Mode (Blurred Background + Contain) */}
+          <div className="hidden md:flex aspect-[21/9] relative w-full items-center justify-center overflow-hidden">
+            {/* Ambient Background (Blurred) */}
+            <div className="absolute inset-0 opacity-40 select-none">
+              <video
+                src="https://mymaiyah.id/72Th%20Mbah%20Nun.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="object-cover w-full h-full blur-xl scale-110"
+              />
+            </div>
+
+            {/* Main Video (Full Content) */}
+            <video
+              src="https://mymaiyah.id/72Th%20Mbah%20Nun.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="relative h-full w-auto object-contain shadow-2xl z-10 rounded-lg"
+            />
+          </div>
+
         </div>
       </section>
 
