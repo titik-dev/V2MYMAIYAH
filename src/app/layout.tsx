@@ -4,7 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import BottomNav from "@/components/layout/BottomNav";
-import { getGlobalMenu } from "@/lib/api"; // Ensure this import is used if we fetch here
+import { getGlobalMenu, getGlobalNavigation } from "@/lib/api"; // Ensure this import is used if we fetch here
 
 const inter = Inter({
   variable: "--font-inter",
@@ -61,11 +61,19 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  let globalNav = null;
+  try {
+    globalNav = await getGlobalNavigation();
+  } catch (error) {
+    console.error("Layout Navigation Error", error);
+  }
+
+  const bottomItems = globalNav?.bottomNavItems || [];
   return (
     <html lang="id" className="light" suppressHydrationWarning>
       <body
@@ -92,7 +100,7 @@ export default function RootLayout({
         <footer className="border-t border-black/10 py-8 text-center text-sm text-gray-500 mt-auto mb-16 md:mb-0">
           © 2025 Maiyah News. All rights reserved.
         </footer>
-        <BottomNav />
+        <BottomNav items={bottomItems} />
       </body>
     </html>
   );

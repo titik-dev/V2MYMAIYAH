@@ -2,10 +2,7 @@ import { notFound } from "next/navigation";
 
 const API_URL = "https://assets.mymaiyah.id/graphql";
 
-// Allow self-signed certificates for local development
-if (process.env.NODE_ENV === 'development') {
-  process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
-}
+
 
 async function fetchAPI(query: string, { variables }: { variables?: Record<string, any> } = {}) {
   // Using GET for simplicity and robustness in this local env
@@ -331,6 +328,41 @@ export async function getGlobalMenu() {
   );
 
   return data?.page?.mainMenuManager?.mainMenuItems || [];
+}
+
+export async function getGlobalNavigation() {
+  const data = await fetchAPI(
+    `
+    query GetGlobalNavigation {
+      page(id: "/", idType: URI) {
+        globalNavigationManager {
+          desktopMenuItems {
+            label
+            url
+            subMenuItems {
+              label
+              url
+            }
+          }
+          mobileDrawerItems {
+            label
+            url
+            subMenuItems {
+              label
+              url
+            }
+          }
+          bottomNavItems {
+            label
+            url
+            icon
+          }
+        }
+      }
+    }
+    `
+  );
+  return data?.page?.globalNavigationManager;
 }
 
 export async function getAgendas() {

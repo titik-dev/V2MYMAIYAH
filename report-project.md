@@ -120,3 +120,16 @@
     *   **Final Deployment:**
         *   **Vercel Production:** Sukses mendeploy aplikasi ke Vercel (`mymaiyah-news.vercel.app`) dengan koneksi backend `assets.mymaiyah.id` yang stabil.
         *   **Status Verifikasi:** Website Live, Cepat, dan Gambar terload sempurna. Fitur Judul Merah tervalidasi sukses di production.
+
+### [06-01-2026] - Phase 9: Dynamic Global Navigation & Security Hardening
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **Global Navigation System:**
+        *   **Backend:** Implementasi `Global Navigation Manager` di ACF untuk manajemen terpusat (Desktop Menu, Mobile Drawer, Bottom Nav) dalam satu Field Group.
+        *   **Frontend:** Refactoring `Header.tsx`, `MobileMenu.tsx`, dan `BottomNav.tsx` untuk mengambil data menu dinamis dari API.
+        *   **Fail-safe Mechanism:** Implementasi logika *fallback* cerdas (jika menu baru kosong, tampilkan menu default) agar tampilan tidak rusak saat transisi data.
+    *   **Security & Stability:**
+        *   **SSL Fix:** Menghapus bypass safety `NODE_TLS_REJECT_UNAUTHORIZED` karena koneksi ke `assets.mymaiyah.id` sudah terverifikasi aman (HTTPS Valid).
+    *   **Bottom Nav Refinement:**
+        *   Update default items: Beranda, Maiyah's Wisdom, Kolom Maiyah, Daur Maiyahan, Opini.
+        *   Menambahkan mapping ikon lengkap (Home, Heart, Newspaper, Calendar, Pencil, dll) untuk dukungan dinamis.

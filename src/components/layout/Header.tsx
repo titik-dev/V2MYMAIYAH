@@ -1,16 +1,25 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { getGlobalMenu } from '@/lib/api';
+import { getGlobalMenu, getGlobalNavigation } from '@/lib/api';
 import MobileMenu from './MobileMenu';
 import CategoryPills from '@/components/layout/CategoryPills';
 
 export default async function Header() {
-    let menuItems = [];
+    let globalNav = null;
+    let fallbackMenu = [];
+
     try {
-        menuItems = await getGlobalMenu();
+        globalNav = await getGlobalNavigation();
+        // Fallback if user hasn't set up the new structure yet
+        if (!globalNav) {
+            fallbackMenu = await getGlobalMenu();
+        }
     } catch (error) {
         console.error("Header Menu Error", error);
     }
+
+    const desktopItems = globalNav?.desktopMenuItems || fallbackMenu;
+    const mobileItems = globalNav?.mobileDrawerItems || fallbackMenu;
 
     return (
         <>
@@ -42,13 +51,13 @@ export default async function Header() {
 
                     {/* Mobile Controls */}
                     <div className="flex md:hidden items-center gap-4">
-                        <MobileMenu menuItems={menuItems} />
+                        <MobileMenu menuItems={mobileItems} />
                     </div>
                 </nav>
             </header>
 
             {/* Horizontal Category Navigation (Desktop & Mobile) */}
-            <CategoryPills menuItems={menuItems} />
+            <CategoryPills menuItems={desktopItems} />
         </>
     );
 }

@@ -1,0 +1,309 @@
+[
+    {
+        "key": "group_global_navigation_manager",
+        "title": "Global Navigation Manager (Desktop, Mobile, Bottom)",
+        "fields": [
+            {
+                "key": "field_tab_desktop_menu",
+                "label": "Desktop Menu",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_desktop_menu_items",
+                "label": "Desktop Menu Items",
+                "name": "desktop_menu_items",
+                "type": "repeater",
+                "instructions": "Atur menu yang tampil di Header Desktop.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_desktop_menu_label",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "Add Item",
+                "sub_fields": [
+                    {
+                        "key": "field_desktop_menu_label",
+                        "label": "Label",
+                        "name": "label",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "Contoh: Berita",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_desktop_menu_url",
+                        "label": "URL",
+                        "name": "url",
+                        "type": "text",
+                        "instructions": "Gunakan path relatif (contoh: /berita) atau full URL.",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "/category/nama-kategori",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_desktop_submenu",
+                        "label": "Sub Menu Items",
+                        "name": "sub_menu_items",
+                        "type": "repeater",
+                        "instructions": "Opsional: Tambahkan submenu (dropdown).",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "field_desktop_sub_label",
+                        "min": 0,
+                        "max": 0,
+                        "layout": "table",
+                        "button_label": "Add Sub Item",
+                        "sub_fields": [
+                            {
+                                "key": "field_desktop_sub_label",
+                                "label": "Label",
+                                "name": "label",
+                                "type": "text",
+                                "parent": "field_desktop_submenu",
+                                "wrapper": {
+                                    "width": "50"
+                                }
+                            },
+                            {
+                                "key": "field_desktop_sub_url",
+                                "label": "URL",
+                                "name": "url",
+                                "type": "text",
+                                "parent": "field_desktop_submenu",
+                                "wrapper": {
+                                    "width": "50"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_tab_mobile_drawer",
+                "label": "Mobile Drawer (Side)",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_mobile_drawer_items",
+                "label": "Mobile Drawer Items",
+                "name": "mobile_drawer_items",
+                "type": "repeater",
+                "instructions": "Atur menu yang tampil saat tombol hamburger diklik di HP. Bisa lebih lengkap dari menu desktop.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_mobile_drawer_label",
+                "min": 0,
+                "max": 0,
+                "layout": "block",
+                "button_label": "Add Drawer Item",
+                "sub_fields": [
+                    {
+                        "key": "field_mobile_drawer_label",
+                        "label": "Label",
+                        "name": "label",
+                        "type": "text",
+                        "required": 1,
+                        "wrapper": {
+                            "width": "50"
+                        }
+                    },
+                    {
+                        "key": "field_mobile_drawer_url",
+                        "label": "URL",
+                        "name": "url",
+                        "type": "text",
+                        "required": 1,
+                        "wrapper": {
+                            "width": "50"
+                        }
+                    },
+                    {
+                        "key": "field_mobile_drawer_submenu",
+                        "label": "Sub Menu Items",
+                        "name": "sub_menu_items",
+                        "type": "repeater",
+                        "layout": "table",
+                        "button_label": "Add Sub Item",
+                        "sub_fields": [
+                            {
+                                "key": "field_mobile_sub_label",
+                                "label": "Label",
+                                "name": "label",
+                                "type": "text"
+                            },
+                            {
+                                "key": "field_mobile_sub_url",
+                                "label": "URL",
+                                "name": "url",
+                                "type": "text"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_tab_bottom_nav",
+                "label": "Bottom Nav (Mobile)",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_bottom_nav_items",
+                "label": "Bottom Navigation Items",
+                "name": "bottom_nav_items",
+                "type": "repeater",
+                "instructions": "Menu ikon di bawah layar HP. Direkomendasikan maksimal 5 item.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_bottom_nav_label",
+                "min": 1,
+                "max": 6,
+                "layout": "table",
+                "button_label": "Add Bottom Item",
+                "sub_fields": [
+                    {
+                        "key": "field_bottom_nav_label",
+                        "label": "Label",
+                        "name": "label",
+                        "type": "text",
+                        "required": 1,
+                        "wrapper": {
+                            "width": "40"
+                        }
+                    },
+                    {
+                        "key": "field_bottom_nav_url",
+                        "label": "URL",
+                        "name": "url",
+                        "type": "text",
+                        "required": 1,
+                        "wrapper": {
+                            "width": "40"
+                        }
+                    },
+                    {
+                        "key": "field_bottom_nav_icon",
+                        "label": "Icon",
+                        "name": "icon",
+                        "type": "select",
+                        "instructions": "Pilih ikon yang sesuai",
+                        "required": 1,
+                        "wrapper": {
+                            "width": "20"
+                        },
+                        "choices": {
+                            "home": "Home / Beranda",
+                            "heart": "Heart / Wisdom",
+                            "newspaper": "Newspaper / Berita",
+                            "calendar": "Calendar / Agenda",
+                            "pencil-square": "Pencil / Opini / Esai",
+                            "document-text": "Document / Tajuk",
+                            "book-open": "Book / Tadabbur",
+                            "photo": "Photo",
+                            "video-camera": "Video",
+                            "user": "User / Akun",
+                            "magnifying-glass": "Search / Cari"
+                        },
+                        "default_value": "document-text",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 1,
+                        "ajax": 0,
+                        "return_format": "value",
+                        "placeholder": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_type",
+                    "operator": "==",
+                    "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Pengaturan menu terpusat untuk Desktop, Mobile Drawer, dan Bottom Nav.",
+        "show_in_rest": true
+    }
+]
