@@ -1,0 +1,205 @@
+[
+    {
+        "key": "group_footer_manager",
+        "title": "Footer Manager (Pengaturan Footer)",
+        "fields": [
+            {
+                "key": "field_footer_description",
+                "label": "Deskripsi Footer",
+                "name": "footer_description",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "Teks deskripsi singkat atau alamat yang muncul di footer.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "MyMaiyah.id adalah portal dokumentasi dan wacana seputar Cak Nun, KiaiKanjeng, dan simpul-simpul Maiyah.",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 4,
+                "new_lines": "br"
+            },
+            {
+                "key": "field_footer_logos",
+                "label": "Logos (Support 3 Logo)",
+                "name": "footer_logos",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "Upload logo-logo yang akan ditampilkan di footer (misal: Logo Maiyah, Logo Cak Nun, Logo KiaiKanjeng).",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "pagination": 0,
+                "min": 0,
+                "max": 3,
+                "collapsed": "",
+                "button_label": "Tambah Logo",
+                "sub_fields": [
+                    {
+                        "key": "field_footer_logo_img",
+                        "label": "Gambar Logo",
+                        "name": "logo_image",
+                        "aria-label": "",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": "",
+                        "preview_size": "medium",
+                        "parent": "field_footer_logos"
+                    },
+                    {
+                        "key": "field_footer_logo_url",
+                        "label": "Link URL (Opsional)",
+                        "name": "logo_url",
+                        "aria-label": "",
+                        "type": "url",
+                        "instructions": "Jika diklik mengarah kemana?",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "https://...",
+                        "parent": "field_footer_logos"
+                    }
+                ]
+            },
+            {
+                "key": "field_footer_socials",
+                "label": "Social Media Links",
+                "name": "footer_socials",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "Daftar link sosial media.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "table",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Tambah Sosmed",
+                "sub_fields": [
+                    {
+                        "key": "field_footer_soc_platform",
+                        "label": "Platform",
+                        "name": "platform",
+                        "aria-label": "",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "40",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "facebook": "Facebook",
+                            "twitter": "Twitter (X)",
+                            "instagram": "Instagram",
+                            "youtube": "YouTube",
+                            "tiktok": "TikTok",
+                            "whatsapp": "WhatsApp"
+                        },
+                        "default_value": "instagram",
+                        "return_format": "value",
+                        "multiple": 0,
+                        "allow_null": 0,
+                        "ui": 0,
+                        "ajax": 0,
+                        "placeholder": "",
+                        "parent": "field_footer_socials"
+                    },
+                    {
+                        "key": "field_footer_soc_url",
+                        "label": "URL Profi",
+                        "name": "url",
+                        "aria-label": "",
+                        "type": "url",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "60",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "https://instagram.com/...",
+                        "parent": "field_footer_socials"
+                    }
+                ]
+            },
+            {
+                "key": "field_footer_copyright",
+                "label": "Copyright Text",
+                "name": "footer_copyright",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "© 2026 Maiyah News. All rights reserved.",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_type",
+                    "operator": "==",
+                    "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 5,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Pengaturan konten footer website (Logo, Deskripsi, Sosmed)",
+        "show_in_rest": true
+    }
+]

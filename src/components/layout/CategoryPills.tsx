@@ -17,7 +17,9 @@ export default function CategoryPills({ menuItems = [] }: { menuItems?: any[] })
         ];
 
     return (
-        <div className="w-full border-b border-gray-100 bg-white/50 backdrop-blur-sm sticky top-[60px] z-40">
+        // Visibility Logic Reversal: Show usage ONLY on Mobile (block), HIDE on Desktop (md:hidden)
+        // Seperti request: "Pill Menu muncul SELAIN JIKA BUKAN mode desktop" -> artinya Muncul di Mobile.
+        <div className="w-full border-b border-gray-100 bg-white/50 backdrop-blur-sm sticky top-[60px] z-40 block md:hidden">
             <div
                 ref={scrollRef}
                 className="container mx-auto flex items-center px-4 md:px-6 relative"

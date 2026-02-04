@@ -29,7 +29,7 @@ async function fetchAPI(query: string, { variables }: { variables?: Record<strin
 
     const json = await res.json();
     if (json.errors) {
-      console.error("GraphQL Errors:", json.errors);
+      console.error("GraphQL Errors Full Details:", JSON.stringify(json.errors, null, 2));
       throw new Error("Failed to fetch API");
     }
     return json.data;
@@ -352,6 +352,10 @@ export async function getGlobalNavigation() {
               url
             }
           }
+          pillMenuItems {
+            label
+            url
+          }
           bottomNavItems {
             label
             url
@@ -412,5 +416,38 @@ export async function getAgendaBySlug(slug: string) {
     { variables: { id: slug } }
   );
   return data?.agenda;
+}
+
+export async function getFooterData() {
+  try {
+    const data = await fetchAPI(
+      `
+        query GetFooterData {
+          page(id: "/", idType: URI) {
+            footerManager {
+              footerDescription
+              footerLogos {
+                logoImage {
+                  node {
+                    sourceUrl
+                    altText
+                  }
+                }
+                logoUrl
+              }
+              footerSocials {
+                platform
+                url
+              }
+              footerCopyright
+            }
+          }
+        }
+        `
+    );
+    return data?.page?.footerManager;
+  } catch (error) {
+    return null;
+  }
 }
 

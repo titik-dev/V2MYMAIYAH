@@ -18,8 +18,13 @@ export default async function Header() {
         console.error("Header Menu Error", error);
     }
 
-    const desktopItems = globalNav?.desktopMenuItems || fallbackMenu;
-    const mobileItems = globalNav?.mobileDrawerItems || fallbackMenu;
+    // Unified Menu Source: Gunakan 'mobileDrawerItems' sebagai sumber kebenaran tunggal (Single Source of Truth)
+    // agar menu Desktop (Pills) dan Mobile (Burger) isinya 100% SAMA persis.
+    const menuSource = globalNav?.mobileDrawerItems || fallbackMenu;
+
+    // Pass to both components
+    const desktopItems = menuSource;
+    const mobileItems = menuSource;
 
     return (
         <>
@@ -34,9 +39,47 @@ export default async function Header() {
                                 fill
                                 className="object-contain object-left"
                                 priority
+                                sizes="(max-width: 768px) 150px, 200px"
                             />
                         </div>
                     </Link>
+
+                    {/* Desktop Main Navigation (Restored) */}
+                    <div className="hidden md:flex items-center gap-6 mr-6">
+                        {desktopItems.map((item: any, idx: number) => {
+                            const hasSubmenu = item.subMenuItems && item.subMenuItems.length > 0;
+                            return (
+                                <div key={idx} className="relative group">
+                                    <Link
+                                        href={item.url || "#"}
+                                        className="text-sm font-bold text-gray-600 dark:text-gray-300 hover:text-[var(--color-maiyah-blue)] transition-colors uppercase tracking-wide flex items-center gap-1"
+                                    >
+                                        {item.label}
+                                        {hasSubmenu && (
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4 opacity-50 group-hover:opacity-100 transition-opacity">
+                                                <path fillRule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clipRule="evenodd" />
+                                            </svg>
+                                        )}
+                                    </Link>
+
+                                    {/* Simple Desktop Dropdown */}
+                                    {hasSubmenu && (
+                                        <div className="absolute left-0 top-full mt-2 w-48 bg-white dark:bg-gray-900 shadow-lg rounded-lg py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-gray-100 dark:border-white/10 z-50">
+                                            {item.subMenuItems.map((sub: any, sIdx: number) => (
+                                                <Link
+                                                    key={sIdx}
+                                                    href={sub.url}
+                                                    className="block px-4 py-2 text-sm text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-white/5 hover:text-[var(--color-maiyah-blue)]"
+                                                >
+                                                    {sub.label}
+                                                </Link>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
+                            );
+                        })}
+                    </div>
 
                     {/* Desktop Utility Menu */}
                     <div className="hidden md:flex items-center gap-4">
@@ -56,8 +99,8 @@ export default async function Header() {
                 </nav>
             </header>
 
-            {/* Horizontal Category Navigation (Desktop & Mobile) */}
-            <CategoryPills menuItems={desktopItems} />
+            {/* Horizontal Category Navigation (Mobile Only Swipe Menu) */}
+            <CategoryPills menuItems={globalNav?.pillMenuItems || []} />
         </>
     );
 }

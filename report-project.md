@@ -146,3 +146,15 @@
         *   Menambahkan properti `sizes` responsive pada Image Component untuk Iklan dan Berita, mengurangi payload gambar drastis di Mobile.
         *   Audit aset menunjukkan penurunan ukuran file JS dan Image yang signifikan saat mode Production.
 
+### [07-01-2026] - Phase 11: Dynamic Footer & Advanced Navigation Separation
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **Dynamic Footer Implementation:**
+        *   Pembuatan modul **Footer Manager** di ACF untuk konten dinamis: Logo (Multi), Deskripsi, Sosmed, dan Copyright.
+        *   Integrasi Frontend: `Footer.tsx` mengambil data via GraphQL dengan penanganan error yang robust.
+        *   **Bugfix:** Menyelesaikan isu "Nested Node Error" pada ACF Repeater untuk field gambar di GraphQL.
+        *   **Stability:** Mengarahkan query data ke Root URL (`/`) secara dinamis untuk ketahanan jangka panjang.
+    *   **Navigation Architecture Refinement:**
+        *   **Unified Menu Strategy:** Menggabungkan sumber data Menu Desktop dan Mobile Drawer untuk konsistensi konten.
+        *   **Pill Menu Separation:** Memisahkan logika "Pill Menu" (Swipe Menu) dari struktur navigasi utama.
+        *   **Feature Update:** Menambahkan Tab khusus "Pill Menu (Swipe)" di ACF Global Navigation agar user bisa mengatur link swipe secara independen tanpa mencampuri menu utama.

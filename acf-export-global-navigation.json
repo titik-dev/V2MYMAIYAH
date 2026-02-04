@@ -199,6 +199,63 @@
                 ]
             },
             {
+                "key": "field_tab_pill_menu",
+                "label": "Pill Menu (Swipe)",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_pill_menu_items",
+                "label": "Pill Menu Items",
+                "name": "pill_menu_items",
+                "type": "repeater",
+                "instructions": "Atur link kategori yang bisa di-swipe di tampilan mobile (misal: Maiyah, Berita, Esai). Menu ini hanya muncul di mobile.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "field_pill_menu_label",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Add Pill Item",
+                "sub_fields": [
+                    {
+                        "key": "field_pill_menu_label",
+                        "label": "Label",
+                        "name": "label",
+                        "type": "text",
+                        "required": 1,
+                        "wrapper": {
+                            "width": "50"
+                        }
+                    },
+                    {
+                        "key": "field_pill_menu_url",
+                        "label": "URL",
+                        "name": "url",
+                        "type": "text",
+                        "required": 1,
+                        "wrapper": {
+                            "width": "50"
+                        }
+                    }
+                ]
+            },
+            {
                 "key": "field_tab_bottom_nav",
                 "label": "Bottom Nav (Mobile)",
                 "name": "",
@@ -303,7 +360,7 @@
         "instruction_placement": "label",
         "hide_on_screen": "",
         "active": true,
-        "description": "Pengaturan menu terpusat untuk Desktop, Mobile Drawer, dan Bottom Nav.",
+        "description": "Pengaturan menu terpusat untuk Desktop, Mobile Drawer, Pill Menu, dan Bottom Nav.",
         "show_in_rest": true
     }
 ]

@@ -3,6 +3,7 @@ import { Inter, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/layout/Header";
+import Footer from "@/components/layout/Footer";
 import BottomNav from "@/components/layout/BottomNav";
 import { getGlobalMenu, getGlobalNavigation } from "@/lib/api"; // Ensure this import is used if we fetch here
 
@@ -100,9 +101,7 @@ export default async function RootLayout({
         <div className="pb-16 md:pb-0 flex-1">
           {children}
         </div>
-        <footer className="border-t border-black/10 py-8 text-center text-sm text-gray-500 mt-auto mb-16 md:mb-0">
-          © 2025 Maiyah News. All rights reserved.
-        </footer>
+        <Footer />
         <BottomNav items={bottomItems} />
       </body>
     </html>
