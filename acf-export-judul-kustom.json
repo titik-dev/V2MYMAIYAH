@@ -1,0 +1,67 @@
+[
+    {
+        "key": "group_custom_title_display",
+        "title": "Tampilan Judul Kustom",
+        "fields": [
+            {
+                "key": "field_prefix_judul",
+                "label": "Judul Atas (Prefix)",
+                "name": "prefix_judul",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "Teks ini akan muncul DIBATAS Judul Utama dengan warna merah. Contoh: 'Tadabbur Hari ini (66)'",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_sub_judul_bawah",
+                "label": "Sub Judul (Bawah)",
+                "name": "sub_judul_bawah",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "Opsional: Teks tambahan DIBAWAH judul utama.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "rows": 3,
+                "new_lines": "br"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Menambahkan field untuk Judul Atas (Prefix) dan Sub-judul",
+        "show_in_rest": true,
+        "show_in_graphql": true,
+        "graphql_field_name": "customTitle",
+        "map_graphql_types_from_location_rules": true
+    }
+]

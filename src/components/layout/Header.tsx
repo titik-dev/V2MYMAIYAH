@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { getPrimaryMenu } from '@/lib/api';
+import { getGlobalMenu } from '@/lib/api';
 import MobileMenu from './MobileMenu';
 import CategoryPills from '@/components/layout/CategoryPills';
 
 export default async function Header() {
-    let categories = null;
+    let menuItems = [];
     try {
-        categories = await getPrimaryMenu();
+        menuItems = await getGlobalMenu();
     } catch (error) {
         console.error("Header Menu Error", error);
     }
@@ -42,13 +42,13 @@ export default async function Header() {
 
                     {/* Mobile Controls */}
                     <div className="flex md:hidden items-center gap-4">
-                        <MobileMenu categories={categories?.edges || []} />
+                        <MobileMenu menuItems={menuItems} />
                     </div>
                 </nav>
             </header>
 
             {/* Horizontal Category Navigation (Desktop & Mobile) */}
-            <CategoryPills />
+            <CategoryPills menuItems={menuItems} />
         </>
     );
 }

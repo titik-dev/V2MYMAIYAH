@@ -49,6 +49,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     };
 }
 
+const stripHtml = (html: string) => {
+    return html.replace(/<[^>]*>?/gm, '');
+};
+
 export default async function PostPage(props: Props) {
     const params = await props.params;
     const post = await getPostBySlug(params.slug);
@@ -114,11 +118,32 @@ export default async function PostPage(props: Props) {
                     </Link>
                 )}
 
-                <h1 className="text-3xl md:text-5xl lg:text-6xl font-black font-serif text-gray-900 dark:text-white leading-tight mb-8">
-                    {post.title}
-                </h1>
+                <div className="flex flex-col items-center">
+                    {/* SKENARIO BARU:
+                        1. Jika ada 'Sub Judul Bawah', maka Judul WP (post.title) jadi KICKER/PREFIX MERAH.
+                        2. 'Sub Judul Bawah' jadi JUDUL UTAMA (Hitam Besar).
+                    */}
 
-                <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6 text-gray-600 dark:text-gray-300 text-sm font-medium">
+                    {post.customTitle?.subJudulBawah ? (
+                        <>
+                            {/* Judul WP jadi Merah (di Atas) */}
+                            <h2 className="text-xl md:text-2xl font-serif text-[var(--color-maiyah-red)] mb-2 font-bold">
+                                {stripHtml(post.title)}
+                            </h2>
+                            {/* Sub Judul jadi Hitam (di Bawah) */}
+                            <h1 className="text-3xl md:text-5xl lg:text-6xl font-black font-serif text-gray-900 dark:text-white leading-tight mb-2 uppercase">
+                                {stripHtml(post.customTitle.subJudulBawah)}
+                            </h1>
+                        </>
+                    ) : (
+                        /* Fallback: Jika tidak ada custom title, Judul WP tetep Hitam Besar */
+                        <h1 className="text-3xl md:text-5xl lg:text-6xl font-black font-serif text-gray-900 dark:text-white leading-tight mb-4">
+                            {stripHtml(post.title)}
+                        </h1>
+                    )}
+                </div>
+
+                <div className="mt-8 flex flex-wrap justify-center items-center gap-4 md:gap-6 text-gray-600 dark:text-gray-300 text-sm font-medium">
                     <div className="flex items-center gap-3">
                         <div className="w-10 h-10 rounded-full bg-gray-200 overflow-hidden relative border border-gray-100 shadow-sm">
                             {authorData.avatar ? (

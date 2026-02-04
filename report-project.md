@@ -96,5 +96,22 @@
         *   Implementasi Backend ACF Repeater pada "Front Page" untuk manajemen banner iklan.
         *   Integrasi Frontend dengan struktur GraphQL yang aman (`node` edge support).
     *   **Documentation:**
-        *   Update `manual.md` dengan panduan deployment lengkap.
-        *   Backup konfigurasi ACF (`.json`) ke dalam repo.
+### [04-01-2025] - Phase 8: Agenda System, Advanced Navigation & Stability
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **Daur Maiyahan (Agenda) System:**
+        *   **Frontend Banner:** Implementasi Hero Banner dinamis di halaman Detail Agenda, menggunakan `featuredImage` dengan gradient overlay.
+    *   **Navigation System Overhaul:**
+        *   **Hierarchical Menu:** Integrasi menu bertingkat (Parent > Submenu) dari ACF Backend Global.
+        *   **Responsive Behavior:**
+            *   **Desktop:** Menu rata tengah dengan Dropdown minimalis.
+            *   **Mobile:** Transformasi menu menjadi **Flattened Horizontal Scroll** (Parent dan Anak sejajar) untuk UX mobile yang lebih cepat dan intuitif.
+    *   **Smart Typography System (Custom Titles):**
+        *   Implementasi logika Tampilan Judul Kustom (ACF):
+            *   **Prefix (Kicker):** Teks merah di atas judul (e.g., "Tadabbur Hari Ini (66)").
+            *   **Visual H1 Replacement:** Opsi mengganti Judul Utama di layar dengan "Sub Judul" yang lebih ringkas/estetik, tetap menjaga `meta title` asli untuk SEO.
+            *   **HTML Stripping:** Pembuatan utility `stripHtml` robust untuk membersihkan tag HTML sampah dari input judul lama.
+    *   **Critical Browser Compatibility Fixes:**
+        *   **Mobile Overflow Fix:** Menangani isu layout "pecah/geser" pada browser Brave/Safari Mobile dengan menerapkan `overflow-x-hidden` global pada `<body>` dan `max-width: 100vw` wrapper.
+        *   **Scroll Mechanics:** Mengaktifkan `-webkit-overflow-scrolling: touch` untuk scroll menu yang mulus di iOS.
+

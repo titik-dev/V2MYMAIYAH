@@ -4,6 +4,7 @@ import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import BottomNav from "@/components/layout/BottomNav";
+import { getGlobalMenu } from "@/lib/api"; // Ensure this import is used if we fetch here
 
 const inter = Inter({
   variable: "--font-inter",
@@ -68,7 +69,7 @@ export default function RootLayout({
   return (
     <html lang="id" className="light" suppressHydrationWarning>
       <body
-        className={`${inter.variable} ${playfair.variable} antialiased bg-[var(--color-maiyah-bg)] text-gray-900 min-h-screen relative flex flex-col`}
+        className={`${inter.variable} ${playfair.variable} antialiased bg-[var(--color-maiyah-bg)] text-gray-900 min-h-screen relative flex flex-col overflow-x-hidden w-full`}
       >
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-86C7QD4XCY"

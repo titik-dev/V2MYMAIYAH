@@ -3,6 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+const stripHtml = (html: string) => {
+    if (!html) return "";
+    // Remove HTML tags
+    let clean = html.replace(/<[^>]*>?/gm, '');
+    // Remove potential non-breaking spaces or weird whitespace
+    clean = clean.replace(/&nbsp;/g, ' ').trim();
+    return clean;
+};
+
 export default async function CategoryPage({
     params,
 }: {
@@ -35,7 +44,7 @@ export default async function CategoryPage({
                                 {node.featuredImage?.node?.sourceUrl ? (
                                     <Image
                                         src={node.featuredImage.node.sourceUrl}
-                                        alt={node.featuredImage.node.altText || node.title}
+                                        alt={node.featuredImage.node.altText || stripHtml(node.title)}
                                         fill
                                         className="object-cover transition-transform duration-700 group-hover:scale-105"
                                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
@@ -55,11 +64,28 @@ export default async function CategoryPage({
 
                         {/* Content Box (Overlapping) */}
                         <div className="relative -mt-16 mx-4 bg-white dark:bg-gray-900 p-6 shadow-sm border border-gray-100 dark:border-white/5 rounded-sm transition-transform duration-300 group-hover:-translate-y-1">
-                            <h3 className="text-2xl font-bold font-serif leading-tight text-gray-900 dark:text-white mb-3 hover:text-[var(--color-maiyah-red)] transition-colors">
-                                <Link href={`/berita/${node.slug}`}>
-                                    {node.title}
+                            <div className="mb-3">
+                                <Link href={`/berita/${node.slug}`} className="block group-hover:text-[var(--color-maiyah-red)] transition-colors">
+                                    {/* SKENARIO BARU: Title WP Merah, Sub Judul Hitam */}
+                                    {node.customTitle?.subJudulBawah ? (
+                                        <>
+                                            {/* Judul WP (Merah Kecil) */}
+                                            <div className="text-sm font-serif text-[var(--color-maiyah-red)] mb-1 leading-tight font-bold">
+                                                {stripHtml(node.title)}
+                                            </div>
+                                            {/* Sub Judul (Hitam Besar) */}
+                                            <h3 className="text-2xl font-bold font-serif leading-tight text-gray-900 dark:text-white group-hover:text-[var(--color-maiyah-red)] transition-colors uppercase">
+                                                {stripHtml(node.customTitle.subJudulBawah)}
+                                            </h3>
+                                        </>
+                                    ) : (
+                                        /* Fallback: Judul WP Hitam Besar */
+                                        <h3 className="text-2xl font-bold font-serif leading-tight text-gray-900 dark:text-white group-hover:text-[var(--color-maiyah-red)] transition-colors uppercase">
+                                            {stripHtml(node.title)}
+                                        </h3>
+                                    )}
                                 </Link>
-                            </h3>
+                            </div>
 
                             {node.excerpt && (
                                 <div

@@ -5,14 +5,16 @@ import { createPortal } from "react-dom";
 import Link from "next/link";
 import Image from "next/image";
 import ThemeToggle from "@/components/ui/ThemeToggle";
+import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 
 interface MobileMenuProps {
-    categories: any[];
+    menuItems: any[];
 }
 
-export default function MobileMenu({ categories }: MobileMenuProps) {
+export default function MobileMenu({ menuItems = [] }: MobileMenuProps) {
     const [isOpen, setIsOpen] = useState(false);
     const [mounted, setMounted] = useState(false);
+    const [expandedItems, setExpandedItems] = useState<string[]>([]);
 
     useEffect(() => {
         setMounted(true);
@@ -28,6 +30,12 @@ export default function MobileMenu({ categories }: MobileMenuProps) {
         return () => { document.body.style.overflow = ""; };
     }, [isOpen]);
 
+    const toggleExpand = (label: string) => {
+        setExpandedItems(prev =>
+            prev.includes(label) ? prev.filter(item => item !== label) : [...prev, label]
+        );
+    };
+
     const menuContent = (
         <>
             {/* Backdrop & Close Button Area */}
@@ -36,7 +44,7 @@ export default function MobileMenu({ categories }: MobileMenuProps) {
                     }`}
                 onClick={() => setIsOpen(false)}
             >
-                {/* Close Button placed on the backdrop (right side) */}
+                {/* Close Button pplaced on the backdrop (right side) */}
                 <button
                     className="absolute top-6 right-6 text-white/70 hover:text-white p-2 transition-colors"
                 >
@@ -74,16 +82,78 @@ export default function MobileMenu({ categories }: MobileMenuProps) {
                         >
                             <span>Beranda</span>
                         </Link>
-                        {categories?.map(({ node }: any) => (
-                            <Link
-                                key={node.id}
-                                href={`/category/${node.slug}`}
-                                onClick={() => setIsOpen(false)}
-                                className="px-6 py-4 border-b border-gray-100 dark:border-white/5 hover:bg-gray-50 dark:hover:bg-white/5 text-base font-medium text-gray-900 dark:text-gray-100 transition-colors capitalize flex items-center justify-between"
-                            >
-                                <span>{node.name}</span>
-                            </Link>
-                        ))}
+
+                        {/* Dynamic Menu Items */}
+                        {menuItems?.map((item: any, index: number) => {
+                            const hasSubmenu = item.subMenuItems && item.subMenuItems.length > 0;
+                            const isExpanded = expandedItems.includes(item.label);
+
+                            return (
+                                <div key={index} className="border-b border-gray-100 dark:border-white/5">
+                                    <div
+                                        className="flex items-center justify-between px-6 py-4 hover:bg-gray-50 dark:hover:bg-white/5 transition-colors cursor-pointer"
+                                        onClick={() => {
+                                            if (hasSubmenu) {
+                                                toggleExpand(item.label);
+                                            } else {
+                                                // If no submenu, navigate? But wait, the parent might have a URL too.
+                                                // If it has a submenu, usually the parent label toggles the menu, 
+                                                // and we might need a separate "Overview" link if the parent itself is a link.
+                                                // For now, let's assume clicking parent with submenu toggles it.
+                                                // But we should also allow visiting the link if it's set.
+                                                // Better UX: Text links to URL (if valid), Arrow toggles submenu.
+                                                // Or simple accordion: Row toggles.
+                                            }
+                                        }}
+                                    >
+                                        <Link
+                                            href={item.url || "#"}
+                                            onClick={(e) => {
+                                                if (item.url === "#" || !item.url) e.preventDefault();
+                                                else setIsOpen(false);
+                                            }}
+                                            className="flex-1 text-base font-medium text-gray-900 dark:text-gray-100"
+                                        >
+                                            {item.label}
+                                        </Link>
+
+                                        {hasSubmenu && (
+                                            <button
+                                                onClick={(e) => {
+                                                    e.preventDefault();
+                                                    e.stopPropagation();
+                                                    toggleExpand(item.label);
+                                                }}
+                                                className="p-1 text-gray-400 hover:text-gray-600"
+                                            >
+                                                {isExpanded ? (
+                                                    <ChevronUpIcon className="w-5 h-5" />
+                                                ) : (
+                                                    <ChevronDownIcon className="w-5 h-5" />
+                                                )}
+                                            </button>
+                                        )}
+                                    </div>
+
+                                    {/* Submenu */}
+                                    {hasSubmenu && (
+                                        <div className={`bg-gray-50 dark:bg-white/5 overflow-hidden transition-all duration-300 ${isExpanded ? "max-h-96" : "max-h-0"}`}>
+                                            {item.subMenuItems.map((sub: any, subIndex: number) => (
+                                                <Link
+                                                    key={subIndex}
+                                                    href={sub.url || "#"}
+                                                    onClick={() => setIsOpen(false)}
+                                                    className="block px-8 py-3 text-sm text-gray-600 dark:text-gray-300 hover:text-[var(--color-maiyah-blue)] border-l-4 border-transparent hover:border-[var(--color-maiyah-blue)] transition-colors"
+                                                >
+                                                    {sub.label}
+                                                </Link>
+                                            ))}
+                                        </div>
+                                    )}
+                                </div>
+                            );
+                        })}
+
                         <Link
                             href="/login"
                             onClick={() => setIsOpen(false)}
@@ -129,11 +199,10 @@ export default function MobileMenu({ categories }: MobileMenuProps) {
                     <span className="w-4 h-0.5 bg-gray-900 dark:bg-white group-hover:w-8 transition-all duration-300 delay-75"></span>
                     <span className="w-6 h-0.5 bg-gray-900 dark:bg-white group-hover:w-8 transition-all duration-300 delay-100"></span>
                 </div>
-                {/* Optional Text Label similar to caknun.com mbtn */}
-                {/* <span className="text-xs font-bold uppercase tracking-widest hidden sm:block text-gray-900 dark:text-white">Menu</span> */}
             </button>
 
             {mounted && createPortal(menuContent, document.body)}
         </div>
     );
 }
+

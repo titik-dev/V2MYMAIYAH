@@ -2,6 +2,11 @@ import { notFound } from "next/navigation";
 
 const API_URL = "https://assets.mymaiyah.id/graphql";
 
+// Allow self-signed certificates for local development
+if (process.env.NODE_ENV === 'development') {
+  process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+}
+
 async function fetchAPI(query: string, { variables }: { variables?: Record<string, any> } = {}) {
   // Using GET for simplicity and robustness in this local env
   let url = `${API_URL}?query=${encodeURIComponent(query)}`;
@@ -138,6 +143,9 @@ export async function getPostBySlug(slug: string) {
               slug
             }
           }
+        }
+        customTitle {
+          subJudulBawah
         }
       }
     }
@@ -283,6 +291,9 @@ export async function getPostsByCategory(slug: string) {
                   name
                 }
               }
+              customTitle {
+                subJudulBawah
+              }
             }
           }
         }
@@ -298,3 +309,76 @@ export async function getPostsByCategory(slug: string) {
   );
   return data?.category;
 }
+
+export async function getGlobalMenu() {
+  const data = await fetchAPI(
+    `
+    query GetGlobalMenu {
+      page(id: "/", idType: URI) {
+        mainMenuManager {
+          mainMenuItems {
+            label
+            url
+            subMenuItems {
+              label
+              url
+            }
+          }
+        }
+      }
+    }
+    `
+  );
+
+  return data?.page?.mainMenuManager?.mainMenuItems || [];
+}
+
+export async function getAgendas() {
+  const data = await fetchAPI(
+    `
+    query GetAgendas {
+      agendas(first: 100, where: { orderby: { field: DATE, order: ASC } }) {
+        nodes {
+          id
+          title
+          slug
+          agendaDetails {
+            tanggalEvent
+            lokasi
+            jenisAcara
+          }
+        }
+      }
+    }
+    `
+  );
+  return data?.agendas?.nodes;
+}
+
+export async function getAgendaBySlug(slug: string) {
+  const data = await fetchAPI(
+    `
+    query GetAgendaBySlug($id: ID!) {
+      agenda(id: $id, idType: SLUG) {
+        title
+        content
+        slug
+        featuredImage {
+          node {
+            sourceUrl
+            altText
+          }
+        }
+        agendaDetails {
+          tanggalEvent
+          lokasi
+          jenisAcara
+        }
+      }
+    }
+    `,
+    { variables: { id: slug } }
+  );
+  return data?.agenda;
+}
+
