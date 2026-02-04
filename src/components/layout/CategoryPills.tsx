@@ -17,8 +17,8 @@ export default function CategoryPills({ menuItems = [] }: { menuItems?: any[] })
         ];
 
     return (
-        // Mobile Only Strip - Dark Theme
-        <div className="w-full bg-[#1a1a1a] sticky top-[60px] z-40 block md:hidden shadow-md">
+        // Mobile Only Strip - Adaptive Theme
+        <div className="w-full bg-white dark:bg-[#1a1a1a] sticky top-[60px] z-40 block md:hidden shadow-md">
             <div
                 ref={scrollRef}
                 className="container mx-auto px-4"
@@ -41,8 +41,8 @@ export default function CategoryPills({ menuItems = [] }: { menuItems?: any[] })
                                     key={`mobile-${idx}`}
                                     href={item.url || "#"}
                                     className={`flex-shrink-0 px-4 text-sm font-bold transition-colors whitespace-nowrap ${isActive
-                                        ? "text-white border-b-2 border-[#e21c23]"
-                                        : "text-gray-400 hover:text-white"
+                                        ? "text-[var(--color-maiyah-red)] dark:text-white border-b-2 border-[var(--color-maiyah-red)]"
+                                        : "text-gray-600 dark:text-gray-400 hover:text-[var(--color-maiyah-blue)] dark:hover:text-white"
                                         }`}
                                 >
                                     {item.label}
