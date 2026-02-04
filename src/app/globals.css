@@ -1,6 +1,8 @@
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
 
+@variant dark (&:where(.dark, .dark *));
+
 @theme {
   --color-maiyah-blue: #0066b2;
   --color-maiyah-red: #e21c23;

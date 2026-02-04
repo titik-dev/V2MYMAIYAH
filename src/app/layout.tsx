@@ -65,6 +65,10 @@ export const metadata: Metadata = {
   },
 };
 
+import { ThemeProvider } from "@/components/providers/ThemeProvider";
+
+// ... existing imports
+
 export default async function RootLayout({
   children,
 }: Readonly<{
@@ -97,12 +101,14 @@ export default async function RootLayout({
           `}
         </Script>
 
-        <Header />
-        <div className="pb-16 md:pb-0 flex-1">
-          {children}
-        </div>
-        <Footer />
-        <BottomNav items={bottomItems} />
+        <ThemeProvider>
+          <Header />
+          <div className="pb-16 md:pb-0 flex-1">
+            {children}
+          </div>
+          <Footer />
+          <BottomNav items={bottomItems} />
+        </ThemeProvider>
       </body>
     </html>
   );

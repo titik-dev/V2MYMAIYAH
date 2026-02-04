@@ -157,6 +157,12 @@ export async function getPostBySlug(slug: string) {
   return data?.post;
 }
 
+export async function getPostsBySlugs(slugs: string[]) {
+  const promises = slugs.map((slug) => getPostBySlug(slug));
+  const results = await Promise.all(promises);
+  return results.filter((post) => post !== null && post !== undefined);
+}
+
 export async function getHomepageAds() {
   try {
     const data = await fetchAPI(

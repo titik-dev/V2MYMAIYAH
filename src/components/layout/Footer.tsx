@@ -57,7 +57,7 @@ export default async function Footer() {
     }
 
     return (
-        <footer className="bg-white dark:bg-gray-900 border-t border-gray-100 dark:border-white/5 pt-12 pb-24 md:pb-8">
+        <footer className="bg-white dark:bg-gray-950 border-t border-gray-100 dark:border-white/5 pt-12 pb-24 md:pb-8">
             <div className="container mx-auto px-4">
                 <div className="flex flex-col md:flex-row justify-between items-center gap-8 md:gap-12">
 

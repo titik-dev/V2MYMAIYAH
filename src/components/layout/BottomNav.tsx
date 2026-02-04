@@ -1,102 +1,101 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
-import {
-    HomeIcon,
-    HeartIcon,
-    NewspaperIcon,
-    CalendarIcon,
-    PencilSquareIcon,
-    DocumentTextIcon,
-    BookOpenIcon,
-    PhotoIcon,
-    VideoCameraIcon,
-    UserIcon,
-    MagnifyingGlassIcon
-} from "@heroicons/react/24/outline";
-import {
-    HomeIcon as HomeSolid,
-    HeartIcon as HeartSolid,
-    NewspaperIcon as NewspaperSolid,
-    CalendarIcon as CalendarSolid,
-    PencilSquareIcon as PencilSquareSolid,
-    DocumentTextIcon as DocumentSolid,
-    BookOpenIcon as BookSolid,
-    PhotoIcon as PhotoSolid,
-    VideoCameraIcon as VideoSolid,
-    UserIcon as UserSolid,
-    MagnifyingGlassIcon as MagnifyingGlassSolid
-} from "@heroicons/react/24/solid";
 
-const iconMap: any = {
-    home: { outline: HomeIcon, solid: HomeSolid },
-    heart: { outline: HeartIcon, solid: HeartSolid },
-    newspaper: { outline: NewspaperIcon, solid: NewspaperSolid },
-    calendar: { outline: CalendarIcon, solid: CalendarSolid },
-    "pencil-square": { outline: PencilSquareIcon, solid: PencilSquareSolid },
-    "document-text": { outline: DocumentTextIcon, solid: DocumentSolid },
-    "book-open": { outline: BookOpenIcon, solid: BookSolid },
-    photo: { outline: PhotoIcon, solid: PhotoSolid },
-    "video-camera": { outline: VideoCameraIcon, solid: VideoSolid },
-    user: { outline: UserIcon, solid: UserSolid },
-    "magnifying-glass": { outline: MagnifyingGlassIcon, solid: MagnifyingGlassSolid },
+// Mapped Icons from "MyMaiyah-Redesign"
+const customIcons: Record<string, string> = {
+    "Selasar": "/assets/redesign/Icon-1.webp",
+    "Esai": "/assets/redesign/Icon-2.webp",
+    "Home": "/assets/redesign/Logo Mim ICON.webp",
+    "Mukaddimah": "/assets/redesign/Icon-3.webp",
+    "Cerita Simpul": "/assets/redesign/CNun.webp",
 };
 
-export default function BottomNav({ items }: { items?: any[] }) {
+export default function BottomNav() {
     const pathname = usePathname();
 
-    // Default Fallback Items
-    const defaultItems = [
-        { label: "Beranda", url: "/", icon: "home" },
-        { label: "Maiyah's Wisdom", url: "/category/maiyah-wisdom", icon: "heart" },
-        { label: "Kolom Maiyah", url: "/category/kolom-maiyah", icon: "newspaper" },
-        { label: "Daur Maiyahan", url: "/daur-maiyahan", icon: "calendar" },
-        { label: "Opini", url: "/category/opini", icon: "pencil-square" },
+    // Hardcoded Structure based on Design Reference
+    // Labels: Selasar, Esai, (Center Logo), Mukaddimah, Cerita Simpul
+    const navItems = [
+        { label: "Selasar", url: "/category/selasar", icon: customIcons["Selasar"] },
+        { label: "Esai", url: "/category/esai", icon: customIcons["Esai"] },
+        { label: "Home", url: "/", icon: customIcons["Home"], isCenter: true },
+        { label: "Mukaddimah", url: "/category/mukaddimah", icon: customIcons["Mukaddimah"] },
+        { label: "Cerita Simpul", url: "/category/cerita-simpul", icon: customIcons["Cerita Simpul"] },
     ];
 
-    const finalItems = (items && items.length > 0) ? items : defaultItems;
-
-    // Safe Tailwind Grid Cols Lookup
-    const gridColsMap: Record<number, string> = {
-        1: "grid-cols-1",
-        2: "grid-cols-2",
-        3: "grid-cols-3",
-        4: "grid-cols-4",
-        5: "grid-cols-5",
-        6: "grid-cols-6",
-    };
-
-    const colCount = Math.min(finalItems.length, 6);
-    const gridClass = gridColsMap[colCount] || "grid-cols-5";
-
     return (
-        <div className="md:hidden fixed bottom-0 left-0 right-0 z-[100] bg-white dark:bg-gray-950 border-t border-gray-200 dark:border-white/10 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] pb-safe-area">
-            <div className={`grid ${gridClass} h-[60px]`}>
-                {finalItems.map((item, index) => {
-                    const isActive = pathname === item.url || (item.url !== "/" && pathname.startsWith(item.url || ""));
+        <div className="md:hidden fixed bottom-0 left-0 right-0 z-[100]">
+            {/* Gradient Fade for smooth content transition underneath */}
+            <div className="absolute bottom-0 inset-x-0 h-32 bg-gradient-to-t from-gray-950 via-gray-950/50 to-transparent pointer-events-none -z-10" />
 
-                    // Resolve Icon
-                    const iconKey = item.icon || "document-text";
-                    const icons = iconMap[iconKey] || iconMap["document-text"];
-                    const Icon = isActive ? icons.solid : icons.outline;
+            {/* Main Bar */}
+            <div className="bg-[#0f172a]/95 backdrop-blur-xl border-t border-white/5 pb-safe-area shadow-[0_-4px_20px_rgba(0,0,0,0.4)]">
+                <div className="grid grid-cols-5 h-[76px] items-center px-2">
+                    {navItems.map((item, index) => {
+                        const isActive = pathname === item.url || (item.url !== "/" && pathname.startsWith(item.url || ""));
 
-                    return (
-                        <Link
-                            key={index}
-                            href={item.url || "#"}
-                            className={`flex flex-col items-center justify-start pt-2 space-y-0.5 transition-colors duration-200 px-0.5 ${isActive ? "text-[var(--color-maiyah-blue)]" : "text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300"
-                                }`}
-                        >
-                            <div className="relative">
-                                <Icon className="w-5 h-5" strokeWidth={isActive ? 2 : 1.5} />
-                            </div>
-                            <span className="text-[8px] font-medium tracking-tight text-center leading-[1.1] w-full break-words max-w-[50px] line-clamp-2">
-                                {item.label}
-                            </span>
-                        </Link>
-                    );
-                })}
+                        if (item.isCenter) {
+                            return (
+                                <div key={index} className="relative -top-6 flex justify-center">
+                                    <Link
+                                        href={item.url || "/"}
+                                        className="
+                                            relative w-16 h-16 rounded-full 
+                                            bg-gradient-to-b from-gray-800 to-gray-950 
+                                            border-2 border-[var(--color-maiyah-red)] 
+                                            shadow-[0_0_15px_rgba(226,28,35,0.4)] 
+                                            flex items-center justify-center 
+                                            transform transition-transform duration-300 hover:scale-105 active:scale-95
+                                            group
+                                        "
+                                    >
+                                        <Image
+                                            src={item.icon || ""}
+                                            alt={item.label}
+                                            width={36}
+                                            height={36}
+                                            className="object-contain drop-shadow-md group-hover:rotate-3 transition-transform"
+                                        />
+                                    </Link>
+                                </div>
+                            );
+                        }
+
+                        return (
+                            <Link
+                                key={index}
+                                href={item.url || "#"}
+                                className="flex flex-col items-center justify-center py-2 group"
+                            >
+                                {/* Fixed Height Icon Container to enforce text baseline alignment */}
+                                <div className="h-7 flex items-center justify-center mb-0.5 w-full">
+                                    <div className={`relative transition-all duration-500 ${isActive ? "scale-110" : "scale-100"}`}>
+                                        <Image
+                                            src={item.icon || ""}
+                                            alt={item.label}
+                                            width={22}
+                                            height={22}
+                                            className={`
+                                                object-contain transition-all duration-500 max-h-[22px] w-auto
+                                                ${isActive ? "grayscale-0 brightness-110 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]" : "grayscale opacity-50 group-hover:opacity-80 group-hover:grayscale-[0.5]"}
+                                            `}
+                                        />
+                                    </div>
+                                </div>
+
+                                <span className={`
+                                    text-[9px] font-medium tracking-tight whitespace-nowrap transition-colors duration-300
+                                    ${isActive ? "text-white font-semibold" : "text-gray-500 group-hover:text-gray-300"}
+                                `}>
+                                    {item.label}
+                                </span>
+                            </Link>
+                        );
+                    })}
+                </div>
             </div>
         </div>
     );
