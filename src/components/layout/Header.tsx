@@ -39,11 +39,20 @@ export default async function Header() {
                     {/* Center: Logo (Absolute Center) */}
                     <Link href="/" className="absolute left-1/2 -translate-x-1/2 flex items-center justify-center">
                         <div className="relative h-10 w-32">
+                            {/* Logo Light Mode (Black) */}
                             <Image
-                                src="/assets/redesign/LogoMim HZ.webp"
+                                src="/assets/redesign/LOGO MYMAIYAH Black.webp"
                                 alt="MyMaiyah.id"
                                 fill
-                                className="object-contain"
+                                className="object-contain dark:hidden"
+                                priority
+                            />
+                            {/* Logo Dark Mode (White) */}
+                            <Image
+                                src="https://assets.mymaiyah.id/wp-content/uploads/2026/01/LOGO-MYMAIYAH-White.webp"
+                                alt="MyMaiyah.id"
+                                fill
+                                className="object-contain hidden dark:block"
                                 priority
                             />
                         </div>
