@@ -13,7 +13,17 @@ const customIcons: Record<string, string> = {
     "Cerita Simpul": "/assets/redesign/CNun.webp",
 };
 
-export default function BottomNav() {
+interface BottomNavItem {
+    label: string;
+    url: string;
+    icon?: string;
+}
+
+interface BottomNavProps {
+    items?: BottomNavItem[];
+}
+
+export default function BottomNav({ items = [] }: BottomNavProps) {
     const pathname = usePathname();
 
     // Hardcoded Structure based on Design Reference
