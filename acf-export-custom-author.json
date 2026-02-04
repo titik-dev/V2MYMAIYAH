@@ -1,0 +1,95 @@
+[
+    {
+        "key": "group_custom_author_maiyah",
+        "title": "Data Penulis Kustom",
+        "fields": [
+            {
+                "key": "field_custom_author_name",
+                "label": "Nama Penulis",
+                "name": "nama",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "Masukkan nama penulis jika berbeda dari user login.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "Contoh: Toto Rahardjo",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_custom_author_photo",
+                "label": "Foto Penulis",
+                "name": "foto",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Upload foto circular penulis.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "preview_size": "medium"
+            },
+            {
+                "key": "field_custom_author_bio",
+                "label": "Deskripsi Singkat",
+                "name": "deskripsi",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "Biodata singkat penulis.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "rows": 3,
+                "placeholder": "Pendiri Komunitas KiaiKanjeng...",
+                "new_lines": "wpautop"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "post"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "acf_after_title",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Field tambahan untuk override data penulis default WP.",
+        "show_in_rest": true,
+        "show_in_graphql": true,
+        "graphql_field_name": "customAuthor",
+        "map_graphql_types_from_location_rules": 0,
+        "graphql_types": ""
+    }
+]

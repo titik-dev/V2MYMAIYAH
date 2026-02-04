@@ -127,6 +127,10 @@ export async function getPostBySlug(slug: string) {
             }
           }
         }
+        customAuthor {
+          nama
+          deskripsi
+        }
         categories {
           edges {
             node {

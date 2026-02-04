@@ -59,69 +59,113 @@ export default async function PostPage(props: Props) {
 
     const category = post.categories?.edges[0]?.node;
 
+    // Logic for Custom Author vs Default Author
+    const hasCustomAuthor = !!post.customAuthor?.nama;
+    const authorData = {
+        name: hasCustomAuthor ? post.customAuthor.nama : (post.author?.node?.name || "Redaksi"),
+        avatar: hasCustomAuthor ? post.customAuthor.foto?.sourceUrl : post.author?.node?.avatar?.url,
+        bio: hasCustomAuthor ? post.customAuthor.deskripsi : null,
+    };
+
     return (
         <main className="min-h-screen pb-20 bg-white dark:bg-gray-950">
-            {/* Hero Image */}
-            <div className="relative w-full aspect-video md:aspect-[21/9] lg:h-[60vh]">
+            {/* 1. Hero Image Section (Clean Visual) */}
+            <div className="relative w-full aspect-[4/3] md:aspect-[21/9] lg:h-[70vh] bg-gray-900 overflow-hidden flex items-center justify-center group">
                 {post.featuredImage?.node?.sourceUrl ? (
-                    <Image
-                        src={post.featuredImage.node.sourceUrl}
-                        alt={post.featuredImage.node.altText || post.title}
-                        fill
-                        className="object-cover"
-                        priority
-                    />
+                    <>
+                        {/* Ambient Background */}
+                        <div className="absolute inset-0 opacity-40 select-none pointer-events-none">
+                            <Image
+                                src={post.featuredImage.node.sourceUrl}
+                                alt="Background Ambience"
+                                fill
+                                className="object-cover blur-3xl scale-125"
+                                priority
+                            />
+                        </div>
+
+                        {/* Main Image */}
+                        <div className="relative w-full h-full z-0 flex items-center justify-center p-4">
+                            <Image
+                                src={post.featuredImage.node.sourceUrl}
+                                alt={post.featuredImage.node.altText || post.title}
+                                fill
+                                className="object-contain drop-shadow-2xl"
+                                priority
+                            />
+                        </div>
+                    </>
                 ) : (
                     <div className="w-full h-full bg-gray-200 dark:bg-gray-800 flex items-center justify-center">
                         <span className="text-gray-400">No Image Available</span>
                     </div>
                 )}
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
-
-                <div className="absolute bottom-0 left-0 w-full p-6 md:p-12 lg:p-20">
-                    <div className="container mx-auto">
-                        {/* Category Label */}
-                        {category && (
-                            <Link
-                                href={`/category/${category.slug}`}
-                                className="inline-block px-3 py-1 mb-4 text-[10px] font-bold uppercase tracking-widest text-white bg-[var(--color-maiyah-red)] rounded-full hover:bg-red-700 transition-colors"
-                            >
-                                {category.name}
-                            </Link>
-                        )}
-
-                        <h1 className="text-2xl md:text-5xl lg:text-5xl font-black font-serif text-white leading-tight mb-4 drop-shadow-md">
-                            {post.title}
-                        </h1>
-
-                        <div className="flex items-center gap-4 text-gray-200 text-sm font-medium">
-                            <div className="flex items-center gap-2">
-                                <div className="w-8 h-8 rounded-full bg-gray-600 overflow-hidden relative border border-white/20">
-                                    {post.author?.node?.avatar?.url ? (
-                                        <Image
-                                            src={post.author.node.avatar.url}
-                                            alt={post.author.node.name}
-                                            fill
-                                            className="object-cover"
-                                        />
-                                    ) : (
-                                        <div className="w-full h-full flex items-center justify-center bg-[var(--color-maiyah-blue)] text-white text-xs font-bold">
-                                            {post.author?.node?.name?.charAt(0) || "A"}
-                                        </div>
-                                    )}
-                                </div>
-                                <span>{post.author?.node?.name || "Redaksi"}</span>
-                            </div>
-                            <span className="w-1 h-1 bg-gray-400 rounded-full"></span>
-                            <time>{new Date(post.date).toLocaleDateString("id-ID", { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</time>
-                        </div>
-                    </div>
-                </div>
             </div>
 
-            {/* Content Container */}
-            <article className="container mx-auto px-4 md:px-0 -mt-6 relative z-10 flex flex-col md:flex-row gap-8">
-                <div className="flex-1 bg-white dark:bg-gray-900 rounded-t-3xl md:rounded-xl shadow-xl md:shadow-none p-6 md:p-0 md:bg-transparent md:dark:bg-transparent md:max-w-3xl mx-auto">
+            {/* 2. Header Content (Clean Typography Below Image) */}
+            <header className="container mx-auto px-4 py-8 md:py-12 text-center max-w-4xl relative z-10">
+                {/* Category Label */}
+                {category && (
+                    <Link
+                        href={`/category/${category.slug}`}
+                        className="inline-block px-4 py-1.5 mb-6 text-[10px] md:text-xs font-bold uppercase tracking-widest text-white bg-[var(--color-maiyah-red)] rounded-full hover:bg-red-700 transition-colors shadow-sm"
+                    >
+                        {category.name}
+                    </Link>
+                )}
+
+                <h1 className="text-3xl md:text-5xl lg:text-6xl font-black font-serif text-gray-900 dark:text-white leading-tight mb-8">
+                    {post.title}
+                </h1>
+
+                <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6 text-gray-600 dark:text-gray-300 text-sm font-medium">
+                    <div className="flex items-center gap-3">
+                        <div className="w-10 h-10 rounded-full bg-gray-200 overflow-hidden relative border border-gray-100 shadow-sm">
+                            {authorData.avatar ? (
+                                <Image
+                                    src={authorData.avatar}
+                                    alt={authorData.name}
+                                    fill
+                                    className="object-cover"
+                                />
+                            ) : (
+                                <div className="w-full h-full flex items-center justify-center bg-[var(--color-maiyah-blue)] text-white text-xs font-bold">
+                                    {authorData.name.charAt(0)}
+                                </div>
+                            )}
+                        </div>
+                        <span className="font-bold text-gray-900 dark:text-white text-lg tracking-wide">{authorData.name}</span>
+                    </div>
+                    <span className="hidden md:block w-1.5 h-1.5 bg-gray-300 dark:bg-gray-600 rounded-full"></span>
+                    <time className="text-gray-500 dark:text-gray-400 tracking-wide text-xs md:text-sm uppercase font-bold">
+                        {new Date(post.date).toLocaleDateString("id-ID", { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })}
+                    </time>
+                </div>
+            </header>
+
+            {/* 3. Article Content */}
+            <article className="container mx-auto px-4 md:px-0 relative z-10 flex flex-col md:flex-row gap-8">
+                <div className="flex-1 bg-transparent max-w-3xl mx-auto">
+
+                    {/* Custom Author Bio Box (Reference Style) */}
+                    {hasCustomAuthor && (
+                        <div className="flex items-start gap-4 mb-8 pb-8 border-b border-gray-100">
+                            <div className="w-16 h-16 rounded-full overflow-hidden relative flex-shrink-0 bg-gray-100">
+                                {authorData.avatar ? (
+                                    <Image src={authorData.avatar} alt={authorData.name} fill className="object-cover" />
+                                ) : (
+                                    <div className="w-full h-full bg-gray-200" />
+                                )}
+                            </div>
+                            <div>
+                                <h4 className="text-lg font-bold text-gray-900 leading-tight mb-1">{authorData.name}</h4>
+                                {authorData.bio && (
+                                    <p className="text-sm text-gray-600 leading-relaxed font-serif">{authorData.bio}</p>
+                                )}
+                            </div>
+                        </div>
+                    )}
+
                     {/* Post Content */}
                     <div
                         className="prose prose-lg dark:prose-invert prose-red max-w-none font-serif leading-relaxed text-gray-800 dark:text-gray-200 prose-img:rounded-xl prose-headings:font-black prose-a:text-[var(--color-maiyah-blue)]"
