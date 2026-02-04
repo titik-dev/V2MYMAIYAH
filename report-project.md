@@ -101,6 +101,9 @@
 *   **Aktivitas:**
     *   **Daur Maiyahan (Agenda) System:**
         *   **Frontend Banner:** Implementasi Hero Banner dinamis di halaman Detail Agenda, menggunakan `featuredImage` dengan gradient overlay.
+        *   **Calendar Widget Refinement:**
+            *   Membersihkan UI Header: Menghapus tombol View Switcher (Hari/Minggu/Bulan) dan tombol Pencarian untuk tampilan yang lebih bersih.
+            *   **Smart Indicators:** Meningkatkan visibilitas tanggal beragenda dengan styling kontras (Teks Bold Merah + Background Lingkaran Merah Muda) agar mudah dipindai mata.
     *   **Navigation System Overhaul:**
         *   **Hierarchical Menu:** Integrasi menu bertingkat (Parent > Submenu) dari ACF Backend Global.
         *   **Responsive Behavior:**

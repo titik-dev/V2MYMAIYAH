@@ -73,23 +73,16 @@ export default function CalendarWidget({ agendas = [] }: { agendas?: AgendaItem[
                 <div className="absolute inset-0 opacity-10 bg-[url('https://www.transparenttextures.com/patterns/batik-pattern.png')]"></div>
 
                 <div className="relative z-10">
-                    <div className="flex items-center justify-between mb-6">
+                    <div className="flex items-center justify-between mb-2">
                         <button onClick={() => window.history.back()} className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition">
                             <ChevronLeftIcon className="w-5 h-5" />
                         </button>
                         <h2 className="text-lg font-bold">Kalender Maiyah</h2>
-                        <button className="p-2 bg-white/10 rounded-full hover:bg-white/20 transition">
-                            <MagnifyingGlassIcon className="w-5 h-5" />
-                        </button>
+                        <div className="w-9"></div> {/* Spacer to balance the header since search btn is gone */}
                     </div>
 
-                    {/* View Switcher (Mock) */}
-                    <div className="flex bg-black/20 rounded-full p-1 mb-6 text-xs font-medium">
-                        <button className="flex-1 py-1.5 rounded-full hover:bg-white/10 text-white/70">Hari</button>
-                        <button className="flex-1 py-1.5 rounded-full hover:bg-white/10 text-white/70">Minggu</button>
-                        <button className="flex-1 py-1.5 bg-white text-[var(--color-maiyah-blue)] shadow-md rounded-full">Bulan</button>
-                        <button className="flex-1 py-1.5 rounded-full hover:bg-white/10 text-white/70">Tahun</button>
-                    </div>
+                    {/* View Switcher REMOVED as per request */}
+                    <div className="mb-4"></div>
 
                     {/* Month Navigator */}
                     <div className="flex items-center justify-between px-4">
@@ -129,14 +122,16 @@ export default function CalendarWidget({ agendas = [] }: { agendas?: AgendaItem[
                                 <button
                                     onClick={() => setSelectedDate(day)}
                                     className={`
-                                        w-10 h-10 rounded-full flex items-center justify-center text-sm font-medium transition-all relative
+                                        w-10 h-10 rounded-full flex items-center justify-center text-sm transition-all relative
                                         ${isSelected
-                                            ? "bg-[var(--color-maiyah-red)] text-white shadow-lg scale-110"
-                                            : isToday
-                                                ? "bg-blue-50 text-[var(--color-maiyah-blue)] font-bold border border-blue-100"
-                                                : isCurrentMonth
-                                                    ? "text-gray-700 hover:bg-gray-50"
-                                                    : "text-gray-300 pointer-events-none"
+                                            ? "bg-[var(--color-maiyah-red)] text-white shadow-lg scale-110 font-bold z-10"
+                                            : hasEvents
+                                                ? "bg-red-50 text-[var(--color-maiyah-red)] font-extrabold border border-red-100 shadow-sm z-0" // Highlight for events
+                                                : isToday
+                                                    ? "bg-blue-50 text-[var(--color-maiyah-blue)] font-bold border border-blue-100"
+                                                    : isCurrentMonth
+                                                        ? "text-gray-700 hover:bg-gray-50 font-medium"
+                                                        : "text-gray-300 pointer-events-none"
                                         }
                                     `}
                                 >
@@ -144,7 +139,7 @@ export default function CalendarWidget({ agendas = [] }: { agendas?: AgendaItem[
 
                                     {/* Event Dot */}
                                     {hasEvents && !isSelected && (
-                                        <span className="absolute bottom-1.5 w-1 h-1 bg-[var(--color-maiyah-blue)] rounded-full"></span>
+                                        <span className="absolute bottom-1 w-1.5 h-1.5 bg-[var(--color-maiyah-red)] rounded-full"></span>
                                     )}
                                 </button>
                             </div>
