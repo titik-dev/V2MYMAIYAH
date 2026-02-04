@@ -65,21 +65,85 @@ export default async function Footer() {
                     <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 max-w-md">
                         {/* Logos Wrapper */}
                         <div className="flex items-center gap-4">
-                            {logos.map((logo: any, idx: number) => (
-                                <Link
-                                    key={idx}
-                                    href={logo.logoUrl || '#'}
-                                    className="relative h-12 w-auto min-w-[100px] hover:opacity-80 transition-opacity"
-                                >
-                                    <Image
-                                        src={logo.logoImage?.node?.sourceUrl || "https://placehold.co/150x50"}
-                                        alt={logo.logoImage?.node?.altText || "Maiyah Logo"}
-                                        width={150}
-                                        height={50}
-                                        className="h-10 w-auto object-contain"
-                                    />
-                                </Link>
-                            ))}
+                            {logos.map((logo: any, idx: number) => {
+                                const imgSrc = logo.logoImage?.node?.sourceUrl || logo.logoImage?.sourceUrl || "https://placehold.co/150x50";
+                                const altText = logo.logoImage?.node?.altText || logo.logoImage?.altText || "Maiyah Logo";
+
+                                return (
+                                    <Link
+                                        key={idx}
+                                        href={logo.logoUrl || '#'}
+                                        className="relative h-12 w-auto min-w-[100px] hover:opacity-80 transition-opacity"
+                                    >
+                                        {idx === 0 ? (
+                                            <>
+                                                {/* Logo 1 Light Mode: Specific Black Logo */}
+                                                <Image
+                                                    src="/assets/redesign/LOGO MYMAIYAH Black.webp"
+                                                    alt={altText}
+                                                    width={150}
+                                                    height={50}
+                                                    className="h-10 w-auto object-contain dark:hidden"
+                                                />
+                                                {/* Logo 1 Dark Mode: Default (Dynamic) Logo */}
+                                                <Image
+                                                    src={imgSrc}
+                                                    alt={altText}
+                                                    width={150}
+                                                    height={50}
+                                                    className="h-10 w-auto object-contain hidden dark:block"
+                                                />
+                                            </>
+                                        ) : idx === 1 ? (
+                                            <>
+                                                {/* Logo 2 Light Mode: Specific PNG */}
+                                                <Image
+                                                    src="/assets/redesign/CNdotcom-progress-768x198-1.png"
+                                                    alt={altText}
+                                                    width={150}
+                                                    height={50}
+                                                    className="h-10 w-auto object-contain dark:hidden"
+                                                />
+                                                {/* Logo 2 Dark Mode: Default (Dynamic) Logo */}
+                                                <Image
+                                                    src={imgSrc}
+                                                    alt={altText}
+                                                    width={150}
+                                                    height={50}
+                                                    className="h-10 w-auto object-contain hidden dark:block"
+                                                />
+                                            </>
+                                        ) : idx === 2 ? (
+                                            <>
+                                                {/* Logo 3 Light Mode: Specific PT Mili Black Logo */}
+                                                <Image
+                                                    src="/assets/redesign/LOGO-PT-Mili-Cipta-Karya-black.webp"
+                                                    alt={altText}
+                                                    width={150}
+                                                    height={50}
+                                                    className="h-10 w-auto object-contain dark:hidden"
+                                                />
+                                                {/* Logo 3 Dark Mode: Default (Dynamic) Logo */}
+                                                <Image
+                                                    src={imgSrc}
+                                                    alt={altText}
+                                                    width={150}
+                                                    height={50}
+                                                    className="h-10 w-auto object-contain hidden dark:block"
+                                                />
+                                            </>
+                                        ) : (
+                                            <Image
+                                                src={imgSrc}
+                                                alt={altText}
+                                                width={150}
+                                                height={50}
+                                                className="h-10 w-auto object-contain"
+                                            />
+                                        )}
+                                    </Link>
+                                );
+                            })}
                         </div>
 
                         <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
