@@ -20,7 +20,7 @@ export default async function Header() {
                     <Link href="/" className="flex items-center gap-2 group">
                         <div className="relative h-10 w-48 transition-opacity group-hover:opacity-80">
                             <Image
-                                src="http://assets.mymaiyah.id/wp-content/uploads/2026/01/LOGO-MYMAIYAH.webp"
+                                src="http://assets.mymaiyah.id/wp-content/uploads/2026/01/LOGO-MYMAIYAH-White.webp"
                                 alt="MyMaiyah.id - Mandiri, Otentik, Berdaulat"
                                 fill
                                 className="object-contain object-left"
