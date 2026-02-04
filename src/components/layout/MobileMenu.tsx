@@ -64,7 +64,7 @@ export default function MobileMenu({ menuItems = [] }: MobileMenuProps) {
                 <div className="p-6 border-b border-gray-100 dark:border-white/5">
                     <div className="relative h-10 w-40">
                         <Image
-                            src="https://mymaiyah.id/wp-content/uploads/2022/08/MyMaiyah.id-Copy-1.png"
+                            src="http://assets.mymaiyah.id/wp-content/uploads/2026/01/LOGO-MYMAIYAH.webp"
                             alt="MyMaiyah.id"
                             fill
                             className="object-contain object-left"
