@@ -1,0 +1,97 @@
+[
+    {
+        "key": "group_homepage_ads",
+        "title": "Homepage Ads (Ceklis)",
+        "fields": [
+            {
+                "key": "field_ceklis_ads_repeater",
+                "label": "Daftar Iklan",
+                "name": "ceklis_ads",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "Tambahkan banner iklan yang ingin ditampilkan di halaman depan.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "pagination": 0,
+                "min": 0,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Tambah Iklan",
+                "sub_fields": [
+                    {
+                        "key": "field_ceklis_ad_image",
+                        "label": "Gambar Banner",
+                        "name": "gambar",
+                        "aria-label": "",
+                        "type": "image",
+                        "instructions": "Format Landscape disarankan. Return format MESTI Image Array.",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": "",
+                        "preview_size": "medium",
+                        "parent_repeater": "field_ceklis_ads_repeater"
+                    },
+                    {
+                        "key": "field_ceklis_ad_link",
+                        "label": "Link Tujuan",
+                        "name": "url",
+                        "aria-label": "",
+                        "type": "url",
+                        "instructions": "Masukkan URL lengkap (https://...).",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "50",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "https://tokopedia.com/...",
+                        "parent_repeater": "field_ceklis_ads_repeater"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_type",
+                    "operator": "==",
+                    "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Pengaturan banner iklan di section Ceklis Home.",
+        "show_in_rest": true,
+        "show_in_graphql": true,
+        "graphql_field_name": "homepageSettings",
+        "map_graphql_types_from_location_rules": 0,
+        "graphql_types": ""
+    }
+]

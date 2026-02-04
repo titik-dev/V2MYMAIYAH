@@ -152,6 +152,34 @@ export async function getPostBySlug(slug: string) {
   return data?.post;
 }
 
+export async function getHomepageAds() {
+  try {
+    const data = await fetchAPI(
+      `
+      query HomepageAds {
+        page(id: "/", idType: URI) {
+          homepageSettings {
+            ceklisAds {
+              gambar {
+                node {
+                  sourceUrl
+                  altText
+                }
+              }
+              url
+            }
+          }
+        }
+      }
+    `
+    );
+    return data?.page?.homepageSettings?.ceklisAds || [];
+  } catch (error) {
+    console.warn("Homepage Ads Fetch Warning (Using Default):", error);
+    return [];
+  }
+}
+
 export async function getRelatedPosts(categorySlug: string, count = 3) {
   const data = await fetchAPI(
     `

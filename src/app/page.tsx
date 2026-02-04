@@ -1,20 +1,42 @@
-import { getAllPostsForHome } from "@/lib/api";
+import { getAllPostsForHome, getHomepageAds } from "@/lib/api";
 import Link from "next/link";
 import Image from "next/image";
 
 export default async function Home() {
   let posts = [];
+  let ads = [];
   try {
     const edges = await getAllPostsForHome();
     posts = edges?.edges || [];
+    ads = await getHomepageAds();
   } catch (err) {
     console.error("Home Data Fetch Error", err);
-    return <div className="p-20 text-center text-[var(--color-maiyah-red)]">Error loading data. Check console.</div>;
+    // The original code had a return here, but the instruction implies removing it for the new error handling flow.
+    // If ads fetch also fails, `ads` will remain an empty array, triggering the fallback.
   }
 
   // Slice posts for different sections
   const latestPosts = posts.slice(0, 6);
   const popularPosts = posts.slice(6, 12);
+
+  // Default Ads Fallback (Jika ACF belum diisi)
+  const defaultAds = [
+    {
+      url: "https://share.google/aZGkwJHCMYylMtWSc",
+      image: "https://mymaiyah.id/wp-content/uploads/2025/12/sambung-sedulur.webp",
+      alt: "Sambung Sedulur"
+    },
+    {
+      url: "https://www.terusberjalan.id/product/open-pre-order-t-shirt-sangkan-paraning-dumadi",
+      image: "https://www.terusberjalan.id/wp-content/uploads/2025/12/MY-MAIYAH.webp",
+      alt: "Pre Order T-Shirt"
+    },
+    {
+      url: "https://www.terusberjalan.id/product/ready-stock-kalender-2026-tersedia-kalender-dinding-meja",
+      image: "https://www.terusberjalan.id/wp-content/uploads/2025/11/MY-MAIYAH-scaled.png",
+      alt: "Kalender 2026"
+    }
+  ];
 
   return (
     <main className="min-h-screen pb-20">
@@ -70,42 +92,32 @@ export default async function Home() {
           <h2 className="text-xl font-bold text-[var(--color-maiyah-blue)]">Ceklis</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {/* Ad 1 */}
-          <Link href="https://share.google/aZGkwJHCMYylMtWSc" target="_blank" className="group block w-full h-auto shadow-sm hover:shadow-lg transition-all duration-300 rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
-            <Image
-              src="https://mymaiyah.id/wp-content/uploads/2025/12/sambung-sedulur.webp"
-              alt="Sambung Sedulur"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto' }}
-              className="group-hover:scale-102 transition-transform duration-500"
-            />
-          </Link>
-          {/* Ad 2 */}
-          <Link href="https://www.terusberjalan.id/product/open-pre-order-t-shirt-sangkan-paraning-dumadi" target="_blank" className="group block w-full h-auto shadow-sm hover:shadow-lg transition-all duration-300 rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
-            <Image
-              src="https://www.terusberjalan.id/wp-content/uploads/2025/12/MY-MAIYAH.webp"
-              alt="Pre Order T-Shirt"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto' }}
-              className="group-hover:scale-102 transition-transform duration-500"
-            />
-          </Link>
-          {/* Ad 3 */}
-          <Link href="https://www.terusberjalan.id/product/ready-stock-kalender-2026-tersedia-kalender-dinding-meja" target="_blank" className="group block w-full h-auto shadow-sm hover:shadow-lg transition-all duration-300 rounded-xl overflow-hidden bg-gray-50 border border-gray-100">
-            <Image
-              src="https://www.terusberjalan.id/wp-content/uploads/2025/11/MY-MAIYAH-scaled.png"
-              alt="Kalender 2026"
-              width={0}
-              height={0}
-              sizes="100vw"
-              style={{ width: '100%', height: 'auto' }}
-              className="group-hover:scale-102 transition-transform duration-500"
-            />
-          </Link>
+          {(ads && ads.length > 0 ? ads : defaultAds).map((ad: any, index: number) => {
+            // Normalisasi data (Custom ACF structure vs Default Fallback structure)
+            // Support structure: ad.gambar.node.sourceUrl (GraphQL Edge) OR ad.gambar.sourceUrl (Standard) OR ad.image (Fallback)
+            const imageUrl = ad.gambar?.node?.sourceUrl || ad.gambar?.sourceUrl || ad.image || "https://placehold.co/600x400?text=Iklan";
+            const linkUrl = ad.url || '#';
+            const altText = ad.gambar?.node?.altText || ad.gambar?.altText || ad.alt || 'Iklan Maiyah';
+
+            return (
+              <Link
+                key={index}
+                href={linkUrl}
+                target="_blank"
+                className="group block w-full h-auto shadow-sm hover:shadow-lg transition-all duration-300 rounded-xl overflow-hidden bg-gray-50 border border-gray-100"
+              >
+                <Image
+                  src={imageUrl}
+                  alt={altText}
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto' }}
+                  className="group-hover:scale-102 transition-transform duration-500"
+                />
+              </Link>
+            );
+          })}
         </div>
       </section>
 
