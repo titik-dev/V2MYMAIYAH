@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-maiyah-blue: #0066b2;
+  --color-maiyah-red: #e21c23;
+  --color-maiyah-bg: #ebf4fb;
+
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+}
+
+/* Base styles managed by Tailwind classes in layout.tsx */

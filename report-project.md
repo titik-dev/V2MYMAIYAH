@@ -1,0 +1,83 @@
+# Log Proyek: Maiyah-News-Front
+
+**Mulai Proyek:** 28 Desember 2024
+**Tujuan:** Membangun frontend modern untuk portal berita Maiyah News dengan Next.js 16, mengejar standar UI/UX premium sesuai referensi.
+
+---
+
+## Log Aktivitas
+
+### [28-12-2024] - Initial Setup & Foundation
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   Setup Next.js 16 (App Router) + React 19 + Tailwind CSS 4.
+    *   Integrasi data via GraphQL ke Backend WordPress Lokal (`http://127.0.0.1/backmaiyah/graphql`).
+    *   Pembuatan struktur folder dasar (`src/app`, `src/components`, `src/lib`).
+
+### [28-12-2024] - Core Features Implementation
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **API Layer:** Membuat `lib/api.ts` untuk fetching data (Get Posts, Get Category, Get Post by Slug).
+    *   **Home Page:** Implementasi Hero Section (Featured Post) dan Grid Berita Terbaru.
+    *   **Mobile Menu:** Membuat slide-over menu dengan animasi transisi, toggle Dark Mode, dan Form Pencarian.
+    *   **Category Page:** Routing dinamis `/category/[slug]` menampilkan arsip berita per kategori.
+
+### [28-12-2024] - Analisis & Perencanaan UI/UX (Current)
+*   **Status:** Dalam Proses
+*   **Aktivitas:**
+    *   Analisis mendalam referensi UI pada `http://localhost:5000`.
+    *   Identifikasi Design System: Warna (Primary Blue `#0066b2`, Accent Red `#e21c23`), Tipografi (Sans-Serif Modern), dan Pola Navigasi (Bottom Bar, Horizontal Scroll).
+    *   Penyusunan dokumen `perencanaan.md` untuk roadmap penyesuaian desain.
+
+### [28-12-2024] - Phase 1: Design Tokens & Base Styles
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **Globals CSS:** Menambahkan token warna custom `--color-maiyah-blue` (#0066b2), `--color-maiyah-red` (#e21c23), dan `--color-maiyah-bg`.
+    *   **Root Layout:** Mengganti background body menjadi radial gradient yang halus sesuai referensi, menggantikan background abu-abu polos.
+    *   **Typography:** Memastikan font Inter sebagai font utama (sans-serif) sesuai analisis.
+
+### [28-12-2024] - Phase 2: Structural Layout Updates
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **CategoryPills:** Membuat komponen navigasi kategori horizontal (`src/components/layout/CategoryPills.tsx`) yang sticky di bawah header.
+    *   **Header Redesign:** Mengubah Header menjadi minimalis (putih/bersih), memindahkan menu kategori ke CategoryPills.
+    *   **Bottom Navigation:** Menambahkan `BottomNav.tsx` untuk navigasi mobile fixed-bottom (Home, Tajuk, Cari, Akun) menggunakan Heroicons.
+    *   **Layout Integration:** Mengupdate `layout.tsx` untuk memuat BottomNav dan menyesuaikan padding agar konten tikad tertutup.
+
+### [28-12-2024] - Phase 3: Component Refactoring (Home Page)
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **Hero Section Redesign:** Mengubah layout hero menjadi container-width dengan rounded corners besar, overlay gradient modern, dan tipografi yang lebih tajam.
+    *   **Responsive News Feed:** Mengimplementasikan transformasi layout kartu berita: Horizontal List (Mobile) vs Vertical Grid (Desktop).
+    *   **Visual Polishing:** Menambahkan shadow halus, animasi hover scale pada gambar, dan indikator kategori berwarna tema.
+
+### [28-12-2024] - Phase 4: Page Completion
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **Single Post Page:** Membuat halaman `/berita/[slug]` dengan layout artikel profesional (Hero image, Typography plugin, Author meta).
+    *   **Search Page:** Membuat halaman `/pencarian` yang menangkap query parameter dan menampilkan hasil pencarian real-time dari API.
+    *   **Typography:** Menginstall `@tailwindcss/typography` untuk styling otomatis konten artikel dari WordPress.
+
+### [28-12-2024] - Phase 5: Polishing & Optimization
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **Loading UI:** Menambahkan `loading.tsx` untuk menampilkan efek skeleton saat transisi halaman, meningkatkan persepsi performa.
+    *   **Theme Toggle Update:** Menyesuaikan warna tombol dark mode agar kontras dengan header putih baru.
+    *   **Final Verification:** Memastikan seluruh alur (Home -> Category -> Post) berjalan mulus tanpa layout shift yang mengganggu.
+
+### [28-12-2024] - Phase 6: Refinement & Migration (Advanced)
+*   **Status:** Selesai (High Impact Update)
+*   **Aktivitas:**
+    *   **Backend Migration:** Sukses mengalihkan sumber data sepenuhnya ke `assets.mymaiyah.id`, memastikan konten live dan gambar terload sempurna.
+    *   **Global Theme Lock:** Mengunci website ke **Permanent Light Mode**. Menghapus kompleksitas Dark Mode untuk menjamin konsistensi visual dan kontras warna 100%.
+    *   **Navigation Revamp:**
+        *   **Mobile Menu:** Transformasi total menjadi **Left-Sliding Drawer** dengan background putih dan list vertikal rapi.
+        *   **Category Pills:** Mengubah menjadi **Static Menu** (Maiyah, Berita, Simpul Maiyah, Esai, Agenda) untuk kontrol penuh urutan.
+    *   **Category Page Redesign:**
+        *   Implementasi gaya **"Card Overlay"** premium ala CakNun.com.
+        *   Menambahkan **Identity Badge (Nomor)** pada setiap kartu dengan layout responsif (lebar otomatis).
+    *   **Home Page Experience:**
+        *   **Hero Video:** Menghadirkan video autoplay mandiri (Greeting Mbah Nun) dengan rasio adaptif (Portrait di Mobile, Wide di Desktop).
+        *   **Ads Section (Ceklis):** Integrasi 3 banner iklan eksternal dengan teknik **Intrinsic Responsive Image** agar gambar tampil utuh.
+        *   **Content Segmentation:** Memecah stream berita menjadi section "Terbaru" dan "Terpopuler" untuk variasi konten.
+    *   **Visual Integrity:** Standardisasi warna judul menggunakan **Maiyah Blue** untuk keterbacaan maksimal di atas background terang.

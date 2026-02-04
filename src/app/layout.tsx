@@ -1,0 +1,98 @@
+import type { Metadata } from "next";
+import { Inter, Playfair_Display } from "next/font/google";
+import Script from "next/script";
+import "./globals.css";
+import Header from "@/components/layout/Header";
+import BottomNav from "@/components/layout/BottomNav";
+
+const inter = Inter({
+  variable: "--font-inter",
+  subsets: ["latin"],
+});
+
+const playfair = Playfair_Display({
+  variable: "--font-playfair",
+  subsets: ["latin"],
+});
+
+export const metadata: Metadata = {
+  metadataBase: new URL('https://mymaiyah.id'),
+  title: {
+    default: "MyMaiyah.id - Mandiri, Otentik, Berdaulat",
+    template: "%s | MyMaiyah.id",
+  },
+  description: "MyMaiyah.id: portal Maiyah—berita, esai, tadabbur, foto & video. Dokumentasi dan wacana seputar Cak Nun, KiaiKanjeng, simpul Maiyah.",
+  keywords: ["Maiyah", "MyMaiyah", "Cak Nun", "Emha Ainun Nadjib", "KiaiKanjeng", "Kenduri Cinta", "Mocopat Syafaat", "Simpul Maiyah", "Tadabbur", "Maiyah Wisdom"],
+  authors: [{ name: "Redaksi MyMaiyah", url: "https://mymaiyah.id" }],
+  creator: "MyMaiyah.id",
+  openGraph: {
+    type: "website",
+    locale: "id_ID",
+    url: "https://mymaiyah.id",
+    title: "MyMaiyah.id - Mandiri, Otentik, Berdaulat",
+    description: "MyMaiyah.id: portal Maiyah—berita, esai, tadabbur, foto & video.",
+    siteName: "MyMaiyah.id",
+    images: [
+      {
+        url: "http://assets.mymaiyah.id/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png",
+        width: 1200,
+        height: 630,
+        alt: "MyMaiyah.id Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@MyMaiyahID",
+    creator: "@MyMaiyahID",
+    images: ["http://assets.mymaiyah.id/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="id" className="light" suppressHydrationWarning>
+      <body
+        className={`${inter.variable} ${playfair.variable} antialiased bg-[var(--color-maiyah-bg)] text-gray-900 min-h-screen relative flex flex-col`}
+      >
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-86C7QD4XCY"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-86C7QD4XCY');
+          `}
+        </Script>
+
+        <Header />
+        <div className="pb-16 md:pb-0 flex-1">
+          {children}
+        </div>
+        <footer className="border-t border-black/10 py-8 text-center text-sm text-gray-500 mt-auto mb-16 md:mb-0">
+          © 2025 Maiyah News. All rights reserved.
+        </footer>
+        <BottomNav />
+      </body>
+    </html>
+  );
+}
