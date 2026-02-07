@@ -68,6 +68,7 @@ export default function FeaturedSlider({ posts }: FeaturedSliderProps) {
                                     src={node.featuredImage.node.sourceUrl}
                                     alt={node.title}
                                     fill
+                                    sizes="(max-width: 768px) 100vw, 33vw"
                                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                                     priority={index === 0}
                                 />
@@ -113,10 +114,10 @@ export default function FeaturedSlider({ posts }: FeaturedSliderProps) {
 
                         {/* Top Icons Overlay */}
                         <div className="absolute top-4 left-4 w-10 h-10 z-10 opacity-90">
-                            <Image src="/assets/redesign/CNun.webp" alt="Author" width={40} height={40} className="drop-shadow-lg" />
+                            <Image src="/assets/redesign/CNun.webp" alt="Author" width={40} height={40} className="drop-shadow-lg w-auto h-auto" />
                         </div>
                         <div className="absolute top-4 right-4 w-6 h-6 z-10 opacity-90">
-                            <Image src="/assets/redesign/Logo Mim ICON.webp" alt="Logo" width={24} height={24} className="drop-shadow-lg brightness-0 invert" />
+                            <Image src="/assets/redesign/Logo Mim ICON.webp" alt="Logo" width={24} height={24} className="drop-shadow-lg brightness-0 invert w-auto h-auto" />
                         </div>
                     </Link>
                 ))}

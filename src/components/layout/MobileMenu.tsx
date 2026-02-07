@@ -160,6 +160,7 @@ export default function MobileMenu({ menuItems = [] }: MobileMenuProps) {
                             src="/assets/redesign/LOGO MYMAIYAH White.webp"
                             alt="Masyarakat Negeri Maiyah"
                             fill
+                            sizes="192px"
                             className="object-contain object-bottom"
                         />
                     </div>

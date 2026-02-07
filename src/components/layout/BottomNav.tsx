@@ -5,18 +5,15 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 // Mapped Icons from "MyMaiyah-Redesign"
-const customIcons: Record<string, string> = {
-    "Selasar": "/assets/redesign/Icon-1.webp",
-    "Esai": "/assets/redesign/Icon-2.webp",
-    "Home": "/assets/redesign/Logo Mim ICON.webp",
-    "Mukaddimah": "/assets/redesign/Icon-3.webp",
-    "Cerita Simpul": "/assets/redesign/CNun.webp",
-};
-
 interface BottomNavItem {
     label: string;
     url: string;
-    icon?: string;
+    icon?: {
+        node: {
+            sourceUrl: string;
+            altText?: string;
+        }
+    };
 }
 
 interface BottomNavProps {
@@ -26,15 +23,11 @@ interface BottomNavProps {
 export default function BottomNav({ items = [] }: BottomNavProps) {
     const pathname = usePathname();
 
-    // Hardcoded Structure based on Design Reference
-    // Labels: Selasar, Esai, (Center Logo), Mukaddimah, Cerita Simpul
-    const navItems = [
-        { label: "Selasar", url: "/category/selasar", icon: customIcons["Selasar"] },
-        { label: "Esai", url: "/category/esai", icon: customIcons["Esai"] },
-        { label: "Home", url: "/", icon: customIcons["Home"], isCenter: true },
-        { label: "Mukaddimah", url: "/category/mukaddimah", icon: customIcons["Mukaddimah"] },
-        { label: "Cerita Simpul", url: "/category/cerita-simpul", icon: customIcons["Cerita Simpul"] },
-    ];
+    // If no items from backend, return null or empty
+    if (!items || items.length === 0) return null;
+
+    // Use a robust fallback image if icon is missing
+    const fallbackIcon = "/assets/redesign/Logo Mim ICON.webp";
 
     return (
         <div className="md:hidden fixed bottom-0 left-0 right-0 z-[100]">
@@ -44,10 +37,17 @@ export default function BottomNav({ items = [] }: BottomNavProps) {
             {/* Main Bar */}
             <div className="bg-[#0f172a]/95 backdrop-blur-xl border-t border-white/5 pb-safe-area shadow-[0_-4px_20px_rgba(0,0,0,0.4)]">
                 <div className="grid grid-cols-5 h-[76px] items-center px-2">
-                    {navItems.map((item, index) => {
+                    {items.map((item, index) => {
                         const isActive = pathname === item.url || (item.url !== "/" && pathname.startsWith(item.url || ""));
+                        const iconSrc = item.icon?.node?.sourceUrl || fallbackIcon;
+                        const altText = item.icon?.node?.altText || item.label;
 
-                        if (item.isCenter) {
+                        // Center Item Logic:
+                        // Strictly use the middle index (2) if we have 5 items.
+                        // This guarantees the design holds even if labels change.
+                        const isCenter = items.length === 5 && index === 2;
+
+                        if (isCenter) {
                             return (
                                 <div key={index} className="relative -top-6 flex justify-center">
                                     <Link
@@ -63,8 +63,8 @@ export default function BottomNav({ items = [] }: BottomNavProps) {
                                         "
                                     >
                                         <Image
-                                            src={item.icon || ""}
-                                            alt={item.label}
+                                            src={iconSrc}
+                                            alt={altText}
                                             width={36}
                                             height={36}
                                             className="object-contain drop-shadow-md group-hover:rotate-3 transition-transform"
@@ -84,12 +84,12 @@ export default function BottomNav({ items = [] }: BottomNavProps) {
                                 <div className="h-7 flex items-center justify-center mb-0.5 w-full">
                                     <div className={`relative transition-all duration-500 ${isActive ? "scale-110" : "scale-100"}`}>
                                         <Image
-                                            src={item.icon || ""}
-                                            alt={item.label}
-                                            width={22}
-                                            height={22}
+                                            src={iconSrc}
+                                            alt={altText}
+                                            width={24}
+                                            height={24}
                                             className={`
-                                                object-contain transition-all duration-500 max-h-[22px] w-auto
+                                                object-contain transition-all duration-500
                                                 ${isActive ? "grayscale-0 brightness-110 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]" : "grayscale opacity-50 group-hover:opacity-80 group-hover:grayscale-[0.5]"}
                                             `}
                                         />

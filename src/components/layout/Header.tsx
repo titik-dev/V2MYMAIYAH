@@ -43,6 +43,7 @@ export default async function Header() {
                                 src="/assets/redesign/LogoMim HZ.webp"
                                 alt="MyMaiyah.id"
                                 fill
+                                sizes="(max-width: 768px) 150px, 300px"
                                 className="object-contain"
                                 priority
                             />
@@ -75,6 +76,7 @@ export default async function Header() {
                                 src="/assets/redesign/CNdotcom-progress-768x198-1.png"
                                 alt="Masyarakat Maiyah"
                                 fill
+                                sizes="(max-width: 768px) 150px, 200px"
                                 className="object-contain object-left dark:hidden"
                             />
                             {/* Logo Dark Mode (White) */}
@@ -82,6 +84,7 @@ export default async function Header() {
                                 src="/assets/redesign/Masyarakat Maiyah-PutihPutih.webp"
                                 alt="Masyarakat Maiyah"
                                 fill
+                                sizes="(max-width: 768px) 150px, 200px"
                                 className="object-contain object-left hidden dark:block"
                             />
                         </div>
@@ -92,6 +95,7 @@ export default async function Header() {
                                 src="/assets/redesign/Logo Mim HZ.webp"
                                 alt="MyMaiyah.id"
                                 fill
+                                sizes="(max-width: 768px) 200px, 300px"
                                 className="object-contain" // Centered by flex parent
                                 priority
                             />
@@ -103,6 +107,7 @@ export default async function Header() {
                                 src="/assets/redesign/Logo MI-MAN white2.webp"
                                 alt="MI-MAN"
                                 fill
+                                sizes="100px"
                                 className="object-contain object-right"
                             />
                         </div>

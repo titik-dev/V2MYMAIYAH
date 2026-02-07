@@ -314,32 +314,22 @@
                         "key": "field_bottom_nav_icon",
                         "label": "Icon",
                         "name": "icon",
-                        "type": "select",
-                        "instructions": "Pilih ikon yang sesuai",
+                        "type": "image",
+                        "instructions": "Upload ikon format PNG/WebP (disarankan background transparan, rasio 1:1)",
                         "required": 1,
                         "wrapper": {
                             "width": "20"
                         },
-                        "choices": {
-                            "home": "Home / Beranda",
-                            "heart": "Heart / Wisdom",
-                            "newspaper": "Newspaper / Berita",
-                            "calendar": "Calendar / Agenda",
-                            "pencil-square": "Pencil / Opini / Esai",
-                            "document-text": "Document / Tajuk",
-                            "book-open": "Book / Tadabbur",
-                            "photo": "Photo",
-                            "video-camera": "Video",
-                            "user": "User / Akun",
-                            "magnifying-glass": "Search / Cari"
-                        },
-                        "default_value": "document-text",
-                        "allow_null": 0,
-                        "multiple": 0,
-                        "ui": 1,
-                        "ajax": 0,
-                        "return_format": "value",
-                        "placeholder": ""
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": "png, jpg, jpeg, webp"
                     }
                 ]
             }

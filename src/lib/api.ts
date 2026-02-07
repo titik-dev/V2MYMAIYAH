@@ -337,42 +337,53 @@ export async function getGlobalMenu() {
 }
 
 export async function getGlobalNavigation() {
-  const data = await fetchAPI(
-    `
-    query GetGlobalNavigation {
-      page(id: "/", idType: URI) {
-        globalNavigationManager {
-          desktopMenuItems {
-            label
-            url
-            subMenuItems {
+  try {
+    const data = await fetchAPI(
+      `
+      query GetGlobalNavigation {
+        page(id: "/", idType: URI) {
+          globalNavigationManager {
+            desktopMenuItems {
+              label
+              url
+              subMenuItems {
+                label
+                url
+              }
+            }
+            mobileDrawerItems {
+              label
+              url
+              subMenuItems {
+                label
+                url
+              }
+            }
+            pillMenuItems {
               label
               url
             }
-          }
-          mobileDrawerItems {
-            label
-            url
-            subMenuItems {
+            bottomNavItems {
               label
               url
+              icon {
+                node {
+                  sourceUrl
+                  altText
+                }
+              }
             }
-          }
-          pillMenuItems {
-            label
-            url
-          }
-          bottomNavItems {
-            label
-            url
-            icon
           }
         }
       }
-    }
-    `
-  );
-  return data?.page?.globalNavigationManager;
+      `
+    );
+    return data?.page?.globalNavigationManager;
+  } catch (error) {
+    console.warn("Global Navigation Fetch Failed (Schema might be out of sync):", error);
+    // Return null or empty structure so the app can continue rendering with fallbacks
+    return null;
+  }
 }
 
 export async function getAgendas() {

@@ -170,6 +170,7 @@ export default async function Home() {
                       alt=""
                       fill
                       className="object-cover blur-xl scale-125 opacity-50"
+                      sizes="(max-width: 768px) 33vw, 33vw"
                     />
                     {/* Main Image - Fully Visible */}
                     <Image
@@ -229,6 +230,7 @@ export default async function Home() {
                         alt=""
                         fill
                         className="object-cover blur-xl scale-125 opacity-50"
+                        sizes="(max-width: 768px) 33vw, 33vw"
                       />
                       {/* Main Image - Fully Visible */}
                       <Image
@@ -236,6 +238,7 @@ export default async function Home() {
                         alt={node.featuredImage.node.altText || node.title}
                         fill
                         className="object-contain relative z-10 transition-transform duration-500 group-hover:scale-105"
+                        sizes="(max-width: 768px) 33vw, 33vw"
                       />
                     </>
                   ) : (
