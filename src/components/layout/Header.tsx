@@ -71,21 +71,13 @@ export default async function Header() {
                     <div className="flex items-center justify-between mb-4">
                         {/* Left Logo: Masyarakat Maiyah */}
                         <div className="relative h-10 w-40">
-                            {/* Logo Light Mode (CNdotcom) */}
+                            {/* Logo Changed per request */}
                             <Image
-                                src="/assets/redesign/CNdotcom-progress-768x198-1.png"
+                                src="/assets/redesign/Logo Mim HZ.webp"
                                 alt="Masyarakat Maiyah"
                                 fill
                                 sizes="(max-width: 768px) 150px, 200px"
-                                className="object-contain object-left dark:hidden"
-                            />
-                            {/* Logo Dark Mode (White) */}
-                            <Image
-                                src="/assets/redesign/Masyarakat Maiyah-PutihPutih.webp"
-                                alt="Masyarakat Maiyah"
-                                fill
-                                sizes="(max-width: 768px) 150px, 200px"
-                                className="object-contain object-left hidden dark:block"
+                                className="object-contain object-left"
                             />
                         </div>
 
