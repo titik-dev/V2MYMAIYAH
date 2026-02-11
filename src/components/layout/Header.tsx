@@ -73,8 +73,8 @@ export default async function Header() {
                         <div className="relative h-10 w-40">
                             {/* Logo Changed per request */}
                             <Image
-                                src="/assets/redesign/Logo Mim HZ.webp"
-                                alt="Masyarakat Maiyah"
+                                src="/assets/redesign/LOGO MYMAIYAH White.webp"
+                                alt="MyMaiyah Logo"
                                 fill
                                 sizes="(max-width: 768px) 150px, 200px"
                                 className="object-contain object-left"
