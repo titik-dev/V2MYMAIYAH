@@ -59,100 +59,79 @@ export default async function Footer() {
     return (
         <footer className="bg-white dark:bg-gray-950 border-t border-gray-100 dark:border-white/5 pt-12 pb-24 md:pb-8">
             <div className="container mx-auto px-4">
-                <div className="flex flex-col md:flex-row justify-between items-center gap-8 md:gap-12">
+                <div className="flex flex-col lg:flex-row justify-between gap-12 lg:gap-8 items-start">
 
                     {/* Left: Logos & Description */}
-                    <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-4 max-w-md">
+                    <div className="w-full lg:w-4/12 flex flex-col items-center lg:items-start text-center lg:text-left space-y-6">
                         {/* Logos Wrapper */}
-                        <div className="flex items-center gap-4">
-                            {logos.map((logo: any, idx: number) => {
-                                const imgSrc = logo.logoImage?.node?.sourceUrl || logo.logoImage?.sourceUrl || "https://placehold.co/150x50";
-                                const altText = logo.logoImage?.node?.altText || logo.logoImage?.altText || "Maiyah Logo";
+                        {logos.map((logo: any, idx: number) => {
+                            const imgSrc = logo.logoImage?.node?.sourceUrl || logo.logoImage?.sourceUrl || "https://placehold.co/150x50";
+                            const darkImgSrc = logo.logoImageDark?.node?.sourceUrl || logo.logoImageDark?.sourceUrl; // Optional Dark Mode Logo
+                            const altText = logo.logoImage?.node?.altText || logo.logoImage?.altText || "Maiyah Logo";
 
-                                return (
-                                    <Link
-                                        key={idx}
-                                        href={logo.logoUrl || '#'}
-                                        className="relative h-12 w-auto min-w-[100px] hover:opacity-80 transition-opacity"
-                                    >
-                                        {idx === 0 ? (
-                                            <>
-                                                {/* Logo 1 Light Mode: Specific Black Logo */}
-                                                <Image
-                                                    src="/assets/redesign/LOGO MYMAIYAH Black.webp"
-                                                    alt={altText}
-                                                    width={150}
-                                                    height={50}
-                                                    className="h-10 w-auto object-contain dark:hidden"
-                                                />
-                                                {/* Logo 1 Dark Mode: Default (Dynamic) Logo */}
-                                                <Image
-                                                    src={imgSrc}
-                                                    alt={altText}
-                                                    width={150}
-                                                    height={50}
-                                                    className="h-10 w-auto object-contain hidden dark:block"
-                                                />
-                                            </>
-                                        ) : idx === 1 ? (
-                                            <>
-                                                {/* Logo 2 Light Mode: Specific PNG */}
-                                                <Image
-                                                    src="/assets/redesign/CNdotcom-progress-768x198-1.png"
-                                                    alt={altText}
-                                                    width={150}
-                                                    height={50}
-                                                    className="h-10 w-auto object-contain dark:hidden"
-                                                />
-                                                {/* Logo 2 Dark Mode: Default (Dynamic) Logo */}
-                                                <Image
-                                                    src={imgSrc}
-                                                    alt={altText}
-                                                    width={150}
-                                                    height={50}
-                                                    className="h-10 w-auto object-contain hidden dark:block"
-                                                />
-                                            </>
-                                        ) : idx === 2 ? (
-                                            <>
-                                                {/* Logo 3 Light Mode: Specific PT Mili Black Logo */}
-                                                <Image
-                                                    src="/assets/redesign/LOGO-PT-Mili-Cipta-Karya-black.webp"
-                                                    alt={altText}
-                                                    width={150}
-                                                    height={50}
-                                                    className="h-10 w-auto object-contain dark:hidden"
-                                                />
-                                                {/* Logo 3 Dark Mode: Default (Dynamic) Logo */}
-                                                <Image
-                                                    src={imgSrc}
-                                                    alt={altText}
-                                                    width={150}
-                                                    height={50}
-                                                    className="h-10 w-auto object-contain hidden dark:block"
-                                                />
-                                            </>
-                                        ) : (
-                                            <Image
-                                                src={imgSrc}
-                                                alt={altText}
-                                                width={150}
-                                                height={50}
-                                                className="h-10 w-auto object-contain"
-                                            />
-                                        )}
-                                    </Link>
-                                );
-                            })}
-                        </div>
+                            return (
+                                <Link
+                                    key={idx}
+                                    href={logo.logoUrl || '#'}
+                                    className="relative h-10 w-auto hover:opacity-80 transition-opacity"
+                                >
+                                    {/* 1. Light Mode Image (Always Show Original) */}
+                                    <Image
+                                        src={imgSrc}
+                                        alt={altText}
+                                        width={150}
+                                        height={50}
+                                        className="h-10 w-auto object-contain dark:hidden"
+                                    />
 
-                        <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+                                    {/* 2. Dark Mode Image (Smart Logic) */}
+                                    {/* If specific dark logo exists -> Use it (No Filter). 
+                                            Else -> Use original logo (With Invert Filter). */}
+                                    <Image
+                                        src={darkImgSrc || imgSrc}
+                                        alt={altText}
+                                        width={150}
+                                        height={50}
+                                        className={`h-10 w-auto object-contain hidden dark:block ${darkImgSrc ? '' : 'brightness-0 invert'
+                                            }`}
+                                    />
+                                </Link>
+                            );
+                        })}
+
+                        <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed max-w-sm mx-auto lg:mx-0">
                             {description}
                         </p>
                     </div>
 
+                    {/* Middle: Dynamic Link Columns */}
+                    {footerData?.footerLinkColumns && footerData.footerLinkColumns.length > 0 && (
+                        <div className="w-full lg:w-5/12 grid grid-cols-2 sm:grid-cols-2 gap-8 text-center lg:text-left">
+                            {footerData.footerLinkColumns.map((col: any, idx: number) => (
+                                <div key={idx} className="flex flex-col items-center lg:items-start">
+                                    <h4 className="text-[var(--color-maiyah-red)] font-bold text-lg mb-4 relative inline-block">
+                                        {col.columnTitle}
+                                        <span className="block h-0.5 w-8 bg-gray-200 mt-2 mx-auto lg:mx-0"></span>
+                                    </h4>
+                                    <ul className="space-y-3">
+                                        {col.columnLinks?.map((link: any, lIdx: number) => (
+                                            <li key={lIdx}>
+                                                <Link
+                                                    href={link.url || '#'}
+                                                    className="text-gray-600 dark:text-gray-400 hover:text-[var(--color-maiyah-blue)] transition-colors text-sm font-medium"
+                                                >
+                                                    {link.label}
+                                                </Link>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            ))}
+                        </div>
+                    )}
+
                     {/* Right: Socials & Links */}
-                    <div className="flex flex-col items-center md:items-end space-y-6">
+                    <div className="w-full lg:w-3/12 flex flex-col items-center lg:items-end space-y-6">
                         {/* Social Icons */}
                         <div className="flex items-center gap-4">
                             {socialLinks.map((soc: any, idx: number) => (
@@ -169,8 +148,8 @@ export default async function Footer() {
                         </div>
 
                         {/* Copyright */}
-                        <div className="text-xs text-gray-400">
-                            {copyright}
+                        <div className="text-xs text-gray-400 text-center lg:text-right">
+                            <div dangerouslySetInnerHTML={{ __html: copyright }} />
                         </div>
                     </div>
 

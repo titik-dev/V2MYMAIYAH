@@ -21,6 +21,8 @@ export default async function Home() {
     ]);
 
     posts = edges?.edges || [];
+    // Manual Sort by Date Descending to override Sticky Posts behavior
+    posts.sort((a: any, b: any) => new Date(b.node.date).getTime() - new Date(a.node.date).getTime());
     ads = homepageData.ads || [];
     mode = homepageData?.mode || 'manual';
     sectionTitles = homepageData?.sectionTitles || sectionTitles;
@@ -29,6 +31,8 @@ export default async function Home() {
     if (homepageData.featuredPosts && homepageData.featuredPosts.length > 0) {
       // Normalize to match edges structure { node: post }
       specificFeaturedPosts = homepageData.featuredPosts.map((post: any) => ({ node: post }));
+      // Also Sort Specific Featured Posts (Date Desc)
+      specificFeaturedPosts.sort((a: any, b: any) => new Date(b.node.date).getTime() - new Date(a.node.date).getTime());
     }
 
   } catch (err) {
@@ -79,6 +83,9 @@ export default async function Home() {
       alt: "Kalender 2026"
     }
   ];
+
+  // Debug: Log the titles to server console
+  console.log("Homepage Section Titles:", sectionTitles);
 
   return (
     <main className="min-h-screen pb-20">

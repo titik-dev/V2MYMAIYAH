@@ -118,10 +118,12 @@ export default async function RootLayout({
 
         <ThemeProvider>
           <Header />
-          <div className="pb-16 md:pb-0 flex-1">
+          <div className="flex-1">
             {children}
           </div>
-          <Footer />
+          <div className="pb-16 md:pb-0">
+            <Footer />
+          </div>
           <BottomNav items={bottomItems} />
         </ThemeProvider>
       </body>

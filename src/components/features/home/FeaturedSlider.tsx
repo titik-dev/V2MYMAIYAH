@@ -114,10 +114,10 @@ export default function FeaturedSlider({ posts }: FeaturedSliderProps) {
 
                         {/* Top Icons Overlay */}
                         <div className="absolute top-4 left-4 w-10 h-10 z-10 opacity-90">
-                            <Image src="/assets/redesign/CNun.webp" alt="Author" width={40} height={40} className="drop-shadow-lg w-auto h-auto" />
+                            <Image src="/assets/redesign/CNun.webp" alt="Author" fill sizes="40px" className="object-contain drop-shadow-lg" />
                         </div>
                         <div className="absolute top-4 right-4 w-6 h-6 z-10 opacity-90">
-                            <Image src="/assets/redesign/Logo Mim ICON.webp" alt="Logo" width={24} height={24} className="drop-shadow-lg brightness-0 invert w-auto h-auto" />
+                            <Image src="/assets/redesign/Logo Mim ICON.webp" alt="Logo" fill sizes="24px" className="object-contain drop-shadow-lg brightness-0 invert" />
                         </div>
                     </Link>
                 ))}

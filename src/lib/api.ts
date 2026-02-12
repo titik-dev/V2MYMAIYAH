@@ -4,14 +4,14 @@ const API_URL = "https://assets.mymaiyah.id/graphql";
 
 
 
-async function fetchAPI(query: string, { variables }: { variables?: Record<string, any> } = {}) {
+async function fetchAPI(query: string, { variables, nextOptions }: { variables?: Record<string, any>, nextOptions?: RequestInit['next'] } = {}) {
   // Using GET for simplicity and robustness in this local env
   let url = `${API_URL}?query=${encodeURIComponent(query)}`;
   if (variables) {
     url += `&variables=${encodeURIComponent(JSON.stringify(variables))}`;
   }
 
-  console.log("Fetching GET:", url);
+  // console.log("Fetching GET:", url);
 
   try {
     const res = await fetch(url, {
@@ -19,7 +19,7 @@ async function fetchAPI(query: string, { variables }: { variables?: Record<strin
       headers: {
         "Content-Type": "application/json",
       },
-      next: { revalidate: 60 }, // ISR: Revalidate every 60 seconds
+      next: nextOptions || { revalidate: 60 }, // Defaultrevalidate: 60s, overrideable
     });
 
     if (res.status !== 200) {
@@ -165,29 +165,10 @@ export async function getPostsBySlugs(slugs: string[]) {
 
 export async function getHomepageData() {
   try {
-    const data = await fetchAPI(
-      `
+    const [mainData, popularPostsData] = await Promise.all([
+      fetchAPI(`
       query HomepageData {
-        wppPopularPosts(first: 10) {
-          id
-          title
-          slug
-          date
-          featuredImage {
-            node {
-              sourceUrl
-              altText
-            }
-          }
-          categories {
-            edges {
-              node {
-                name
-              }
-            }
-          }
-        }
-        posts(first: 10) {
+        posts(first: 10, where: { orderby: { field: DATE, order: DESC } }) {
           nodes {
             id
             title
@@ -251,8 +232,38 @@ export async function getHomepageData() {
           }
         }
       }
-      `
-    );
+      `, { nextOptions: { revalidate: 0 } }),
+      // Separate Fetch for Popular Posts (Safe Mode)
+      fetchAPI(`
+        query PopularPostsSAFE {
+          wppPopularPosts(first: 10) {
+            id
+            title
+            slug
+            date
+            featuredImage {
+              node {
+                sourceUrl
+                altText
+              }
+            }
+            categories {
+              edges {
+                node {
+                  name
+                }
+              }
+            }
+          }
+        }
+      `).catch(err => {
+        console.warn("Popular Posts Fetch Failed (Ignored):", err.message);
+        return null;
+      })
+    ]);
+
+    const data = mainData;
+    const popularPosts = popularPostsData?.wppPopularPosts || [];
 
     const settings = data?.maiyahOptionsData?.maiyahGlobalSettings?.homepageSettings;
     const mode = settings?.featuredContentMode || 'manual';
@@ -260,7 +271,7 @@ export async function getHomepageData() {
     let featuredPosts = [];
 
     if (mode === 'popular') {
-      featuredPosts = data?.wppPopularPosts || [];
+      featuredPosts = popularPosts;
     } else if (mode === 'latest') {
       featuredPosts = data?.posts?.nodes || [];
     } else {
@@ -372,46 +383,57 @@ export async function searchPosts(term: string) {
 export async function getPostsByCategory(slug: string) {
   const data = await fetchAPI(
     `
-    query PostsByCategory($id: ID!, $idType: CategoryIdType!) {
-  category(id: $id, idType: $idType) {
-    name
-    slug
-    posts(first: 20, where: { orderby: { field: DATE, order: DESC } }) {
-          edges {
-            node {
-          id
-          databaseId
-          title
-          slug
-          excerpt
-          date
-              featuredImage {
-                node {
-              sourceUrl
-              altText
+    query PostsByCategory($id: ID!, $idType: CategoryIdType!, $categoryName: String) {
+      category(id: $id, idType: $idType) {
+        name
+        slug
+      }
+      posts(first: 20, where: { categoryName: $categoryName, orderby: { field: DATE, order: DESC } }) {
+        edges {
+          node {
+            id
+            databaseId
+            title
+            slug
+            excerpt
+            date
+            featuredImage {
+              node {
+                sourceUrl
+                altText
+              }
             }
-          }
-              author {
-                node {
-              name
+            author {
+              node {
+                name
+              }
             }
-          }
-              customTitle {
-            subJudulBawah
+            customTitle {
+              subJudulBawah
+            }
           }
         }
       }
     }
-  }
-}
-`,
+    `,
     {
       variables: {
         id: slug,
         idType: "SLUG",
+        categoryName: slug
       },
     }
   );
+
+  // Merge the root posts query result into the category object structure
+  // This ensures frontend compatibility without changing page components
+  if (data?.category && data?.posts) {
+    return {
+      ...data.category,
+      posts: data.posts
+    };
+  }
+
   return data?.category;
 }
 
@@ -566,20 +588,33 @@ export async function getFooterData() {
           maiyahGlobalSettings {
             footerManager {
               footerDescription
-              footerLogos {
-                logoImage {
-                  node {
-                    sourceUrl
-                    altText
+                footerLogos {
+                  logoImage {
+                    node {
+                      sourceUrl
+                      altText
+                    }
                   }
+                  logoImageDark {
+                    node {
+                      sourceUrl
+                      altText
+                    }
+                  }
+                  logoUrl
                 }
-                logoUrl
-              }
               footerSocials {
                 platform
                 url
               }
               footerCopyright
+              footerLinkColumns {
+                columnTitle
+                columnLinks {
+                  label
+                  url
+                }
+              }
             }
           }
         }

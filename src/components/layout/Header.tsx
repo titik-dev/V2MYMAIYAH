@@ -20,7 +20,10 @@ export default async function Header() {
     }
 
     const menuSource = globalNav?.mobileDrawerItems || fallbackMenu;
-    const desktopItems = menuSource;
+    // Use specific Desktop Menu if available, otherwise fallback to Mobile/Default
+    const desktopItems = (globalNav?.desktopMenuItems && globalNav.desktopMenuItems.length > 0)
+        ? globalNav.desktopMenuItems
+        : menuSource;
     const mobileItems = menuSource;
 
     return (
@@ -108,11 +111,6 @@ export default async function Header() {
                     {/* Bottom Row: Navigation */}
                     <nav className="flex items-center justify-between border-t border-gray-800 pt-3">
                         <div className="flex items-center gap-8 mx-auto">
-                            {/* Static "Selasar" - Red Active Style Example */}
-                            <Link href="/category/selasar" className="text-base font-bold text-[var(--color-maiyah-red)] uppercase tracking-wide">
-                                Selasar
-                            </Link>
-
                             {/* Dynamic Menu Items */}
                             {desktopItems.map((item: any, idx: number) => {
                                 const hasSubmenu = item.subMenuItems && item.subMenuItems.length > 0;
@@ -150,12 +148,6 @@ export default async function Header() {
 
                             {/* Utility Links */}
                             <div className="flex items-center gap-4 ml-4">
-                                <Link href="#" className="text-white hover:text-[var(--color-maiyah-red)] font-bold uppercase text-base">
-                                    Foto
-                                </Link>
-                                <Link href="#" className="text-white hover:text-[var(--color-maiyah-red)] font-bold uppercase text-base">
-                                    Video
-                                </Link>
                                 {/* Search Popup Trigger - Desktop */}
                                 <SearchTrigger mode="full" />
                             </div>

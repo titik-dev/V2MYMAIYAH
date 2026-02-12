@@ -490,9 +490,18 @@
                         "sub_fields": [
                             {
                                 "key": "field_footer_logo_img",
-                                "label": "Image",
+                                "label": "Image (Light Mode / Default)",
                                 "name": "logo_image",
                                 "type": "image",
+                                "return_format": "array",
+                                "preview_size": "medium"
+                            },
+                            {
+                                "key": "field_footer_logo_img_dark",
+                                "label": "Image (Dark Mode - Optional)",
+                                "name": "logo_image_dark",
+                                "type": "image",
+                                "instructions": "Upload logo khusus mode gelap. Jika kosong, logo default akan otomatis dibalik warnanya (Invert).",
                                 "return_format": "array",
                                 "preview_size": "medium"
                             },
@@ -524,6 +533,55 @@
                                 "label": "URL",
                                 "name": "url",
                                 "type": "url"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_footer_link_columns",
+                        "label": "Footer Link Columns",
+                        "name": "footer_link_columns",
+                        "type": "repeater",
+                        "instructions": "Tambahkan kolom link (misal: Informasi, Jaringan).",
+                        "required": 0,
+                        "collapsed": "field_column_title",
+                        "min": 0,
+                        "max": 4,
+                        "layout": "block",
+                        "button_label": "Add Column",
+                        "sub_fields": [
+                            {
+                                "key": "field_column_title",
+                                "label": "Column Title",
+                                "name": "column_title",
+                                "type": "text",
+                                "required": 1,
+                                "wrapper": {
+                                    "width": "100"
+                                }
+                            },
+                            {
+                                "key": "field_column_links",
+                                "label": "Links",
+                                "name": "column_links",
+                                "type": "repeater",
+                                "layout": "table",
+                                "button_label": "Add Link",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_link_label",
+                                        "label": "Label",
+                                        "name": "label",
+                                        "type": "text",
+                                        "required": 1
+                                    },
+                                    {
+                                        "key": "field_link_url",
+                                        "label": "URL",
+                                        "name": "url",
+                                        "type": "text",
+                                        "required": 1
+                                    }
+                                ]
                             }
                         ]
                     },

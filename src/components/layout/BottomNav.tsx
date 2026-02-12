@@ -96,7 +96,7 @@ export default function BottomNav({ items = [] }: BottomNavProps) {
                                             width={24}
                                             height={24}
                                             className={`
-                                                object-contain transition-all duration-500
+                                                object-contain w-auto h-auto transition-all duration-500
                                                 ${isActive ? "grayscale-0 brightness-110 drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]" : "grayscale opacity-50 group-hover:opacity-80 group-hover:grayscale-[0.5]"}
                                             `}
                                         />
