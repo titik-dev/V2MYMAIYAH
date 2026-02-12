@@ -1,0 +1,484 @@
+[
+    {
+        "key": "group_global_settings",
+        "title": "Maiyah Global Settings",
+        "fields": [
+            {
+                "key": "field_tab_navigation",
+                "label": "Menu & Navigasi",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_global_navigation_manager",
+                "label": "Pengaturan Menu Navigasi",
+                "name": "global_navigation_manager",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_desktop_menu_items",
+                        "label": "Desktop Menu Items",
+                        "name": "desktop_menu_items",
+                        "type": "repeater",
+                        "instructions": "Atur menu yang tampil di Header Desktop.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "field_desktop_menu_label",
+                        "min": 0,
+                        "max": 0,
+                        "layout": "block",
+                        "button_label": "Add Item",
+                        "sub_fields": [
+                            {
+                                "key": "field_desktop_menu_label",
+                                "label": "Label",
+                                "name": "label",
+                                "type": "text",
+                                "required": 1,
+                                "wrapper": {
+                                    "width": "50"
+                                }
+                            },
+                            {
+                                "key": "field_desktop_menu_url",
+                                "label": "URL",
+                                "name": "url",
+                                "type": "text",
+                                "required": 1,
+                                "wrapper": {
+                                    "width": "50"
+                                }
+                            },
+                            {
+                                "key": "field_desktop_submenu",
+                                "label": "Sub Menu Items",
+                                "name": "sub_menu_items",
+                                "type": "repeater",
+                                "layout": "table",
+                                "button_label": "Add Sub Item",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_desktop_sub_label",
+                                        "label": "Label",
+                                        "name": "label",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "field_desktop_sub_url",
+                                        "label": "URL",
+                                        "name": "url",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_mobile_drawer_items",
+                        "label": "Mobile Drawer Items",
+                        "name": "mobile_drawer_items",
+                        "type": "repeater",
+                        "instructions": "Atur menu Drawer Mobile (Hamburger).",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "field_mobile_drawer_label",
+                        "layout": "block",
+                        "button_label": "Add Drawer Item",
+                        "sub_fields": [
+                            {
+                                "key": "field_mobile_drawer_label",
+                                "label": "Label",
+                                "name": "label",
+                                "type": "text",
+                                "required": 1,
+                                "wrapper": {
+                                    "width": "50"
+                                }
+                            },
+                            {
+                                "key": "field_mobile_drawer_url",
+                                "label": "URL",
+                                "name": "url",
+                                "type": "text",
+                                "required": 1,
+                                "wrapper": {
+                                    "width": "50"
+                                }
+                            },
+                            {
+                                "key": "field_mobile_drawer_submenu",
+                                "label": "Sub Menu Items",
+                                "name": "sub_menu_items",
+                                "type": "repeater",
+                                "layout": "table",
+                                "button_label": "Add Sub Item",
+                                "sub_fields": [
+                                    {
+                                        "key": "field_mobile_sub_label",
+                                        "label": "Label",
+                                        "name": "label",
+                                        "type": "text"
+                                    },
+                                    {
+                                        "key": "field_mobile_sub_url",
+                                        "label": "URL",
+                                        "name": "url",
+                                        "type": "text"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_pill_menu_items",
+                        "label": "Pill Menu Items (Swipe)",
+                        "name": "pill_menu_items",
+                        "type": "repeater",
+                        "instructions": "Menu swipe horizontal khusus mobile.",
+                        "required": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "field_pill_menu_label",
+                        "layout": "table",
+                        "button_label": "Add Pill Item",
+                        "sub_fields": [
+                            {
+                                "key": "field_pill_menu_label",
+                                "label": "Label",
+                                "name": "label",
+                                "type": "text",
+                                "required": 1,
+                                "wrapper": {
+                                    "width": "50"
+                                }
+                            },
+                            {
+                                "key": "field_pill_menu_url",
+                                "label": "URL",
+                                "name": "url",
+                                "type": "text",
+                                "required": 1,
+                                "wrapper": {
+                                    "width": "50"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_bottom_nav_items",
+                        "label": "Bottom Navigation Items",
+                        "name": "bottom_nav_items",
+                        "type": "repeater",
+                        "instructions": "Menu ikon di bawah layar HP (Max 5).",
+                        "required": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "field_bottom_nav_label",
+                        "min": 1,
+                        "max": 6,
+                        "layout": "table",
+                        "button_label": "Add Bottom Item",
+                        "sub_fields": [
+                            {
+                                "key": "field_bottom_nav_label",
+                                "label": "Label",
+                                "name": "label",
+                                "type": "text",
+                                "required": 1,
+                                "wrapper": {
+                                    "width": "40"
+                                }
+                            },
+                            {
+                                "key": "field_bottom_nav_url",
+                                "label": "URL",
+                                "name": "url",
+                                "type": "text",
+                                "required": 1,
+                                "wrapper": {
+                                    "width": "40"
+                                }
+                            },
+                            {
+                                "key": "field_bottom_nav_icon",
+                                "label": "Icon",
+                                "name": "icon",
+                                "type": "image",
+                                "required": 1,
+                                "wrapper": {
+                                    "width": "20"
+                                },
+                                "return_format": "array",
+                                "preview_size": "medium",
+                                "library": "all",
+                                "mime_types": "png, jpg, jpeg, webp"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_tab_ads",
+                "label": "Iklan Homepage",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_homepage_settings",
+                "label": "Homepage Settings",
+                "name": "homepage_settings",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_ceklis_ads",
+                        "label": "Homepage Ads (Ceklis)",
+                        "name": "ceklis_ads",
+                        "type": "repeater",
+                        "instructions": "Tambahkan banner iklan untuk halaman depan.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "collapsed": "",
+                        "min": 0,
+                        "max": 0,
+                        "layout": "table",
+                        "button_label": "Tambah Iklan",
+                        "sub_fields": [
+                            {
+                                "key": "field_ads_image",
+                                "label": "Gambar Banner",
+                                "name": "gambar",
+                                "type": "image",
+                                "required": 1,
+                                "return_format": "array",
+                                "preview_size": "medium",
+                                "library": "all"
+                            },
+                            {
+                                "key": "field_ads_url",
+                                "label": "Link Tujuan",
+                                "name": "url",
+                                "type": "url",
+                                "required": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_tab_footer",
+                "label": "Footer",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_footer_manager",
+                "label": "Footer Manager",
+                "name": "footer_manager",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_footer_desc",
+                        "label": "Footer Description",
+                        "name": "footer_description",
+                        "type": "textarea",
+                        "rows": 3
+                    },
+                    {
+                        "key": "field_footer_logos",
+                        "label": "Footer Logos",
+                        "name": "footer_logos",
+                        "type": "repeater",
+                        "layout": "table",
+                        "button_label": "Add Logo",
+                        "sub_fields": [
+                            {
+                                "key": "field_footer_logo_img",
+                                "label": "Image",
+                                "name": "logo_image",
+                                "type": "image",
+                                "return_format": "array",
+                                "preview_size": "medium"
+                            },
+                            {
+                                "key": "field_footer_logo_url",
+                                "label": "URL",
+                                "name": "logo_url",
+                                "type": "text"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_footer_socials",
+                        "label": "Social Media Links",
+                        "name": "footer_socials",
+                        "type": "repeater",
+                        "layout": "table",
+                        "button_label": "Add Social",
+                        "sub_fields": [
+                            {
+                                "key": "field_social_platform",
+                                "label": "Platform",
+                                "name": "platform",
+                                "type": "text",
+                                "placeholder": "Facebook/Twitter"
+                            },
+                            {
+                                "key": "field_social_url",
+                                "label": "URL",
+                                "name": "url",
+                                "type": "url"
+                            }
+                        ]
+                    },
+                    {
+                        "key": "field_footer_copy",
+                        "label": "Copyright Text",
+                        "name": "footer_copyright",
+                        "type": "text"
+                    }
+                ]
+            },
+            {
+                "key": "field_tab_custom_css",
+                "label": "Custom CSS",
+                "name": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_theme_customization",
+                "label": "Theme Customization",
+                "name": "theme_customization",
+                "type": "group",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_custom_css_code",
+                        "label": "Custom CSS Code",
+                        "name": "custom_css",
+                        "type": "textarea",
+                        "instructions": "Masukkan kode CSS di sini.",
+                        "rows": 15,
+                        "default_value": "/* Custom CSS Here */"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "options_page",
+                    "operator": "==",
+                    "value": "maiyah-global-settings"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Pengaturan Global Terpusat (Navigasi, Iklan, Footer, CSS).",
+        "show_in_rest": true,
+        "show_in_graphql": 1,
+        "graphql_field_name": "maiyahGlobalSettings",
+        "map_graphql_types_from_location_rules": 1
+    }
+]

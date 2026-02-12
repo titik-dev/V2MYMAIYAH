@@ -168,23 +168,25 @@ export async function getHomepageAds() {
     const data = await fetchAPI(
       `
       query HomepageAds {
-        page(id: "/", idType: URI) {
-          homepageSettings {
-            ceklisAds {
-              gambar {
-                node {
-                  sourceUrl
-                  altText
+        maiyahOptionsData {
+          maiyahGlobalSettings {
+            homepageSettings {
+              ceklisAds {
+                gambar {
+                  node {
+                    sourceUrl
+                    altText
+                  }
                 }
+                url
               }
-              url
             }
           }
         }
       }
-    `
+      `
     );
-    return data?.page?.homepageSettings?.ceklisAds || [];
+    return data?.maiyahOptionsData?.maiyahGlobalSettings?.homepageSettings?.ceklisAds || [];
   } catch (error) {
     console.warn("Homepage Ads Fetch Warning (Using Default):", error);
     return [];
@@ -195,31 +197,31 @@ export async function getRelatedPosts(categorySlug: string, count = 3) {
   const data = await fetchAPI(
     `
     query RelatedPosts($categoryName: String, $first: Int) {
-      posts(first: $first, where: { categoryName: $categoryName }) {
+  posts(first: $first, where: { categoryName: $categoryName }) {
         edges {
           node {
-            id
-            title
-            slug
-            date
+        id
+        title
+        slug
+        date
             featuredImage {
               node {
-                sourceUrl
-                altText
-              }
-            }
+            sourceUrl
+            altText
+          }
+        }
             categories {
               edges {
                 node {
-                  name
-                }
-              }
+              name
             }
           }
         }
       }
     }
-    `,
+  }
+}
+`,
     {
       variables: {
         categoryName: categorySlug,
@@ -234,30 +236,30 @@ export async function searchPosts(term: string) {
   const data = await fetchAPI(
     `
     query SearchPosts($search: String!) {
-      posts(first: 20, where: { search: $search }) {
+  posts(first: 20, where: { search: $search }) {
         edges {
           node {
-            id
-            title
-            slug
-            excerpt
-            date
+        id
+        title
+        slug
+        excerpt
+        date
             featuredImage {
               node {
-                sourceUrl
-                altText
-              }
-            }
+            sourceUrl
+            altText
+          }
+        }
             author {
               node {
-                name
-              }
-            }
+            name
           }
         }
       }
     }
-  `,
+  }
+}
+`,
     {
       variables: {
         search: term,
@@ -271,38 +273,38 @@ export async function getPostsByCategory(slug: string) {
   const data = await fetchAPI(
     `
     query PostsByCategory($id: ID!, $idType: CategoryIdType!) {
-      category(id: $id, idType: $idType) {
-        name
-        slug
-        posts(first: 20, where: { orderby: { field: DATE, order: DESC } }) {
+  category(id: $id, idType: $idType) {
+    name
+    slug
+    posts(first: 20, where: { orderby: { field: DATE, order: DESC } }) {
           edges {
             node {
-              id
-              databaseId
-              title
-              slug
-              excerpt
-              date
+          id
+          databaseId
+          title
+          slug
+          excerpt
+          date
               featuredImage {
                 node {
-                  sourceUrl
-                  altText
-                }
-              }
+              sourceUrl
+              altText
+            }
+          }
               author {
                 node {
-                  name
-                }
-              }
-              customTitle {
-                subJudulBawah
-              }
+              name
             }
+          }
+              customTitle {
+            subJudulBawah
           }
         }
       }
     }
-  `,
+  }
+}
+`,
     {
       variables: {
         id: slug,
@@ -317,20 +319,20 @@ export async function getGlobalMenu() {
   const data = await fetchAPI(
     `
     query GetGlobalMenu {
-      page(id: "/", idType: URI) {
+  page(id: "/", idType: URI) {
         mainMenuManager {
           mainMenuItems {
-            label
-            url
+        label
+        url
             subMenuItems {
-              label
-              url
-            }
-          }
+          label
+          url
         }
       }
     }
-    `
+  }
+}
+`
   );
 
   return data?.page?.mainMenuManager?.mainMenuItems || [];
@@ -341,35 +343,37 @@ export async function getGlobalNavigation() {
     const data = await fetchAPI(
       `
       query GetGlobalNavigation {
-        page(id: "/", idType: URI) {
-          globalNavigationManager {
-            desktopMenuItems {
-              label
-              url
-              subMenuItems {
+        maiyahOptionsData {
+          maiyahGlobalSettings {
+            globalNavigationManager {
+              desktopMenuItems {
+                label
+                url
+                subMenuItems {
+                  label
+                  url
+                }
+              }
+              mobileDrawerItems {
+                label
+                url
+                subMenuItems {
+                  label
+                  url
+                }
+              }
+              pillMenuItems {
                 label
                 url
               }
-            }
-            mobileDrawerItems {
-              label
-              url
-              subMenuItems {
+              bottomNavItems {
                 label
                 url
-              }
-            }
-            pillMenuItems {
-              label
-              url
-            }
-            bottomNavItems {
-              label
-              url
-              icon {
-                node {
-                  sourceUrl
-                  altText
+                icon {
+                  node {
+                    sourceUrl
+                    altText
+                  }
                 }
               }
             }
@@ -378,7 +382,7 @@ export async function getGlobalNavigation() {
       }
       `
     );
-    return data?.page?.globalNavigationManager;
+    return data?.maiyahOptionsData?.maiyahGlobalSettings?.globalNavigationManager;
   } catch (error) {
     console.warn("Global Navigation Fetch Failed (Schema might be out of sync):", error);
     // Return null or empty structure so the app can continue rendering with fallbacks
@@ -390,20 +394,20 @@ export async function getAgendas() {
   const data = await fetchAPI(
     `
     query GetAgendas {
-      agendas(first: 100, where: { orderby: { field: DATE, order: ASC } }) {
+  agendas(first: 100, where: { orderby: { field: DATE, order: ASC } }) {
         nodes {
-          id
-          title
-          slug
+      id
+      title
+      slug
           agendaDetails {
-            tanggalEvent
-            lokasi
-            jenisAcara
-          }
-        }
+        tanggalEvent
+        lokasi
+        jenisAcara
       }
     }
-    `
+  }
+}
+`
   );
   return data?.agendas?.nodes;
 }
@@ -412,24 +416,24 @@ export async function getAgendaBySlug(slug: string) {
   const data = await fetchAPI(
     `
     query GetAgendaBySlug($id: ID!) {
-      agenda(id: $id, idType: SLUG) {
-        title
-        content
-        slug
+  agenda(id: $id, idType: SLUG) {
+    title
+    content
+    slug
         featuredImage {
           node {
-            sourceUrl
-            altText
-          }
-        }
-        agendaDetails {
-          tanggalEvent
-          lokasi
-          jenisAcara
-        }
+        sourceUrl
+        altText
       }
     }
-    `,
+        agendaDetails {
+      tanggalEvent
+      lokasi
+      jenisAcara
+    }
+  }
+}
+`,
     { variables: { id: slug } }
   );
   return data?.agenda;
@@ -439,8 +443,9 @@ export async function getFooterData() {
   try {
     const data = await fetchAPI(
       `
-        query GetFooterData {
-          page(id: "/", idType: URI) {
+      query GetFooterData {
+        maiyahOptionsData {
+          maiyahGlobalSettings {
             footerManager {
               footerDescription
               footerLogos {
@@ -460,10 +465,33 @@ export async function getFooterData() {
             }
           }
         }
-        `
+      }
+      `
     );
-    return data?.page?.footerManager;
+    return data?.maiyahOptionsData?.maiyahGlobalSettings?.footerManager;
   } catch (error) {
+    return null;
+  }
+}
+
+export async function getThemeCustomization() {
+  try {
+    const data = await fetchAPI(
+      `
+      query GetThemeCustomization {
+        maiyahOptionsData {
+          maiyahGlobalSettings {
+            themeCustomization {
+              customCss
+            }
+          }
+        }
+      }
+      `
+    );
+    return data?.maiyahOptionsData?.maiyahGlobalSettings?.themeCustomization;
+  } catch (error) {
+    console.warn("Theme Customization Fetch Failed:", error);
     return null;
   }
 }

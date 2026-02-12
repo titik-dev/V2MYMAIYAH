@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
+
 import Script from "next/script";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import BottomNav from "@/components/layout/BottomNav";
-import { getGlobalMenu, getGlobalNavigation } from "@/lib/api"; // Ensure this import is used if we fetch here
+import { getGlobalMenu, getGlobalNavigation, getThemeCustomization } from "@/lib/api"; // Ensure this import is used if we fetch here
 
 const inter = Inter({
   variable: "--font-inter",
@@ -75,11 +76,20 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   let globalNav = null;
+  let themeSettings = null;
+
   try {
-    globalNav = await getGlobalNavigation();
+    const [navData, themeData] = await Promise.all([
+      getGlobalNavigation(),
+      getThemeCustomization()
+    ]);
+    globalNav = navData;
+    themeSettings = themeData;
   } catch (error) {
-    console.error("Layout Navigation Error", error);
+    console.error("Layout Navigation/Theme Error", error);
   }
+
+  const customCss = themeSettings?.customCss || "";
 
   const bottomItems = globalNav?.bottomNavItems || [];
   return (
@@ -100,6 +110,11 @@ export default async function RootLayout({
             gtag('config', 'G-86C7QD4XCY');
           `}
         </Script>
+
+        {/* Custom CSS Injection */}
+        {customCss && (
+          <style dangerouslySetInnerHTML={{ __html: customCss }} />
+        )}
 
         <ThemeProvider>
           <Header />

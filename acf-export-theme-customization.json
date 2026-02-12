@@ -1,0 +1,50 @@
+[
+    {
+        "key": "group_theme_customization",
+        "title": "Theme Customization (Custom CSS)",
+        "fields": [
+            {
+                "key": "field_custom_css",
+                "label": "Custom CSS",
+                "name": "custom_css",
+                "type": "textarea",
+                "instructions": "Masukkan kode CSS kustom di sini untuk memodifikasi tampilan website tanpa mengubah kode asli.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "/* Contoh: \nheader { background: red; } \n.hidden-element { display: none; } \n*/",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 20,
+                "new_lines": "",
+                "readonly": 0,
+                "disabled": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_type",
+                    "operator": "==",
+                    "value": "front_page"
+                }
+            ]
+        ],
+        "menu_order": 5,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Pengaturan CSS Kustom untuk website.",
+        "show_in_rest": true,
+        "show_in_graphql": 1,
+        "graphql_field_name": "themeCustomization",
+        "map_graphql_types_from_location_rules": 1
+    }
+]
