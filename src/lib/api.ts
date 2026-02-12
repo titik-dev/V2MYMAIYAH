@@ -163,14 +163,81 @@ export async function getPostsBySlugs(slugs: string[]) {
   return results.filter((post) => post !== null && post !== undefined);
 }
 
-export async function getHomepageAds() {
+export async function getHomepageData() {
   try {
     const data = await fetchAPI(
       `
-      query HomepageAds {
+      query HomepageData {
+        wppPopularPosts(first: 10) {
+          id
+          title
+          slug
+          date
+          featuredImage {
+            node {
+              sourceUrl
+              altText
+            }
+          }
+          categories {
+            edges {
+              node {
+                name
+              }
+            }
+          }
+        }
+        posts(first: 10) {
+          nodes {
+            id
+            title
+            slug
+            date
+            featuredImage {
+              node {
+                sourceUrl
+                altText
+              }
+            }
+            categories {
+              edges {
+                node {
+                  name
+                }
+              }
+            }
+          }
+        }
         maiyahOptionsData {
           maiyahGlobalSettings {
             homepageSettings {
+              featuredContentMode
+              sectionTitleCeklis
+              sectionTitleLatest
+              sectionTitlePopular
+              featuredPosts(first: 100) {
+                nodes {
+                  ... on Post {
+                    id
+                    title
+                    slug
+                    date
+                    featuredImage {
+                      node {
+                        sourceUrl
+                        altText
+                      }
+                    }
+                    categories {
+                      edges {
+                        node {
+                          name
+                        }
+                      }
+                    }
+                  }
+                }
+              }
               ceklisAds {
                 gambar {
                   node {
@@ -186,10 +253,43 @@ export async function getHomepageAds() {
       }
       `
     );
-    return data?.maiyahOptionsData?.maiyahGlobalSettings?.homepageSettings?.ceklisAds || [];
+
+    const settings = data?.maiyahOptionsData?.maiyahGlobalSettings?.homepageSettings;
+    const mode = settings?.featuredContentMode || 'manual';
+
+    let featuredPosts = [];
+
+    if (mode === 'popular') {
+      featuredPosts = data?.wppPopularPosts || [];
+    } else if (mode === 'latest') {
+      featuredPosts = data?.posts?.nodes || [];
+    } else {
+      // Manual Mode
+      featuredPosts = settings?.featuredPosts?.nodes || [];
+    }
+
+    return {
+      ads: settings?.ceklisAds || [],
+      featuredPosts,
+      mode,
+      sectionTitles: {
+        ceklis: settings?.sectionTitleCeklis || "Ceklis",
+        latest: settings?.sectionTitleLatest || "Berita Terbaru",
+        popular: settings?.sectionTitlePopular || "Berita Terpopuler"
+      }
+    };
   } catch (error) {
-    console.warn("Homepage Ads Fetch Warning (Using Default):", error);
-    return [];
+    console.warn("Homepage Data Fetch Warning (Using Default):", error);
+    return {
+      ads: [],
+      featuredPosts: [],
+      mode: 'manual',
+      sectionTitles: {
+        ceklis: "Ceklis",
+        latest: "Berita Terbaru",
+        popular: "Berita Terpopuler"
+      }
+    };
   }
 }
 
@@ -400,10 +500,22 @@ export async function getAgendas() {
       title
       slug
           agendaDetails {
-        tanggalEvent
-        lokasi
-        jenisAcara
-      }
+            tanggalEvent
+            lokasi
+            jenisAcara
+            agendaLogo {
+              node {
+                sourceUrl
+                altText
+              }
+            }
+          }
+          featuredImage {
+            node {
+              sourceUrl
+              altText
+            }
+          }
     }
   }
 }
@@ -430,6 +542,12 @@ export async function getAgendaBySlug(slug: string) {
       tanggalEvent
       lokasi
       jenisAcara
+      agendaLogo {
+        node {
+          sourceUrl
+          altText
+        }
+      }
     }
   }
 }

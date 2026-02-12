@@ -1,5 +1,6 @@
 import { CalendarIcon, MapPinIcon, ClockIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import Image from "next/image";
 import { format } from "date-fns";
 import { id } from "date-fns/locale";
 
@@ -9,9 +10,10 @@ interface EventCardProps {
     location: string;
     type?: string;
     slug: string;
+    image?: string;
 }
 
-export default function EventCard({ title, date, location, type = "Acara Utama", slug }: EventCardProps) {
+export default function EventCard({ title, date, location, type = "Acara Utama", slug, image }: EventCardProps) {
     // Parse date string (Y-m-d H:i:s)
     const eventDate = new Date(date);
     const day = format(eventDate, "d", { locale: id });
@@ -27,30 +29,45 @@ export default function EventCard({ title, date, location, type = "Acara Utama",
                 <span className="text-xs md:text-sm font-medium uppercase">{dayName}</span>
             </div>
 
-            {/* Right: Content */}
-            <div className="flex-1 p-4 flex flex-col justify-center">
-                <div className="mb-1">
-                    <span className="inline-block px-2 py-0.5 rounded text-[10px] bg-blue-50 text-[var(--color-maiyah-blue)] font-bold uppercase tracking-wider">
-                        {type}
-                    </span>
-                </div>
-                <h3 className="text-base md:text-lg font-bold text-gray-900 leading-tight mb-2 group-hover:text-[var(--color-maiyah-blue)] transition-colors line-clamp-2">
-                    <Link href={`/agenda/${slug}`}>
-                        {title}
-                    </Link>
-                </h3>
-                <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 text-xs md:text-sm text-gray-500">
-                    <div className="flex items-center gap-1.5">
-                        <ClockIcon className="w-4 h-4" />
-                        <span>{time}</span>
+            {/* Right: Content Wrapper */}
+            <div className="flex-1 flex items-center pr-3 md:pr-4 overflow-hidden">
+                <div className="flex-1 p-3 md:p-4 flex flex-col justify-center min-w-0">
+                    <div className="mb-1">
+                        <span className="inline-block px-2 py-0.5 rounded text-[10px] bg-blue-50 text-[var(--color-maiyah-blue)] font-bold uppercase tracking-wider truncate max-w-full">
+                            {type}
+                        </span>
                     </div>
-                    {location && (
-                        <div className="flex items-center gap-1.5">
-                            <MapPinIcon className="w-4 h-4" />
-                            <span className="line-clamp-1">{location}</span>
+                    <h3 className="text-base md:text-lg font-bold text-gray-900 leading-tight mb-2 group-hover:text-[var(--color-maiyah-blue)] transition-colors line-clamp-2">
+                        <Link href={`/agenda/${slug}`}>
+                            {title}
+                        </Link>
+                    </h3>
+                    <div className="flex flex-col md:flex-row md:items-center gap-1 md:gap-4 text-xs md:text-sm text-gray-500">
+                        <div className="flex items-center gap-1.5 min-w-0">
+                            <ClockIcon className="w-3.5 h-3.5 flex-shrink-0" />
+                            <span className="truncate">{time}</span>
                         </div>
-                    )}
+                        {location && (
+                            <div className="flex items-center gap-1.5 min-w-0">
+                                <MapPinIcon className="w-3.5 h-3.5 flex-shrink-0" />
+                                <span className="truncate">{location}</span>
+                            </div>
+                        )}
+                    </div>
                 </div>
+
+                {/* Event Image / Logo */}
+                {image && (
+                    <div className="w-16 h-16 md:w-20 md:h-20 flex-shrink-0 relative rounded-full overflow-hidden ml-2 border border-gray-100 shadow-sm bg-gray-50">
+                        <Image
+                            src={image}
+                            alt={title}
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 768px) 64px, 80px"
+                        />
+                    </div>
+                )}
             </div>
         </div>
     );

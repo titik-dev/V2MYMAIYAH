@@ -158,3 +158,19 @@
         *   **Unified Menu Strategy:** Menggabungkan sumber data Menu Desktop dan Mobile Drawer untuk konsistensi konten.
         *   **Pill Menu Separation:** Memisahkan logika "Pill Menu" (Swipe Menu) dari struktur navigasi utama.
         *   **Feature Update:** Menambahkan Tab khusus "Pill Menu (Swipe)" di ACF Global Navigation agar user bisa mengatur link swipe secara independen tanpa mencampuri menu utama.
+
+### [12-02-2026] - Phase 12: Dynamic Homepage Customization & Agenda Enhancement
+*   **Status:** Selesai
+*   **Aktivitas:**
+    *   **Dynamic Featured Slider (Mode Tampilan):**
+        *   **Flexible Control:** Implementasi opsi pemilihan mode konten untuk Slider Utama via ACF Global Settings: **Manual** (Pilih Sendiri), **Latest** (Otomatis Terbaru), atau **Popular** (Otomatis Terpopuler).
+        *   **Real-time Popularity:** Integrasi plugin *WordPress Popular Posts* dengan custom GraphQL field (`wppPopularPosts`) untuk menyajikan data trending yang akurat.
+        *   **Performance Tuning:** Optimasi logika `getHomepageData` untuk menangani berbagai mode dalam satu *API call* yang efisien, serta mencegah *double fetching* di halaman depan.
+    *   **Smart Content Grid:**
+        *   Implementasi logika *offset* cerdas pada Grid Berita Terbaru untuk menghindari duplikasi konten yang sudah tampil di Slider (khusus mode "Latest").
+    *   **Agenda System Upgrade (Visual):**
+        *   **Logo Support:** Menambahkan field `agenda_logo` pada ACF Agenda Details.
+        *   **Card Redesign:** Update komponen `EventCard` dan `CalendarWidget` untuk menampilkan Logo Penyelenggara/Simpul di dalam list agenda.
+        *   **Fallback Mechanism:** Sistem otomatis menggunakan *Featured Image* jika logo spesifik tidak diupload, menjaga tampilan tetap visual meski data minim.
+    *   **Fully Editable Homepage Sections:**
+        *   **No-Code Configuration:** Membuat seluruh judul seksi utama (**Ceklis/Iklan**, **Berita Terbaru**, **Berita Terpopuler**) dapat diedit teksnya secara bebas melalui ACF Global Settings tanpa menyentuh kode.

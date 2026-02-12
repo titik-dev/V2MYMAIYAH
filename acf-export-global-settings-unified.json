@@ -284,6 +284,125 @@
                 "layout": "block",
                 "sub_fields": [
                     {
+                        "key": "field_section_title_ceklis",
+                        "label": "Judul Bagian Iklan / Ceklis",
+                        "name": "section_title_ceklis",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "Default: Ceklis",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Ceklis",
+                        "placeholder": "Ceklis",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_section_title_latest",
+                        "label": "Judul Bagian Berita Terbaru",
+                        "name": "section_title_latest",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "Default: Berita Terbaru",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Berita Terbaru",
+                        "placeholder": "Berita Terbaru",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_section_title_popular",
+                        "label": "Judul Bagian Berita Terpopuler",
+                        "name": "section_title_popular",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "Default: Berita Terpopuler",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "Berita Terpopuler",
+                        "placeholder": "Berita Terpopuler",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_featured_mode",
+                        "label": "Mode Tampilan Slider",
+                        "name": "featured_content_mode",
+                        "type": "select",
+                        "instructions": "Pilih sumber data untuk slider paling atas.",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "manual": "Manual (Pilih Sendiri)",
+                            "latest": "Terbaru (Otomatis)",
+                            "popular": "Terpopuler (Otomatis)"
+                        },
+                        "default_value": "manual",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 0,
+                        "return_format": "value",
+                        "ajax": 0,
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_featured_posts",
+                        "label": "Berita Unggulan (Atas)",
+                        "name": "featured_posts",
+                        "type": "relationship",
+                        "instructions": "Pilih berita untuk ditampilkan di slider paling atas. (Unlimited)",
+                        "required": 0,
+                        "conditional_logic": [
+                            [
+                                {
+                                    "field": "field_featured_mode",
+                                    "operator": "==",
+                                    "value": "manual"
+                                }
+                            ]
+                        ],
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "post_type": [
+                            "post"
+                        ],
+                        "taxonomy": [],
+                        "filters": [
+                            "search"
+                        ],
+                        "elements": "",
+                        "min": "",
+                        "max": "",
+                        "return_format": "object"
+                    },
+                    {
                         "key": "field_ceklis_ads",
                         "label": "Homepage Ads (Ceklis)",
                         "name": "ceklis_ads",

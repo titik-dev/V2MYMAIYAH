@@ -1,4 +1,4 @@
-import { getAllPostsForHome, getHomepageAds, getPostsBySlugs } from "@/lib/api";
+import { getAllPostsForHome, getHomepageData } from "@/lib/api";
 import Link from "next/link";
 import Image from "next/image";
 import FeaturedSlider from "@/components/features/home/FeaturedSlider";
@@ -7,51 +7,59 @@ export default async function Home() {
   let posts: any[] = [];
   let ads = [];
   let specificFeaturedPosts: any[] = [];
-
-  // Specific slugs requested by user
-  const targetSlugs = [
-    "miraj-terapi-dari-allah",
-    "hujan-jeda-dan-orang-orang-yang-tetap-datang",
-    "cerita-dari-munkar-kesingsal"
-  ];
+  let mode = 'manual';
+  let sectionTitles = {
+    ceklis: "Ceklis",
+    latest: "Berita Terbaru",
+    popular: "Berita Terpopuler"
+  };
 
   try {
-    const [edges, adsData, featuredData] = await Promise.all([
+    const [edges, homepageData] = await Promise.all([
       getAllPostsForHome(),
-      getHomepageAds(),
-      getPostsBySlugs(targetSlugs)
+      getHomepageData()
     ]);
 
     posts = edges?.edges || [];
-    ads = adsData;
+    ads = homepageData.ads || [];
+    mode = homepageData?.mode || 'manual';
+    sectionTitles = homepageData?.sectionTitles || sectionTitles;
 
-    // Normalize specific posts to match edges structure { node: ... }
-    if (featuredData && featuredData.length > 0) {
-      specificFeaturedPosts = featuredData.map(post => ({ node: post }));
+    // Check if ACF returned any Featured Posts
+    if (homepageData.featuredPosts && homepageData.featuredPosts.length > 0) {
+      // Normalize to match edges structure { node: post }
+      specificFeaturedPosts = homepageData.featuredPosts.map((post: any) => ({ node: post }));
     }
 
   } catch (err) {
     console.error("Home Data Fetch Error", err);
   }
 
-  // Define Featured Posts (Prioritize specific posts, fallback to latest)
-  // Ensure we have 3 posts for the grid
+  // Determine displayed posts for slider
   let featuredPosts = [];
   if (specificFeaturedPosts.length > 0) {
     featuredPosts = specificFeaturedPosts;
-    // If we found specific posts, we should filter them out from the "Latest" list to avoid duplication if they appear there
-    // However, simplified logic: just show them.
   } else {
+    // Fallback: If no featured posts found/selected, use first 3 latest
     featuredPosts = posts.slice(0, 3);
   }
 
-  // Latest posts logic: If we used specific posts, we can just use the normal posts array for latest, 
-  // maybe excluding the ones we just showed if we want to be perfect, but standard behavior usually fine.
-  // Actually, let's keep it simple. Latest = posts from index 0 if we used specific for featured.
-  // Or if we used slice(0,3) for featured, latest starts at 3.
+  // Determine starting index for Latest News Grid based on mode
+  let gridStartIndex = 0;
+  // Use mode from API response (already fetched)
+  // const mode = (await getHomepageData()).mode || 'manual';
 
-  const latestPosts = specificFeaturedPosts.length > 0 ? posts.slice(0, 6) : posts.slice(3, 9);
-  const popularPosts = specificFeaturedPosts.length > 0 ? posts.slice(6, 12) : posts.slice(9, 15);
+  if (mode === 'latest' && featuredPosts.length > 0) {
+    gridStartIndex = featuredPosts.length;
+  } else if (featuredPosts.length === 0 && specificFeaturedPosts.length === 0) {
+    // If fallback was used (slice 0,3), grid starts at 3
+    gridStartIndex = 3;
+  }
+
+  // Latest Posts Grid
+  const latestPosts = posts.slice(gridStartIndex, gridStartIndex + 6);
+  // Popular Posts Grid (using remaining posts for now)
+  const popularPosts = posts.slice(gridStartIndex + 6, gridStartIndex + 12);
 
   // Default Ads Fallback
   const defaultAds = [
@@ -121,7 +129,7 @@ export default async function Home() {
       <section className="container mx-auto px-4 mb-12">
         <div className="flex items-center gap-3 mb-6">
           <div className="w-1 h-6 bg-[var(--color-maiyah-red)] rounded-full"></div>
-          <h2 className="text-xl font-bold text-[var(--color-maiyah-blue)]">Ceklis</h2>
+          <h2 className="text-xl font-bold text-[var(--color-maiyah-blue)]">{sectionTitles.ceklis}</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {(ads && ads.length > 0 ? ads : defaultAds).map((ad: any, index: number) => {
@@ -155,7 +163,7 @@ export default async function Home() {
       <section className="container mx-auto px-4 mb-16">
         <div className="flex items-center gap-3 mb-6">
           <div className="w-1 h-6 bg-[var(--color-maiyah-red)] rounded-full"></div>
-          <h2 className="text-xl font-bold text-[var(--color-maiyah-blue)]">Berita Terbaru</h2>
+          <h2 className="text-xl font-bold text-[var(--color-maiyah-blue)]">{sectionTitles.latest}</h2>
         </div>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -214,7 +222,7 @@ export default async function Home() {
           {/* Same style as Latest News */}
           <div className="flex items-center gap-3 mb-6">
             <div className="w-1 h-6 bg-[var(--color-maiyah-red)] rounded-full"></div>
-            <h2 className="text-xl font-bold text-[var(--color-maiyah-blue)]">Berita Terpopuler</h2>
+            <h2 className="text-xl font-bold text-[var(--color-maiyah-blue)]">{sectionTitles.popular}</h2>
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">

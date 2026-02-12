@@ -38,7 +38,14 @@ export default function BottomNav({ items = [] }: BottomNavProps) {
             <div className="bg-[#0f172a]/95 backdrop-blur-xl border-t border-white/5 pb-safe-area shadow-[0_-4px_20px_rgba(0,0,0,0.4)]">
                 <div className="grid grid-cols-5 h-[76px] items-center px-2">
                     {items.map((item, index) => {
-                        const isActive = pathname === item.url || (item.url !== "/" && pathname.startsWith(item.url || ""));
+                        // Fix for Dual Active State:
+                        // Find the most specific match (longest URL that matches current path)
+                        // This prevents parent categories from staying active when a child is selected.
+                        const sortedItems = [...items].sort((a, b) => (b.url?.length || 0) - (a.url?.length || 0));
+                        const activeItem = sortedItems.find(i => pathname === i.url) ||
+                            sortedItems.find(i => i.url !== "/" && pathname.startsWith(i.url || ""));
+
+                        const isActive = activeItem?.url === item.url;
                         const iconSrc = item.icon?.node?.sourceUrl || fallbackIcon;
                         const altText = item.icon?.node?.altText || item.label;
 

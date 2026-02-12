@@ -68,6 +68,31 @@
                 "return_format": "value",
                 "ajax": 0,
                 "placeholder": ""
+            },
+            {
+                "key": "field_agenda_logo",
+                "label": "Logo Penyelenggara / Simpul",
+                "name": "agenda_logo",
+                "aria-label": "",
+                "type": "image",
+                "instructions": "Upload logo jika ada (menggantikan Featured Image di daftar).",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": "",
+                "preview_size": "medium"
             }
         ],
         "location": [
@@ -87,6 +112,12 @@
         "hide_on_screen": "",
         "active": true,
         "description": "",
-        "show_in_rest": 1
+        "show_in_rest": 1,
+        "show_in_graphql": 1,
+        "graphql_field_name": "agendaDetails",
+        "map_graphql_types_from_location_rules": 0,
+        "graphql_types": [
+            "Agenda"
+        ]
     }
 ]

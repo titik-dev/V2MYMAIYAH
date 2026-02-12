@@ -26,6 +26,16 @@ interface AgendaItem {
         tanggalEvent: string; // Y-m-d H:i:s
         lokasi: string;
         jenisAcara?: string;
+        agendaLogo?: {
+            node: {
+                sourceUrl: string;
+            };
+        };
+    };
+    featuredImage?: {
+        node: {
+            sourceUrl: string;
+        };
     }
 }
 
@@ -162,6 +172,7 @@ export default function CalendarWidget({ agendas = [] }: { agendas?: AgendaItem[
                                 location={agenda.agendaDetails.lokasi}
                                 type={agenda.agendaDetails.jenisAcara || "Acara"}
                                 slug={agenda.slug}
+                                image={agenda.agendaDetails?.agendaLogo?.node?.sourceUrl || agenda.featuredImage?.node?.sourceUrl}
                             />
                         ))
                     ) : (
