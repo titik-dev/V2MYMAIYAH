@@ -29,8 +29,12 @@ async function fetchAPI(query: string, { variables, nextOptions }: { variables?:
 
     const json = await res.json();
     if (json.errors) {
-      console.error("GraphQL Errors Full Details:", JSON.stringify(json.errors, null, 2));
-      throw new Error("Failed to fetch API");
+      console.warn("GraphQL Errors (Partial Data):", JSON.stringify(json.errors, null, 2));
+      // If data exists, return it despite errors (Partial Success)
+      // Only throw if data is completely missng
+      if (!json.data) {
+        throw new Error("Failed to fetch API");
+      }
     }
     return json.data;
   } catch (err) {
@@ -123,10 +127,32 @@ export async function getPostBySlug(slug: string) {
         }
         author {
           node {
+            databaseId
             name
+            description
             avatar {
               url
             }
+            authorProfile {
+              fotoProfil {
+                node {
+                  sourceUrl
+                  altText
+                }
+              }
+              asalSimpul
+              biografiSingkat
+            }
+            seo {
+              social {
+                facebook
+                instagram
+                linkedIn
+                twitter
+                youTube
+              }
+            }
+            url
           }
         }
         customAuthor {
@@ -161,6 +187,44 @@ export async function getPostsBySlugs(slugs: string[]) {
   const promises = slugs.map((slug) => getPostBySlug(slug));
   const results = await Promise.all(promises);
   return results.filter((post) => post !== null && post !== undefined);
+}
+
+export async function getPostsByAuthor(authorId: number, excludePostId: number) {
+  const data = await fetchAPI(
+    `
+    query PostsByAuthor($authorId: Int, $notIn: [ID]) {
+      posts(first: 3, where: { author: $authorId, notIn: $notIn, orderby: { field: DATE, order: DESC } }) {
+        nodes {
+          id
+          title
+          slug
+          date
+          featuredImage {
+            node {
+              sourceUrl
+              altText
+            }
+          }
+          categories {
+            edges {
+              node {
+                name
+                slug
+              }
+            }
+          }
+        }
+      }
+    }
+  `,
+    {
+      variables: {
+        authorId: authorId,
+        notIn: [excludePostId]
+      }
+    }
+  );
+  return data?.posts?.nodes || [];
 }
 
 export async function getHomepageData() {
@@ -406,6 +470,14 @@ export async function getPostsByCategory(slug: string) {
             author {
               node {
                 name
+              }
+            }
+            categories {
+              edges {
+                node {
+                  name
+                  slug
+                }
               }
             }
             customTitle {

@@ -59,10 +59,12 @@ export default async function CategoryPage({
                                 )}
                             </Link>
 
-                            {/* Badge Number (overlay on image top-left) */}
-                            <div className="absolute top-6 left-6 bg-white text-[var(--color-maiyah-red)] font-bold text-base min-w-[2.5rem] h-10 px-2 flex items-center justify-center shadow-md rounded-sm z-10">
-                                {node.databaseId || "#"}
-                            </div>
+                            {/* Category Badge Overlay */}
+                            {node.categories?.edges?.length > 0 && node.categories.edges[0]?.node && (
+                                <span className="absolute top-2 left-2 z-20 bg-[var(--color-maiyah-red)] text-white text-[10px] font-bold px-2 py-1 rounded shadow-md uppercase tracking-wider">
+                                    {node.categories.edges[0].node.name}
+                                </span>
+                            )}
                         </div>
 
                         {/* Content Box (Overlapping) */}

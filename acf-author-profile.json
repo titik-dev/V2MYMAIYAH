@@ -1,0 +1,155 @@
+[
+    {
+        "key": "group_author_profile_maiyah",
+        "title": "Author Profile",
+        "fields": [
+            {
+                "key": "field_user_foto_profil",
+                "label": "Foto Profil",
+                "name": "fotoProfil",
+                "type": "image",
+                "instructions": "Upload foto profil penulis (Circular crop akan otomatis di frontend).",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "medium",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_user_asal_simpul",
+                "label": "Asal Simpul",
+                "name": "asalSimpul",
+                "type": "text",
+                "instructions": "Contoh: Simpul Juguran Syafaat",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "50",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "Masukkan nama simpul...",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_user_biografi_singkat",
+                "label": "Biografi Singkat",
+                "name": "biografiSingkat",
+                "type": "textarea",
+                "instructions": "Deskripsi singkat tentang penulis yang akan muncul di bawah nama.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "maxlength": "",
+                "rows": 4,
+                "new_lines": "br"
+            },
+            {
+                "key": "field_user_social_media",
+                "label": "Social Media",
+                "name": "socialMedia",
+                "type": "repeater",
+                "instructions": "Tambahkan akun media sosial penulis.",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "table",
+                "button_label": "Tambah Sosmed",
+                "sub_fields": [
+                    {
+                        "key": "field_user_sosmed_platform",
+                        "label": "Platform",
+                        "name": "platform",
+                        "type": "select",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "30",
+                            "class": "",
+                            "id": ""
+                        },
+                        "choices": {
+                            "instagram": "Instagram",
+                            "facebook": "Facebook",
+                            "twitter": "X / Twitter",
+                            "linkedin": "LinkedIn",
+                            "website": "Website / Blog"
+                        },
+                        "default_value": "instagram",
+                        "allow_null": 0,
+                        "multiple": 0,
+                        "ui": 1,
+                        "ajax": 1,
+                        "return_format": "value",
+                        "placeholder": ""
+                    },
+                    {
+                        "key": "field_user_sosmed_url",
+                        "label": "URL Profil",
+                        "name": "url",
+                        "type": "url",
+                        "instructions": "Link lengkap ke profil (termasuk https://)",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "70",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "https://instagram.com/username"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "user_form",
+                    "operator": "==",
+                    "value": "all"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "Field tambahan untuk profil penulis Maiyah News.",
+        "show_in_rest": true,
+        "show_in_graphql": true,
+        "graphql_field_name": "authorProfile"
+    }
+]

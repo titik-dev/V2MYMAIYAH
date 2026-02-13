@@ -1,8 +1,10 @@
-import { getPostBySlug } from "@/lib/api";
+import { getPostBySlug, getPostsByAuthor } from "@/lib/api";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
+import AuthorBio from "@/components/features/author/AuthorBio";
+import AuthorRecentPosts from "@/components/features/author/AuthorRecentPosts";
 
 type Props = {
     params: Promise<{ slug: string }>;
@@ -63,13 +65,56 @@ export default async function PostPage(props: Props) {
 
     const category = post.categories?.edges[0]?.node;
 
-    // Logic for Custom Author vs Default Author
+    // Logic for Custom Author vs Default Author (Legacy Header)
     const hasCustomAuthor = !!post.customAuthor?.nama;
     const authorData = {
         name: hasCustomAuthor ? post.customAuthor.nama : (post.author?.node?.name || "Redaksi"),
         avatar: hasCustomAuthor ? post.customAuthor.foto?.sourceUrl : post.author?.node?.avatar?.url,
         bio: hasCustomAuthor ? post.customAuthor.deskripsi : null,
     };
+
+    // Logic for Author Data: Prioritize ACF User -> WP User -> Custom Author (Legacy)
+    const authorNode = post.author?.node;
+    const acfProfile = authorNode?.authorProfile;
+
+    // Author Object for the new Profile Box (Strictly User Based + ACF)
+    // HYBRID LOGIC: 
+    // 1. Try to get Real User Data (ACF Profile) -> Best Case
+    // 2. If no Real User Data, try Custom Author Data (Post Meta) -> Fallback for Guest/Manual
+    // 3. If both fail, use Default WP User Data -> Minimal Fallback
+
+    const customAuthor = post.customAuthor;
+
+    // Process Social Media from SEO/Yoast & WP User URL
+    const socialLinks = [
+        { platform: 'Facebook', url: authorNode?.seo?.social?.facebook },
+        { platform: 'Instagram', url: authorNode?.seo?.social?.instagram },
+        { platform: 'Twitter', url: authorNode?.seo?.social?.twitter },
+        { platform: 'LinkedIn', url: authorNode?.seo?.social?.linkedIn },
+        { platform: 'YouTube', url: authorNode?.seo?.social?.youTube },
+        { platform: 'Website', url: authorNode?.url },
+    ].filter(link => link.url); // Remove empty links
+
+    const displayAuthor = {
+        name: customAuthor?.nama || authorNode?.name || "Redaksi",
+        // Priority: Custom Author Foto -> ACF Foto -> User Avatar -> Placeholder
+        avatar: customAuthor?.foto?.sourceUrl || acfProfile?.fotoProfil?.node?.sourceUrl || authorNode?.avatar?.url,
+        bio: customAuthor?.deskripsi || acfProfile?.biografiSingkat || authorNode?.description,
+        simpul: acfProfile?.asalSimpul, // Custom Author doesn't have 'simpul' in schema yet
+        socialMedia: socialLinks.length > 0 ? socialLinks : acfProfile?.socialMedia
+    };
+
+    // Fetch Recent Posts by this Author (Exclude current)
+    const recentPosts = authorNode?.databaseId
+        ? await getPostsByAuthor(authorNode.databaseId, post.databaseId)
+        : [];
+
+    // Also support Legacy Custom Author (Post Meta) specific to this post if needed
+    // But per request, we strictly use User Author for the box.
+    // If "Custom Author" exists, it might override the name in the header, but the box should show the Real User Author?
+    // Let's stick to the "Real User Author" for the bottom box as requested.
+
+
 
     return (
         <main className="min-h-screen pb-20 bg-white dark:bg-gray-950">
@@ -172,24 +217,20 @@ export default async function PostPage(props: Props) {
             <article className="container mx-auto px-4 md:px-0 relative z-10 flex flex-col md:flex-row gap-8">
                 <div className="flex-1 bg-transparent max-w-3xl mx-auto">
 
-                    {/* Custom Author Bio Box (Reference Style) */}
+                    {/* Custom Author Bio Box (Reference Style - OLD, Hidden or Removed?) 
+                        Wait, let's keep it if it was there, OR replace it?
+                        User asked for "Author Profile Box in Detail Page... Below content". 
+                        The existing "Custom Author Bio Box" was above content? 
+                        Line 176 was "flex items-start...".
+                        Let's COMMENT OUT the old one to avoid duplication, as the new one is more robust.
+                    */}
+                    {/* 
                     {hasCustomAuthor && (
                         <div className="flex items-start gap-4 mb-8 pb-8 border-b border-gray-100">
-                            <div className="w-16 h-16 rounded-full overflow-hidden relative flex-shrink-0 bg-gray-100">
-                                {authorData.avatar ? (
-                                    <Image src={authorData.avatar} alt={authorData.name} fill className="object-cover" />
-                                ) : (
-                                    <div className="w-full h-full bg-gray-200" />
-                                )}
-                            </div>
-                            <div>
-                                <h4 className="text-lg font-bold text-gray-900 leading-tight mb-1">{authorData.name}</h4>
-                                {authorData.bio && (
-                                    <p className="text-sm text-gray-600 leading-relaxed font-serif">{authorData.bio}</p>
-                                )}
-                            </div>
+                           ...
                         </div>
-                    )}
+                    )} 
+                    */}
 
                     {/* Post Content */}
                     <div
@@ -210,6 +251,14 @@ export default async function PostPage(props: Props) {
                             </button>
                         </div>
                     </div>
+
+                    {/* Author Profile Box */}
+                    <div className="mt-16">
+                        <AuthorBio author={displayAuthor} />
+                    </div>
+
+                    {/* Recent Posts by Author */}
+                    <AuthorRecentPosts posts={recentPosts} authorName={displayAuthor.name} />
                 </div>
             </article>
         </main>

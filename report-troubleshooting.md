@@ -59,3 +59,56 @@ Dokumen ini berisi rangkuman masalah teknis (bug/error) yang ditemui selama peng
 *   **Masalah:** Gambar terlihat pecah atau loading sangat lambat di mobile.
 *   **Penyebab:** Konfigurasi `unoptimized: true` (sebelumnya dipakai untuk static export) mematikan fitur optimasi gambar otomatis Vercel.
 *   **Solusi:** Menghapus `unoptimized: true` dan menambahkan properti `sizes="..."` pada komponen `<Image />` agar browser mengambil ukuran gambar yang tepat sesuai layar HP.
+
+## 10. Homepage "Internal Server Error" Crash
+**Tanggal:** 13-02-2026
+*   **Masalah:** Halaman depan mendadak error 500 (Full Crash) setelah instalasi plugin populer.
+*   **Penyebab:** Query GraphQL `wppPopularPosts` (dari plugin WordPress Popular Posts) mengembalikan data yang korup (salah satu post memiliki ID null) yang tidak bisa di-handle oleh frontend, menyebabkan React hydration error fatal.
+*   **Solusi:** Membungkus pemanggilan API `wppPopularPosts` dalam blok `try...catch` terpisah (Safe Mode). Jika query ini gagal, error ditangkap dan log di-warn, sementara halaman web tetap berjalan normal menampilkan konten lainnya.
+
+## 11. Sticky Post & Urutan Berita Slider
+**Tanggal:** 13-02-2026
+*   **Masalah:** Slider "Terbaru" menampilkan postingan lama (tahun 2023) di urutan pertama, padahal seharusnya hanya menampilkan berita 2026.
+*   **Penyebab:**
+    1.  WordPress memiliki fitur "Sticky Post" yang secara default akan menempatkan postingan tersebut di paling atas query, mengabaikan parameter sorting tanggal (`orderby: DATE`).
+    2.  Percobaan menggunakan parameter `ignoreStickyPosts: true` pada query GraphQL menyebabkan error API karena argumen tersebut tidak valid/didukung oleh skema WPGraphQL saat ini.
+*   **Solusi:**
+    1.  Menghapus argumen `ignoreStickyPosts` yang error dari query backend.
+    2.  Mengimplementasikan **Force Sort (Manual Sorting)** di sisi Frontend (JavaScript). Data `posts` dan `featuredPosts` yang diterima dari API diurutkan ulang secara paksa menggunakan `sort()` berdasarkan tanggal descending (`new Date(b.date) - new Date(a.date)`). Ini memastikan berita terbaru secara kronologis selalu tampil di awal slider, terlepas dari status sticky di backend.
+
+## 12. ACF Data Caching (Judul Bagian Tidak Update)
+**Tanggal:** 13-02-2026
+*   **Masalah:** Perubahan teks Judul Bagian (Section Titles) di Dashboard ACF tidak kunjung muncul di frontend (tetap menampilkan teks default/lama).
+*   **Penyebab:** Next.js Data Cache secara agresif menyimpan response fetch API homepage, sehingga update kecil di CMS tidak terdeteksi.
+*   **Solusi:** Menambahkan opsi `{ next: { revalidate: 0 } }` (No-Store) pada fungsi `fetchAPI` khusus untuk data homepage. Ini memaksa server untuk selalu mengambil data segar dari WordPress setiap kali halaman diakses, menjamin konten dinamis ACF selalu akurat.
+
+## 13. Author Profile Box & Recent Posts Integration
+**Tanggal:** 13-02-2026
+*   **Masalah:**
+    1.  **Field `authorProfile` Kosong:** API gagal mengambil data ACF User karena field belum dibuat di backend WP, menyebabkan error fetch.
+    2.  **Social Media Duplikasi:** Awalnya berencana membuat field sosmed baru di ACF, padahal WordPress/Yoast sudah menyediakan.
+    3.  **Foto Profil Masih Gravatar:** Setelah ACF JSON diimport dan diisi, foto tetap tidak muncul di frontend (masih placeholder).
+
+*   **Penyebab & Solusi:**
+    1.  **ACF JSON Export:** Solusi untuk masalah field kosong adalah membuatkan file `acf-author-profile.json` berisi definisi field (Foto, Bio, Simpul) agar admin bisa langsung import di WP tanpa setting manual.
+    2.  **Yoast SEO Integration:** Memutuskan untuk **TIDAK** membuat field sosmed baru. Sebaliknya, mengubah query GraphQL di `api.ts` untuk mengambil data dari field bawaan `seo { social { ... } }` (Facebook, Instagram, dll). Ini lebih efisien.
+    3.  **Uncomment Code (Critical):** Penyebab foto tidak muncul meski backend sudah siap adalah karena kode pemanggil `authorProfile` di `src/lib/api.ts` masih dalam kondisi *commented out* (dimatikan) untuk mencegah error sebelumnya. Solusinya adalah **menyalakan kembali (uncomment)** blok kode tersebut setelah dipastikan data backend tersedia via tes di GraphQL IDE.
+
+*   **Cara Verifikasi Data:**
+    Gunakan Query GraphQL ini di IDE untuk memastikan data masuk sebelum menyalakan kode frontend:
+    ```graphql
+    query CekAuthor {
+      user(id: "USER_ID", idType: DATABASE_ID) {
+        name
+        authorProfile {
+          fotoProfil { node { sourceUrl } }
+        }
+        seo {
+          social {
+            facebook
+            instagram
+          }
+        }
+      }
+    }
+    ```

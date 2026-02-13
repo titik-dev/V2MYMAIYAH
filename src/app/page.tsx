@@ -177,6 +177,12 @@ export default async function Home() {
           {latestPosts.map(({ node }: any) => (
             <article key={node.id} className="group flex md:flex-col gap-4 bg-white rounded-xl p-3 md:p-0 shadow-sm md:shadow-none hover:shadow-md md:hover:shadow-none transition-shadow border border-gray-100 md:border-none">
               <div className="relative w-1/3 md:w-full aspect-[4/3] md:aspect-video flex-shrink-0 overflow-hidden rounded-lg bg-gray-100">
+                {/* Category Badge Overlay */}
+                {node.categories?.edges?.length > 0 && node.categories.edges[0]?.node && (
+                  <span className="absolute top-2 left-2 z-20 bg-[var(--color-maiyah-red)] text-white text-[10px] font-bold px-2 py-1 rounded shadow-md uppercase tracking-wider">
+                    {node.categories.edges[0].node.name}
+                  </span>
+                )}
                 {node.featuredImage?.node?.sourceUrl ? (
                   <>
                     {/* Blurred Backdrop for Ambiance */}
@@ -237,6 +243,12 @@ export default async function Home() {
               <article key={node.id} className="group flex md:flex-col gap-4 bg-white rounded-xl p-3 md:p-0 shadow-sm md:shadow-none hover:shadow-md md:hover:shadow-none transition-shadow border border-gray-100 md:border-none">
                 {/* Reusing article structure */}
                 <div className="relative w-1/3 md:w-full aspect-[4/3] md:aspect-video flex-shrink-0 overflow-hidden rounded-lg bg-gray-100">
+                  {/* Category Badge Overlay */}
+                  {node.categories?.edges?.length > 0 && node.categories.edges[0]?.node && (
+                    <span className="absolute top-2 left-2 z-20 bg-[var(--color-maiyah-red)] text-white text-[10px] font-bold px-2 py-1 rounded shadow-md uppercase tracking-wider">
+                      {node.categories.edges[0].node.name}
+                    </span>
+                  )}
                   {node.featuredImage?.node?.sourceUrl ? (
                     <>
                       {/* Blurred Backdrop for Ambiance */}
