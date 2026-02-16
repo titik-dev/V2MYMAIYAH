@@ -19,8 +19,8 @@ export default async function DaurMaiyahanPage() {
         <main className="min-h-screen bg-gray-50 dark:bg-gray-900 pb-20">
             {/* Header / Hero */}
             <section className="bg-white dark:bg-gray-950 pt-24 pb-12 px-6 text-center border-b border-gray-100 dark:border-white/5">
-                <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-                    Daur Maiyahan
+                <h1 className="text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 uppercase">
+                    DAUR MAIYAHAN
                 </h1>
                 <p className="max-w-2xl mx-auto text-gray-500 dark:text-gray-400">
                     Menelusuri jejak waktu dan ruang, merajut silaturahmi dalam setiap simpul pertemuan Maiyah.
