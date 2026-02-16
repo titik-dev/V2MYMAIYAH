@@ -159,6 +159,30 @@
                         ]
                     },
                     {
+                        "key": "field_mobile_drawer_logo",
+                        "label": "Mobile Drawer Logo",
+                        "name": "mobile_drawer_logo",
+                        "type": "image",
+                        "instructions": "Logo yang muncul di bagian bawah menu samping (Drawer).",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
                         "key": "field_pill_menu_items",
                         "label": "Pill Menu Items (Swipe)",
                         "name": "pill_menu_items",

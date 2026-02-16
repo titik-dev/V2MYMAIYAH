@@ -36,7 +36,10 @@ export default async function Header() {
                 <nav className="container mx-auto flex items-center justify-between px-4">
                     {/* Left: Mobile Menu (Hamburger) */}
                     <div className="flex items-center text-gray-900 dark:text-white">
-                        <MobileMenu menuItems={mobileItems} />
+                        <MobileMenu
+                            menuItems={mobileItems}
+                            logoUrl={globalNav?.mobileDrawerLogo?.node?.sourceUrl}
+                        />
                     </div>
 
                     {/* Center: Logo (Absolute Center) */}
@@ -66,22 +69,33 @@ export default async function Header() {
 
 
             {/* 
-              DESKTOP HEADER (Dark Theme - 3 Logo Layout) 
+              DESKTOP HEADER (Adaptive Theme - 3 Logo Layout) 
             */}
-            <header className="hidden md:block sticky top-0 z-50 w-full bg-[#1a1a1a] shadow-lg border-b border-gray-800">
+            <header className="hidden md:block sticky top-0 z-50 w-full bg-white dark:bg-[#1a1a1a] shadow-lg border-b border-gray-100 dark:border-gray-800 transition-colors duration-300">
                 <div className="container mx-auto px-6 py-4">
                     {/* Top Row: 3 Logos */}
                     <div className="flex items-center justify-between mb-4">
                         {/* Left Logo: Masyarakat Maiyah */}
                         <div className="relative h-10 w-40">
-                            {/* Logo Changed per request */}
-                            <Image
-                                src="/assets/redesign/LOGO MYMAIYAH White.webp"
-                                alt="MyMaiyah Logo"
-                                fill
-                                sizes="(max-width: 768px) 150px, 200px"
-                                className="object-contain object-left"
-                            />
+                            {/* Adaptive Logo: Colored/Dark for Light Mode, White for Dark Mode */}
+                            <div className="dark:hidden relative h-full w-full">
+                                <Image
+                                    src="/assets/redesign/LOGO MYMAIYAH Black.webp"
+                                    alt="MyMaiyah Logo"
+                                    fill
+                                    sizes="(max-width: 768px) 150px, 200px"
+                                    className="object-contain object-left"
+                                />
+                            </div>
+                            <div className="hidden dark:block relative h-full w-full">
+                                <Image
+                                    src="/assets/redesign/LOGO MYMAIYAH White.webp"
+                                    alt="MyMaiyah Logo"
+                                    fill
+                                    sizes="(max-width: 768px) 150px, 200px"
+                                    className="object-contain object-left"
+                                />
+                            </div>
                         </div>
 
                         {/* Center Logo: MyMaiyah (Main) */}
@@ -98,19 +112,32 @@ export default async function Header() {
 
                         {/* Right Logo: MI-MAN */}
                         <div className="relative h-12 w-20">
-                            <Image
-                                src="/assets/redesign/Logo MI-MAN white2.webp"
-                                alt="MI-MAN"
-                                fill
-                                sizes="100px"
-                                className="object-contain object-right"
-                            />
+                            {/* Adaptive Logo */}
+                            <div className="dark:hidden relative h-full w-full">
+                                <Image
+                                    src="/assets/redesign/Logo MI-MAN.webp"
+                                    alt="MI-MAN"
+                                    fill
+                                    sizes="100px"
+                                    className="object-contain object-right"
+                                />
+                            </div>
+                            <div className="hidden dark:block relative h-full w-full">
+                                <Image
+                                    src="/assets/redesign/Logo MI-MAN white2.webp"
+                                    alt="MI-MAN"
+                                    fill
+                                    sizes="100px"
+                                    className="object-contain object-right"
+                                />
+                            </div>
                         </div>
                     </div>
 
                     {/* Bottom Row: Navigation */}
-                    <nav className="flex items-center justify-between border-t border-gray-800 pt-3">
-                        <div className="flex items-center gap-8 mx-auto">
+                    <nav className="relative flex items-center justify-center border-t border-gray-200 dark:border-gray-800 pt-3">
+                        {/* Centered Menu Items */}
+                        <div className="flex items-center gap-8">
                             {/* Dynamic Menu Items */}
                             {desktopItems.map((item: any, idx: number) => {
                                 const hasSubmenu = item.subMenuItems && item.subMenuItems.length > 0;
@@ -118,7 +145,7 @@ export default async function Header() {
                                     <div key={idx} className="relative group">
                                         <Link
                                             href={item.url || "#"}
-                                            className="text-base font-bold text-white hover:text-[var(--color-maiyah-red)] transition-colors uppercase tracking-wide flex items-center gap-1"
+                                            className="text-base font-bold text-gray-900 dark:text-white hover:text-[var(--color-maiyah-red)] transition-colors uppercase tracking-wide flex items-center gap-1"
                                         >
                                             {item.label}
                                             {hasSubmenu && (
@@ -145,12 +172,13 @@ export default async function Header() {
                                     </div>
                                 );
                             })}
+                        </div>
 
-                            {/* Utility Links */}
-                            <div className="flex items-center gap-4 ml-4">
-                                {/* Search Popup Trigger - Desktop */}
-                                <SearchTrigger mode="full" />
-                            </div>
+                        {/* Right-Aligned Utility Links (Absolute) */}
+                        <div className="absolute right-0 top-3 flex items-center gap-4 text-gray-900 dark:text-white">
+                            <ThemeToggle className="hover:bg-gray-100 dark:hover:bg-white/10" />
+                            {/* Search Popup Trigger - Desktop */}
+                            <SearchTrigger mode="full" />
                         </div>
                     </nav>
                 </div>

@@ -9,12 +9,16 @@ import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 
 interface MobileMenuProps {
     menuItems: any[];
+    logoUrl?: string;
 }
 
-export default function MobileMenu({ menuItems = [] }: MobileMenuProps) {
+export default function MobileMenu({ menuItems = [], logoUrl }: MobileMenuProps) {
     const [isOpen, setIsOpen] = useState(false);
     const [mounted, setMounted] = useState(false);
     const [expandedItems, setExpandedItems] = useState<string[]>([]);
+
+    // Default logo if dynamic one is not set
+    const displayLogo = logoUrl || "/assets/redesign/LOGO MYMAIYAH White.webp";
 
     useEffect(() => {
         setMounted(true);
@@ -157,7 +161,7 @@ export default function MobileMenu({ menuItems = [] }: MobileMenuProps) {
                 <div className="p-8 pb-10 flex items-end justify-center">
                     <div className="relative h-16 w-48">
                         <Image
-                            src="/assets/redesign/LOGO MYMAIYAH White.webp"
+                            src={displayLogo}
                             alt="Masyarakat Negeri Maiyah"
                             fill
                             sizes="192px"

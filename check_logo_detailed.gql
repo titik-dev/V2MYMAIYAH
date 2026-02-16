@@ -1,0 +1,9 @@
+query Inspector {
+  __type(name: "MaiyahGlobalSettingsGlobalNavigationManager") {
+    name
+    fields {
+      name
+      description
+    }
+  }
+}

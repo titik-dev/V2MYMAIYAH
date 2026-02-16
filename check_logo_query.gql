@@ -1,0 +1,22 @@
+query CheckGlobalNavigation {
+  maiyahOptionsData {
+    maiyahGlobalSettings {
+      globalNavigationManager {
+        desktopMenuItems {
+          label
+          url
+        }
+        mobileDrawerItems {
+          label
+          url
+        }
+        # Check jika field ini sudah muncul setelah import JSON
+        mobileDrawerLogo {
+           id
+           sourceUrl
+           altText
+        }
+      }
+    }
+  }
+}

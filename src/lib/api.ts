@@ -556,6 +556,13 @@ export async function getGlobalNavigation() {
                   url
                 }
               }
+              mobileDrawerLogo {
+                node {
+                  id
+                  sourceUrl
+                  altText
+                }
+              }
               pillMenuItems {
                 label
                 url

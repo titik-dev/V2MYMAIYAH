@@ -106,7 +106,7 @@ export default async function Home() {
           {/* Desktop: Cinema Mode */}
           <div className="relative aspect-[21/25] md:aspect-[21/9] w-full flex items-center justify-center overflow-hidden">
             {/* Blurred Background */}
-            <div className="absolute inset-0 opacity-30 select-none pointer-events-none">
+            <div className="absolute inset-0 opacity-70 select-none pointer-events-none">
               <video
                 src="https://mymaiyah.id/72Th%20Mbah%20Nun.mp4"
                 autoPlay
