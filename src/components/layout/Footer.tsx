@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Image from "@/components/ui/AppImage";
 import { getFooterData } from '@/lib/api';
+import { getWpMediaUrl } from '@/lib/wp';
 
 export default async function Footer() {
     let footerData = null;
@@ -18,7 +19,7 @@ export default async function Footer() {
     const socialLinks = footerData?.footerSocials || [];
     const logos = footerData?.footerLogos || [
         {
-            logoImage: { sourceUrl: "http://localhost/v2maiyah/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png", altText: "MyMaiyah" },
+            logoImage: { sourceUrl: getWpMediaUrl("/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png"), altText: "MyMaiyah" },
             logoUrl: "/"
         }
     ];

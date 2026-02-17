@@ -6,7 +6,10 @@ import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import BottomNav from "@/components/layout/BottomNav";
-import { getGlobalMenu, getGlobalNavigation, getThemeCustomization } from "@/lib/api"; // Ensure this import is used if we fetch here
+import { getGlobalNavigation, getThemeCustomization } from "@/lib/api"; // Ensure this import is used if we fetch here
+import { getWpMediaUrl } from "@/lib/wp";
+
+const ogImageUrl = getWpMediaUrl("/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png");
 
 const inter = Inter({
   variable: "--font-inter",
@@ -40,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "MyMaiyah.id",
     images: [
       {
-        url: "http://localhost/v2maiyah/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png",
+        url: ogImageUrl,
         width: 1200,
         height: 630,
         alt: "MyMaiyah.id Logo",
@@ -51,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@MyMaiyahID",
     creator: "@MyMaiyahID",
-    images: ["http://localhost/v2maiyah/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png"],
+    images: [ogImageUrl],
   },
   robots: {
     index: true,

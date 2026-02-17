@@ -1,30 +1,25 @@
-import { notFound } from "next/navigation";
-
-const API_URL = "http://localhost/v2maiyah/graphql";
+import { WORDPRESS_API_URL } from "@/lib/wp";
 
 
 
 async function fetchAPI(query: string, { variables, nextOptions }: { variables?: Record<string, any>, nextOptions?: RequestInit['next'] } = {}) {
-  // Using GET for simplicity and robustness in this local env
-  let url = `${API_URL}?query=${encodeURIComponent(query)}`;
-  if (variables) {
-    url += `&variables=${encodeURIComponent(JSON.stringify(variables))}`;
-  }
-
-  // console.log("Fetching GET:", url);
-
   try {
-    const res = await fetch(url, {
-      method: "GET",
+    const res = await fetch(WORDPRESS_API_URL, {
+      method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
+      body: JSON.stringify({
+        query,
+        variables: variables || {},
+      }),
       next: nextOptions || { revalidate: 60 }, // Defaultrevalidate: 60s, overrideable
     });
 
     if (res.status !== 200) {
-      console.error(`API Error: Status ${res.status}`);
-      throw new Error("Failed to fetch API");
+      const responseBody = await res.text().catch(() => "");
+      console.error(`API Error: Status ${res.status}`, responseBody);
+      throw new Error(`Failed to fetch API (${res.status}) from ${WORDPRESS_API_URL}`);
     }
 
     const json = await res.json();
@@ -33,7 +28,8 @@ async function fetchAPI(query: string, { variables, nextOptions }: { variables?:
       // If data exists, return it despite errors (Partial Success)
       // Only throw if data is completely missng
       if (!json.data) {
-        throw new Error("Failed to fetch API");
+        const firstError = json.errors?.[0]?.message || "Unknown GraphQL error";
+        throw new Error(`Failed to fetch API: ${firstError}`);
       }
     }
     return json.data;
@@ -133,31 +129,7 @@ export async function getPostBySlug(slug: string) {
             avatar {
               url
             }
-            authorProfile {
-              fotoProfil {
-                node {
-                  sourceUrl
-                  altText
-                }
-              }
-              asalSimpul
-              biografiSingkat
-            }
-            seo {
-              social {
-                facebook
-                instagram
-                linkedIn
-                twitter
-                youTube
-              }
-            }
-            url
           }
-        }
-        customAuthor {
-          nama
-          deskripsi
         }
         categories {
           edges {
@@ -166,9 +138,6 @@ export async function getPostBySlug(slug: string) {
               slug
             }
           }
-        }
-        customTitle {
-          subJudulBawah
         }
       }
     }
@@ -180,7 +149,22 @@ export async function getPostBySlug(slug: string) {
       },
     }
   );
-  return data?.post;
+
+  if (!data?.post) return null;
+
+  return {
+    ...data.post,
+    customAuthor: null,
+    customTitle: null,
+    author: {
+      ...data.post.author,
+      node: {
+        ...data.post.author?.node,
+        authorProfile: null,
+        url: null,
+      },
+    },
+  };
 }
 
 export async function getPostsBySlugs(slugs: string[]) {

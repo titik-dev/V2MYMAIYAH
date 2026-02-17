@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import AuthorBio from "@/components/features/author/AuthorBio";
 import AuthorRecentPosts from "@/components/features/author/AuthorRecentPosts";
+import { getWpMediaUrl } from "@/lib/wp";
 
 type Props = {
     params: Promise<{ slug: string }>;
@@ -12,7 +13,12 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { slug } = await params;
-    const post = await getPostBySlug(slug);
+    let post = null;
+    try {
+        post = await getPostBySlug(slug);
+    } catch (error) {
+        console.error("generateMetadata getPostBySlug failed:", error);
+    }
 
     if (!post) {
         return {
@@ -32,7 +38,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             url: `https://mymaiyah.id/berita/${slug}`,
             images: [
                 {
-                    url: post.featuredImage?.node?.sourceUrl || "http://localhost/v2maiyah/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png",
+                    url: post.featuredImage?.node?.sourceUrl || getWpMediaUrl("/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png"),
                     width: 1200,
                     height: 630,
                     alt: post.title,
@@ -46,7 +52,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             card: "summary_large_image",
             title: post.title,
             description: cleanExcerpt.slice(0, 160),
-            images: [post.featuredImage?.node?.sourceUrl || "http://localhost/v2maiyah/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png"],
+            images: [post.featuredImage?.node?.sourceUrl || getWpMediaUrl("/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png")],
         },
     };
 }
@@ -57,7 +63,12 @@ const stripHtml = (html: string) => {
 
 export default async function PostPage(props: Props) {
     const params = await props.params;
-    const post = await getPostBySlug(params.slug);
+    let post = null;
+    try {
+        post = await getPostBySlug(params.slug);
+    } catch (error) {
+        console.error("PostPage getPostBySlug failed:", error);
+    }
 
     if (!post) {
         notFound();
@@ -85,13 +96,8 @@ export default async function PostPage(props: Props) {
 
     const customAuthor = post.customAuthor;
 
-    // Process Social Media from SEO/Yoast & WP User URL
+    // Process social links from available fields in cross-env safe schema
     const socialLinks = [
-        { platform: 'Facebook', url: authorNode?.seo?.social?.facebook },
-        { platform: 'Instagram', url: authorNode?.seo?.social?.instagram },
-        { platform: 'Twitter', url: authorNode?.seo?.social?.twitter },
-        { platform: 'LinkedIn', url: authorNode?.seo?.social?.linkedIn },
-        { platform: 'YouTube', url: authorNode?.seo?.social?.youTube },
         { platform: 'Website', url: authorNode?.url },
     ].filter(link => link.url); // Remove empty links
 

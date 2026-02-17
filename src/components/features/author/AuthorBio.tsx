@@ -1,5 +1,6 @@
 import Image from "@/components/ui/AppImage";
 import Link from "next/link";
+import { getWpMediaUrl } from "@/lib/wp";
 
 type Props = {
     author: {
@@ -39,7 +40,7 @@ export default function AuthorBio({ author, className = "" }: Props) {
                         />
                     ) : (
                         <Image
-                            src="http://localhost/v2maiyah/wp-content/uploads/2026/02/MAIYAH-PIC.jpeg"
+                            src={getWpMediaUrl("/wp-content/uploads/2026/02/MAIYAH-PIC.jpeg")}
                             alt={author.name}
                             fill
                             className="object-cover"
