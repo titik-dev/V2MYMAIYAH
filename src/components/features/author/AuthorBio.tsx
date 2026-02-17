@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/ui/AppImage";
 import Link from "next/link";
 
 type Props = {
@@ -39,7 +39,7 @@ export default function AuthorBio({ author, className = "" }: Props) {
                         />
                     ) : (
                         <Image
-                            src="https://assets.mymaiyah.id/wp-content/uploads/2026/02/MAIYAH-PIC.jpeg"
+                            src="http://localhost/v2maiyah/wp-content/uploads/2026/02/MAIYAH-PIC.jpeg"
                             alt={author.name}
                             fill
                             className="object-cover"

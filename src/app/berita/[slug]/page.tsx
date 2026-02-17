@@ -1,5 +1,5 @@
 import { getPostBySlug, getPostsByAuthor } from "@/lib/api";
-import Image from "next/image";
+import Image from "@/components/ui/AppImage";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
@@ -32,7 +32,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             url: `https://mymaiyah.id/berita/${slug}`,
             images: [
                 {
-                    url: post.featuredImage?.node?.sourceUrl || "http://assets.mymaiyah.id/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png",
+                    url: post.featuredImage?.node?.sourceUrl || "http://localhost/v2maiyah/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png",
                     width: 1200,
                     height: 630,
                     alt: post.title,
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             card: "summary_large_image",
             title: post.title,
             description: cleanExcerpt.slice(0, 160),
-            images: [post.featuredImage?.node?.sourceUrl || "http://assets.mymaiyah.id/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png"],
+            images: [post.featuredImage?.node?.sourceUrl || "http://localhost/v2maiyah/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png"],
         },
     };
 }

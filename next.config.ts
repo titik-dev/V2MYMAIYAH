@@ -1,8 +1,12 @@
 import type { NextConfig } from "next";
 
+const wpApiUrl = process.env.NEXT_PUBLIC_WORDPRESS_API_URL ?? "";
+const isLocalWp = wpApiUrl.includes("localhost") || wpApiUrl.includes("127.0.0.1");
+
 const nextConfig: NextConfig = {
   images: {
-    // unoptimized: true, // Removed to enable Image Optimization
+    unoptimized: isLocalWp,
+    dangerouslyAllowLocalIP: isLocalWp,
     remotePatterns: [
       {
         protocol: 'http',
@@ -17,16 +21,18 @@ const nextConfig: NextConfig = {
         hostname: 'mymaiyah.id',
       },
       {
+        protocol: 'http',
+        hostname: 'localhost',
+        pathname: '/v2maiyah/**',
+      },
+      {
         protocol: 'https',
-        hostname: 'assets.mymaiyah.id',
+        hostname: 'localhost',
+        pathname: '/v2maiyah/**',
       },
       {
         protocol: 'https',
         hostname: 'www.terusberjalan.id',
-      },
-      {
-        protocol: 'https',
-        hostname: '**', // Allow external images if any
       },
     ],
   },

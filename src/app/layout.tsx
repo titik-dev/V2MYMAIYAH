@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "MyMaiyah.id",
     images: [
       {
-        url: "https://assets.mymaiyah.id/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png",
+        url: "http://localhost/v2maiyah/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png",
         width: 1200,
         height: 630,
         alt: "MyMaiyah.id Logo",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@MyMaiyahID",
     creator: "@MyMaiyahID",
-    images: ["https://assets.mymaiyah.id/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png"],
+    images: ["http://localhost/v2maiyah/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png"],
   },
   robots: {
     index: true,

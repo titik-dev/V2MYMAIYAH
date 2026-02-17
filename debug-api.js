@@ -1,5 +1,5 @@
 
-const API_URL = "https://assets.mymaiyah.id/graphql";
+const API_URL = "http://localhost/v2maiyah/graphql";
 
 async function debugRootPosts() {
     console.log("Debugging Root Posts Query for 'esai'...");

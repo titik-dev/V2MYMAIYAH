@@ -1,6 +1,6 @@
 import { searchPosts } from "@/lib/api";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/ui/AppImage";
 
 export default async function SearchPage({
     searchParams,

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "@/components/ui/AppImage";
 import { getFooterData } from '@/lib/api';
 
 export default async function Footer() {
@@ -18,7 +18,7 @@ export default async function Footer() {
     const socialLinks = footerData?.footerSocials || [];
     const logos = footerData?.footerLogos || [
         {
-            logoImage: { sourceUrl: "https://assets.mymaiyah.id/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png", altText: "MyMaiyah" },
+            logoImage: { sourceUrl: "http://localhost/v2maiyah/wp-content/uploads/2025/12/LOGO-MYMAIYAH.png", altText: "MyMaiyah" },
             logoUrl: "/"
         }
     ];

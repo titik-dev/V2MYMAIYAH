@@ -34,7 +34,7 @@ Dokumen ini berisi rangkuman masalah teknis (bug/error) yang ditemui selama peng
 *   **Penyebab:** Aplikasi frontend (HTTPS) mencoba mengambil data dari backend lokal (HTTP) atau sertifikat SSL self-signed ditolak oleh Node.js.
 *   **Solusi:**
     *   Sementara: Menggunakan `NODE_TLS_REJECT_UNAUTHORIZED=0`.
-    *   Permanen: Migrasi backend ke server live (`assets.mymaiyah.id`) yang memiliki sertifikat SSL valid.
+    *   Permanen: Migrasi backend ke server live (`http://localhost/v2maiyah`) yang memiliki sertifikat SSL valid.
 
 ## 6. GraphQL Nested Node Error (Gambar Hilang)
 **Tanggal:** 07-01-2026

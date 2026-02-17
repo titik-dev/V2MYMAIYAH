@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 
-const API_URL = "https://assets.mymaiyah.id/graphql";
+const API_URL = "http://localhost/v2maiyah/graphql";
 
 
 

@@ -100,7 +100,7 @@ Anda harus mengulangi proses **Build** dan **Upload** (hapus file lama di hostin
 ---
 
 ## Catatan Penting
-*   **Update Konten Berita:** Cukup posting di WordPress Backend (`assets.mymaiyah.id`). Frontend akan otomatis update (Tergantung setting Cache Revalidation, biasanya sekitar 60 detik).
+*   **Update Konten Berita:** Cukup posting di WordPress Backend (`http://localhost/v2maiyah`). Frontend akan otomatis update (Tergantung setting Cache Revalidation, biasanya sekitar 60 detik).
 *   **Gambar Iklan:** Jika ganti gambar iklan, harus edit kode dan deploy ulang (Opsi 1 tinggal push ke Git, Vercel otomatis update).
 
 **Butuh bantuan?** Hubungi tim developer.

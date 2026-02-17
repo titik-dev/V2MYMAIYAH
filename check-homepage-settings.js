@@ -15,7 +15,7 @@ const query = `
 
 async function checkSettings() {
     try {
-        const res = await fetch('https://assets.mymaiyah.id/graphql', {
+        const res = await fetch('http://localhost/v2maiyah/graphql', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ query }),

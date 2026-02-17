@@ -16,7 +16,7 @@ async function checkLatestPosts() {
   `;
 
     try {
-        const response = await fetch('https://assets.mymaiyah.id/graphql', {
+        const response = await fetch('http://localhost/v2maiyah/graphql', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from "@/components/ui/AppImage";
 import { getGlobalMenu, getGlobalNavigation } from '@/lib/api';
 import MobileMenu from './MobileMenu';
 import CategoryPills from '@/components/layout/CategoryPills';

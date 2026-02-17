@@ -1,5 +1,5 @@
 
-const https = require('https');
+const http = require('http');
 
 const query = JSON.stringify({
     query: `
@@ -33,9 +33,9 @@ const query = JSON.stringify({
   `
 });
 
-const req = https.request({
-    hostname: 'assets.mymaiyah.id',
-    path: '/graphql',
+const req = http.request({
+    hostname: 'localhost',
+    path: '/v2maiyah/graphql',
     method: 'POST',
     headers: {
         'Content-Type': 'application/json',

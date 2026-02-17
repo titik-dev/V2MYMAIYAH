@@ -1,6 +1,6 @@
 import { getAllPostsForHome, getHomepageData } from "@/lib/api";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/ui/AppImage";
 import FeaturedSlider from "@/components/features/home/FeaturedSlider";
 
 export default async function Home() {

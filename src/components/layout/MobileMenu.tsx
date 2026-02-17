@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/ui/AppImage";
 import ThemeToggle from "@/components/ui/ThemeToggle";
 import { ChevronDownIcon, ChevronUpIcon } from "@heroicons/react/24/solid";
 

@@ -1,6 +1,6 @@
 import { CalendarIcon, MapPinIcon, ClockIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/ui/AppImage";
 import { format } from "date-fns";
 import { id } from "date-fns/locale";
 
