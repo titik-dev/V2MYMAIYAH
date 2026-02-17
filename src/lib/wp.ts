@@ -10,8 +10,14 @@ function trimTrailingSlash(value: string): string {
   return value.replace(/\/+$/, "");
 }
 
+function normalizeKnownHostTypos(value: string): string {
+  return value
+    .replace(/^https?:\/\/assets\.mymaiya\.id/i, "https://assets.mymaiyah.id")
+    .replace(/^https?:\/\/mymaiya\.id/i, "https://mymaiyah.id");
+}
+
 function normalizeApiUrl(value: string): string {
-  const cleaned = trimTrailingSlash(value.trim());
+  const cleaned = trimTrailingSlash(normalizeKnownHostTypos(value.trim()));
   return cleaned.endsWith("/graphql") ? cleaned : `${cleaned}/graphql`;
 }
 
@@ -30,11 +36,10 @@ const rawSiteUrl =
 
 export const WORDPRESS_API_URL = normalizeApiUrl(rawApiUrl);
 export const WORDPRESS_SITE_URL = rawSiteUrl
-  ? trimTrailingSlash(rawSiteUrl)
+  ? trimTrailingSlash(normalizeKnownHostTypos(rawSiteUrl))
   : deriveSiteUrlFromApi(WORDPRESS_API_URL);
 
 export function getWpMediaUrl(path: string): string {
   const normalizedPath = path.startsWith("/") ? path : `/${path}`;
   return `${WORDPRESS_SITE_URL}${normalizedPath}`;
 }
-

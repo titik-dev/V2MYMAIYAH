@@ -1,5 +1,16 @@
 import NextImage, { type ImageProps } from "next/image";
 
+function normalizeImageSource(src: ImageProps["src"]): ImageProps["src"] {
+  if (typeof src !== "string") {
+    return src;
+  }
+
+  // Temporary safety net for typo'd upstream host from CMS data/env.
+  return src
+    .replace(/^https?:\/\/assets\.mymaiya\.id/i, "https://assets.mymaiyah.id")
+    .replace(/^https?:\/\/mymaiya\.id/i, "https://mymaiyah.id");
+}
+
 function isLocalImageSource(src: ImageProps["src"]): boolean {
   if (typeof src !== "string") {
     return false;
@@ -14,11 +25,13 @@ function isLocalImageSource(src: ImageProps["src"]): boolean {
 }
 
 export default function AppImage(props: ImageProps) {
-  const shouldDisableOptimization = isLocalImageSource(props.src);
+  const normalizedSrc = normalizeImageSource(props.src);
+  const shouldDisableOptimization = isLocalImageSource(normalizedSrc);
 
   return (
     <NextImage
       {...props}
+      src={normalizedSrc}
       unoptimized={props.unoptimized ?? shouldDisableOptimization}
     />
   );
