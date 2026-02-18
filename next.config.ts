@@ -44,6 +44,10 @@ const nextConfig: NextConfig = {
       ...dynamicPatterns,
       { protocol: "https", hostname: "mymaiyah.id" },
       { protocol: "https", hostname: "www.terusberjalan.id" },
+      { protocol: "https", hostname: "secure.gravatar.com" },
+      { protocol: "https", hostname: "i0.wp.com" },
+      { protocol: "https", hostname: "i1.wp.com" },
+      { protocol: "https", hostname: "i2.wp.com" },
     ],
   },
 };

@@ -1,0 +1,3000 @@
+<div class="entry-content entry clearfix">
+
+			
+			<div class="sabox-authors"></div>
+			<ul class="authors-wrap"><li>
+		<div class="about-author container-wrapper about-author-90">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/abdul-mubarak/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/12/avatar-abdul-mubarak-220x220-1.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/12/avatar-abdul-mubarak-220x220-1.jpg 2x" alt="Abdul Mubarak" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/abdul-mubarak/">Abdul Mubarak</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Papperandang Ate Mandar, tinggal di Tinambung Mandar dan bekerja sebagai Pegawai di KUA Kec. Tutar, Kab. Polewali Mandar.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-146">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/abdullahfarid/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Abdullah Farid" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/abdullahfarid/">Abdullah Farid</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-13">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/achmad-luthfi/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/avatar-achmad-luthfi-220x220-1.webp" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/avatar-achmad-luthfi-220x220-1.webp 2x" alt="Achmad Luthfi" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/achmad-luthfi/">Achmad Luthfi</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Bangbang Wetan Surabaya.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-42">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/achmad-saifullah-syahid/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/avatar-achmad-saifullah-syahid-220x220-1.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/avatar-achmad-saifullah-syahid-220x220-1.jpg 2x" alt="Achmad Saifullah Syahid" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/achmad-saifullah-syahid/">Achmad Saifullah Syahid</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Padhangmbulan dan dosen di IAIBAFA Tambakberas Jombang.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-20">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/achmad-sobri/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Achmad Sobri" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/achmad-sobri/">Achmad Sobri</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-151">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ade-hashman/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2024/07/avatar-ade-hasman-220x220-1.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2024/07/avatar-ade-hasman-220x220-1.jpg 2x" alt="Ade Hashman" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ade-hashman/">Ade Hashman</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah, sehari-hari adalah dokter spesialis anestesi di RSUD Kudungga Sanggatta.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-61">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/adi-haris/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Adi Haris" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/adi-haris/">Adi Haris</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-43">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/adi-pujo/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Adi Pujo" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/adi-pujo/">Adi Pujo</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-35">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/aditya-wijaya/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/aditya-wijaya-220x222-1-220x220.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/aditya-wijaya-220x222-1.jpeg 2x" alt="Aditya Wijaya" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/aditya-wijaya/">Aditya Wijaya</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Simpul Maiyah Mafaza Eropa asal Yogyakarta, penggiat Pengembangan Desa, dan alumnus Leibniz Universitat Hannover Jerman.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-122">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/agung-nonot-pranawa/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/03/avatar-agung-pranawa-220x220-1.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/03/avatar-agung-pranawa-220x220-1.jpg 2x" alt="Agung Nonot Pranawa" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/agung-nonot-pranawa/">Agung Nonot Pranawa</a></h3>
+						
+				<div class="author-bio">
+					Musisi, Gitaris band metal Bandoso (Solo). Jamaah Maiyah di Majelis Ilmu Maiyah Suluk Surakartan dan Mocopat Syafaat Yogyakarta.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.Id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-112">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/agus-ginanjar/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-30-at-8.50.11-PM.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-30-at-8.50.11-PM.jpeg 2x" alt="Agus Ginanjar" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/agus-ginanjar/">Agus Ginanjar</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Simpul Maiyah Juguran Syafaat, sehari-hari berkecimpung sebagai seorang wirausaha. Penulis bisa dijumpai di Symbolic.id dengan akun @anjarbasir				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-25">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/agus-sukoco/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-agus-sukoco-768x768.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-agus-sukoco-768x768.jpeg 2x" alt="Agus Sukoco" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/agus-sukoco/">Agus Sukoco</a></h3>
+						
+				<div class="author-bio">
+					Agus Sukoco
+
+Penulis novel <em>Lahir Kembali</em>. Sehari-hari aktif dalam kegiatan kepengasuhan di Simpul Maiyah Juguran Syafaat dan berbagai kegiatan sosial budaya di Purbalingga Jawa Tengah.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-106">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ahmad-baharuddin-surya/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-baharuddin-surya.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-baharuddin-surya.jpg 2x" alt="Ahmad Baharuddin Surya" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ahmad-baharuddin-surya/">Ahmad Baharuddin Surya</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Nusantara				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-23">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ahmad-fuad-effendy/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-cak-fuad-500x500.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-cak-fuad-500x500.jpg 2x" alt="Ahmad Fuad Effendy" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ahmad-fuad-effendy/">Ahmad Fuad Effendy</a></h3>
+						
+				<div class="author-bio">
+					Marja' Maiyah, pengajar Bahasa Arab, pendiri IMLA (Asosiasi Pengajar Bahasa Arab di Indonesia), dipercaya selama dua periode sebagai Anggota Majelis Umana/Dewan Pembina pada King Abdullah bin Abdul Aziz International Center for Arabic Language Saudi Arabia, pengasuh Rumah Maiyah Al-Manhal, serta bersama Cak Nun mencetuskan terbitnya Al-Qur'an Mushaf Maiyah dan Tadabbur Padhangmbulan.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-139">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ahmad-irham-fauzi/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/10/IMG_20231026_080655.jpg" width="141" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/10/IMG_20231026_080655.jpg 2x" alt="Ahmad Irham Fauzi" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ahmad-irham-fauzi/">Ahmad Irham Fauzi</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Majelis Ilmu Maiyah Damar Kedhaton Gresik Jawa Timur.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-27">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ahmad-karim/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/IMG_20221024_094935-768x772.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/IMG_20221024_094935.jpg 2x" alt="Ahmad Karim" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ahmad-karim/">Ahmad Karim</a></h3>
+						
+				<div class="author-bio">
+					Perencana di Bappenas, mahasiswa doktoral di departemen Antropologi Universiteit van Amsterdam Belanda, dan penggiat Simpul Maiyah Mafaza Eropa.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-36">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ahmad-saifullah/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Ahmad Saifullah" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ahmad-saifullah/">Ahmad Saifullah</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-71">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/aji-utomo/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Aji Utomo" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/aji-utomo/">Aji Utomo</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-49">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/alfian-ds/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-alfian-ds.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-alfian-ds.jpg 2x" alt="Alfian D.S." class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/alfian-ds/">Alfian D.S.</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Simpul Maiyah Semesta Lamongan.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-109">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ali-ahsan-al-haris/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-ali-ahsan.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-ali-ahsan.jpg 2x" alt="Ali Ahsan Al Haris" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ali-ahsan-al-haris/">Ali Ahsan Al Haris</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Maiyah ReLegi Malang.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-81">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/alief/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Alief" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/alief/">Alief</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-69">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/alvin-kurnia/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Alvin Kurnia" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/alvin-kurnia/">Alvin Kurnia</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-132">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/amien-subhan/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/08/avatar-amien-subhan.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/08/avatar-amien-subhan.jpg 2x" alt="Amien Subhan" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/amien-subhan/">Amien Subhan</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Kenduri Cinta, Senior SAP Programmer and Developer, tinggal di Bogor.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-21">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/amin-ungsaka/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/IMG_20221021_032316.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/IMG_20221021_032316.jpg 2x" alt="Amin Ungsaka" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/amin-ungsaka/">Amin Ungsaka</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Penggiat Bangbang Wetan Surabaya.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-34">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/amir/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Amir" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/amir/">Amir</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-68">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/anas-al-lubab/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Anas Al Lubab" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/anas-al-lubab/">Anas Al Lubab</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-152">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/anggoro-dwi-januar/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2024/07/IMG-20240722-WA0012-scaled.jpg" width="154" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2024/07/IMG-20240722-WA0012-scaled.jpg 2x" alt="Anggoro Dwi Januar" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/anggoro-dwi-januar/">Anggoro Dwi Januar</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Juguran Syafaat, sehari-hari beraktivitas sebagai karyawan BUMD dan aktif sebagai Pengurus Cabang Merpati Putih Purbalingga.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-55">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/anis-sholeh-baasyin/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-bib-anis.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-bib-anis.jpg 2x" alt="Anis Sholeh Ba'asyin" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/anis-sholeh-baasyin/">Anis Sholeh Ba'asyin</a></h3>
+						
+				<div class="author-bio">
+					Pengasuh Suluk Maleman, Pati, Jawa Tengah.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-78">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/argyamaheswara/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Argya D. Maheswara" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/argyamaheswara/">Argya D. Maheswara</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-135">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/as-adam/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/09/AS-Adam.jpeg" width="167" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/09/AS-Adam.jpeg 2x" alt="AS Adam" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/as-adam/">AS Adam</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Mocopat Syafaat. Wartawan dan penyedia dokumen-dokumen lawas (majalah, buku, foto).				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-99">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/as-muzakki/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/CZ23.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/CZ23.jpg 2x" alt="Ahmad Syakurun Muzakki" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/as-muzakki/">Ahmad Syakurun Muzakki</a></h3>
+						
+				<div class="author-bio">
+					Pathok Maiyah&nbsp;<a href="https://twitter.com/hutanpinus___">@hutanpinus__</a>				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-41">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/asabarani-hanafi/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Asabarani Hanafi" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/asabarani-hanafi/">Asabarani Hanafi</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-28">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/aulia-nurani/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/ADF5C4F4-1E96-415E-8D3F-793FAB199A41.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/ADF5C4F4-1E96-415E-8D3F-793FAB199A41.jpeg 2x" alt="Aulia Nurani" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/aulia-nurani/">Aulia Nurani</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-110">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/azri-zakiyyah/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/IMG-20230129-WA0024.jpg" width="178" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/IMG-20230129-WA0024.jpg 2x" alt="Azri Zakiyyah" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/azri-zakiyyah/">Azri Zakiyyah</a></h3>
+						
+				<div class="author-bio">
+					Lulusan Fisika, baik S1 di Universitas Airlangga dan S2 di Universitas Brawijaya. Telah menerbitkan 21 buku: 7 novel, antologi cerpen dan antologi bersama. Novelnya, “Alunan Vektor Allah” (Republika, 2009) memenangkan Juara 1 Nasional Lomba Penulisan Fiksi Depag RI. Emerging Writer termuda dalam Ubud Writers and Readers Festival (UWRF) 2016. Mengikuti Exchange Writer ke Melbourne Emerging Writers Festival (EWF) 2017. Penulis termuda Program Residensi Penulis 2017 oleh Kemendikbud &amp; Komite Buku Nasional (KBN) dan menjalankan riset kepenulisan di Australia. Penggalan novelnya, berjudul “I&amp;A” (UB Press, 2016) diterbitkan dalam Bahasa Inggris sebagai bahan kuliah di Swinburne University, 2017. Novel terbarunya, "Khudr", juara 3 lomba novel nasional yang dijuri oleh Dee Lestari, A. Fuadi, dkk. Konsep ‘unity’ dalam Khudr dipresentasikan di Melbourne EWF 2017.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-147">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/bah-asmul/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Bah Asmul" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/bah-asmul/">Bah Asmul</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-105">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/bambang-praseno/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Bambang Praseno" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/bambang-praseno/">Bambang Praseno</a></h3>
+						
+				<div class="author-bio">
+					Pembelajar di Maiyah				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-30">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/bambang-tri-pandulu-widayat/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/tripan-220x220-1.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/tripan-220x220-1.jpg 2x" alt="Bambang Tri Pandulu Widayat" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/bambang-tri-pandulu-widayat/">Bambang Tri Pandulu Widayat</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Mocopat Syafaat dan penggiat Nahdlatul Muhammadiyin, tinggal di Yogyakarta, biasa disapa: Lik Tripan.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-142">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/brian-willy-santoso/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Brian Willy Santoso" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/brian-willy-santoso/">Brian Willy Santoso</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah asal Magetan Jawa Timur.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-33">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/budi-suharyadi/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Budi Suharyadi" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/budi-suharyadi/">Budi Suharyadi</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-24">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/candra-s/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Candra S" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/candra-s/">Candra S</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-160">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/danang-afi/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2025/12/IMG_20251222_073651.jpg" width="123" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2025/12/IMG_20251222_073651.jpg 2x" alt="Danang Afi" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/danang-afi/">Danang Afi</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Maiyah Simpul Tembang Pepadhang Kendal Jawa Tengah.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.Id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-87">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/dani-padmadisastra/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Dani Padmadisastra" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/dani-padmadisastra/">Dani Padmadisastra</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-12">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/dany-padmadisastra/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/0E56D5B4-91E8-4A02-BF6F-DCE1FD8C73BF.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/0E56D5B4-91E8-4A02-BF6F-DCE1FD8C73BF.jpeg 2x" alt="Dany Padmadisastra" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/dany-padmadisastra/">Dany Padmadisastra</a></h3>
+						
+				<div class="author-bio">
+					Bertempat tinggal di Cirebon, saat ini aktif sebagai pejalan Maiyah dan warga masyarakat sungai Cisanggarung.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-66">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/deddy-syahrial/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Deddy Syahrial" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/deddy-syahrial/">Deddy Syahrial</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-67">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/didik-w-kurniawan/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-didik-w-kurniawan-220x220-1.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-didik-w-kurniawan-220x220-1.jpg 2x" alt="Didik W. Kurniawan" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/didik-w-kurniawan/">Didik W. Kurniawan</a></h3>
+						
+				<div class="author-bio">
+					Penggembira di alam semesta, jamaah Maiyah tinggal di Solo. Pernah kuliah di Solo dan melingkar menimba ilmu di Mocopat Syafaat dan Rumah Maiyah.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-154">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/dimas-jerry/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2024/11/IMG_20241109_104843.jpg" width="138" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2024/11/IMG_20241109_104843.jpg 2x" alt="Dimas Jerry" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/dimas-jerry/">Dimas Jerry</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Mocopat Syafaat tinggal di Yogyakarta.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-134">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/diyah-setiawati/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Diyah Setiyawati" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/diyah-setiawati/">Diyah Setiyawati</a></h3>
+						
+				<div class="author-bio">
+					<em>Penggiat Gambang Syafaat, Seorang Product Developer. Menyukai gambar, fotografi, dan Tari. </em>				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.Id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-5">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/dokter-eddot/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/08/avatar-eddot.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/08/avatar-eddot.jpeg 2x" alt="dr. Eddy Supriyadi, SpA(K), Ph.D." class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/dokter-eddot/">dr. Eddy Supriyadi, SpA(K), Ph.D.</a></h3>
+						
+				<div class="author-bio">
+					Dokter spesialis anak, konsultan Hematologi-Ongkologi Pediatrik. Menyukai fotografi dan bersepeda.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-133">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/donny-kurniawan/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/08/avatar-donny-kurniawan.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/08/avatar-donny-kurniawan.jpg 2x" alt="Donny Kurniawan" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/donny-kurniawan/">Donny Kurniawan</a></h3>
+						
+				<div class="author-bio">
+					IT Infrastructur Engineer, tinggal di Malang.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-93">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/dr-ade-hashman-sp-an/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/12/avatar-ade-hasman-220x220-1.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/12/avatar-ade-hasman-220x220-1.jpg 2x" alt="dr. Ade Hashman, Sp. An." class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/dr-ade-hashman-sp-an/">dr. Ade Hashman, Sp. An.</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah, sehari-hari adalah dokter spesialis anestesi di RSUD Kudungga Sanggatta Kalimantan Timur.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-136">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/eliyas-yahya/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Eliyas Yahya" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/eliyas-yahya/">Eliyas Yahya</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Asal Trawas, Perbatasan Mojokerto Pasuruan.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-76">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/erwin-prayoga/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Erwin Prayoga" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/erwin-prayoga/">Erwin Prayoga</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-8">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/fahmi-agustian/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/IMG-20221021-WA0007-768x768.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/IMG-20221021-WA0007-768x768.jpg 2x" alt="Fahmi Agustian" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/fahmi-agustian/">Fahmi Agustian</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Kenduri Cinta Jakarta, pemerhati media sosial, dan fans Liverpool sejati.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-118">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/faizal-abduh/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/02/IMG_20230214_070412.jpg" width="180" height="176" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/02/IMG_20230214_070412.jpg 2x" alt="Faizal Abduh" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/faizal-abduh/">Faizal Abduh</a></h3>
+						
+				<div class="author-bio">
+					Peserta Pelatihan Guru Baca &amp; Tulis Bahasa Arab Al-Qur’an Metode Manhal Gelombang 1, dari Mojokerto.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-70">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/fajar-dwi-nugroho/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Fajar Dwi Nugroho" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/fajar-dwi-nugroho/">Fajar Dwi Nugroho</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-80">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/fatkhul-amril/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Fatkhul Amril Azim" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/fatkhul-amril/">Fatkhul Amril Azim</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-32">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/fawaz-al-batawy/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-fawaz-500x500.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-fawaz-500x500.jpg 2x" alt="Fawaz Al Batawy" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/fawaz-al-batawy/">Fawaz Al Batawy</a></h3>
+						
+				<div class="author-bio">
+					Relawan SOKOLA				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-53">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/febrian-kisworo/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-febrian-kisworo.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-febrian-kisworo.jpg 2x" alt="Febrian Kisworo" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/febrian-kisworo/">Febrian Kisworo</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Simpul Maiyah Damar Kedhaton Gresik Jawa Timur.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-52">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ferry-prahasta/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Ferry Prahasta" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ferry-prahasta/">Ferry Prahasta</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-45">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/fiki/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/SAVE_20221101_112528-768x769.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/SAVE_20221101_112528-768x769.jpg 2x" alt="Fiki" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/fiki/">Fiki</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Lingkar Maiyah Turanggah Lamongan Jawa Timur.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-102">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/fitrip/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Fitrip" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/fitrip/">Fitrip</a></h3>
+						
+				<div class="author-bio">
+					Penikmat www.caknun.com, asal Kotagede, Yogyakarta.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-108">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/fuad-saifudin/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/IMG_20230123_094332.jpg" width="174" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/IMG_20230123_094332.jpg 2x" alt="Fuad Saifudin" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/fuad-saifudin/">Fuad Saifudin</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah asal Temanggung.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-79">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/galih-indra-pratama/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-galih-indra.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-galih-indra.jpg 2x" alt="Galih Indra Pratama" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/galih-indra-pratama/">Galih Indra Pratama</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-97">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/gatot-aribowo/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/12/IMG-20221230-WA0019-500x500.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/12/IMG-20221230-WA0019-500x500.jpg 2x" alt="Gatot Aribowo" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/gatot-aribowo/">Gatot Aribowo</a></h3>
+						
+				<div class="author-bio">
+					Jannatul Maiyah Lumbung Bailorah Blora.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-125">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/hanafi-yusuf-a/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/05/IMG_20230514_052941.jpg" width="148" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/05/IMG_20230514_052941.jpg 2x" alt="Hanafi Yusuf A." class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/hanafi-yusuf-a/">Hanafi Yusuf A.</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah penggiat Simpul Maiyah Paseban Majapahit Mojokerto.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-62">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/harianto-malang/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Harianto" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/harianto-malang/">Harianto</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-10">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/helmi-mustofa/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/avatar-helmi-m.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/avatar-helmi-m.jpeg 2x" alt="Helmi Mustofa" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/helmi-mustofa/">Helmi Mustofa</a></h3>
+						
+				<div class="author-bio">
+					Staf Progress Sekretariat Cak Nun dan KiaiKanjeng, Redaktur CakNun.com dan MyMaiyah.id				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-162">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/hilmy-nugraha/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2026/02/avatar-hilmy-nugraha-e1484212917352.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2026/02/avatar-hilmy-nugraha-e1484212917352.jpeg 2x" alt="Hilmy Nugraha" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/hilmy-nugraha/">Hilmy Nugraha</a></h3>
+						
+				<div class="author-bio">
+					Pekerja Kreatif. Penggiat Simpul Maiyah Juguran Syafaat Banyumas. Aktif dalam berbagai kegiatan Maiyah.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-120">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/hirdan-ikhya/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/02/IMG_20230215_140547-768x766.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/02/IMG_20230215_140547-768x766.jpg 2x" alt="Hirdan Ikhya" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/hirdan-ikhya/">Hirdan Ikhya</a></h3>
+						
+				<div class="author-bio">
+					Penulis adalah Penggiat Juguran Syafaat&nbsp; sehari-hari aktif mengajar di sebuah SD di Banyumas, mengasuh PKBM di desanya serta sebagai Ketua Koperasi KJS.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-117">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ibnu-ubaidilah/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Ibnu Ubaidilah" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ibnu-ubaidilah/">Ibnu Ubaidilah</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-159">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/iib-ubaidillah/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2025/12/avatar-iib-ubaidilah-220x220-1.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2025/12/avatar-iib-ubaidilah-220x220-1.jpg 2x" alt="Iib Ubaidillah" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/iib-ubaidillah/">Iib Ubaidillah</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Simpul Maiyah Cirrebes, tinggal di Cirebon.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.Id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-119">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/insan-shibirin/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Insan Shobirin" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/insan-shibirin/">Insan Shobirin</a></h3>
+						
+				<div class="author-bio">
+					Peserta pelatihan Metode Manhal, asal Mojokerto.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-58">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ivan-mirzak-biantoro/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Ivan Mirzak Biantoro" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ivan-mirzak-biantoro/">Ivan Mirzak Biantoro</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-4">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/jamal-jufree-ahmad/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-jamal-jufree2.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-jamal-jufree2.jpg 2x" alt="Jamal Jufree Ahmad" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/jamal-jufree-ahmad/">Jamal Jufree Ahmad</a></h3>
+						
+				<div class="author-bio">
+					Amazonian di Amazon.com. Redaktur CakNun.com dan MyMaiyah.id. Tinggal di Chicago.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-161">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/jamaluddin-rosyidi/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2026/01/IMG-20260115-WA0009-scaled.jpg" width="136" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2026/01/IMG-20260115-WA0009-scaled.jpg 2x" alt="Jamaluddin Rosyidi" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/jamaluddin-rosyidi/">Jamaluddin Rosyidi</a></h3>
+						
+				<div class="author-bio">
+					Lahir di Gresik sekarang tinggal di Bontang. Jamaah Maiyah Ma'syar Mahamanikam Kaltim. Aktif di Pesantren Mus'ab bin Umair sebagai kepala sekolah Madrasah Aliyah.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-129">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/jang-malik/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/06/1686563994115.jpg" width="123" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/06/1686563994115.jpg 2x" alt="Jang Malik" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/jang-malik/">Jang Malik</a></h3>
+						
+				<div class="author-bio">
+					Enterpreneur, bekerja di @Rumah Peluang &amp; AYFN Academy, dan penggiat Lingkar Keluarga Mocopat Syafaat (LKMS) Yogyakarta.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.Id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-124">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/janoary-m-wibowo/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/05/IMG_20230512_082854.jpg" width="162" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/05/IMG_20230512_082854.jpg 2x" alt="Janoary M. Wibowo" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/janoary-m-wibowo/">Janoary M. Wibowo</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Simpul Maiyah Lumbung Bailorah Blora Jawa Tengah.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://mymaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-140">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/jembar-tahta-anillah/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Jembar Tahta AnillaH" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/jembar-tahta-anillah/">Jembar Tahta AnillaH</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Nusantara, Mahasiswa UIN Sunan Ampel Surabaya, tinggal di Gedeg Mojokerto Jawa Timur.&nbsp;				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-104">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/joko-yuliyanto/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-joko-yuliyanto.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-joko-yuliyanto.jpg 2x" alt="Joko Yuliyanto" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/joko-yuliyanto/">Joko Yuliyanto</a></h3>
+						
+				<div class="author-bio">
+					<p class="p1">Esais. Penggagas komunitas Seniman NU.</p>				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-137">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/julak-imam-bukhori/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/09/IMG-20230919-WA0012-768x770.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/09/IMG-20230919-WA0012-768x770.jpg 2x" alt="Julak Imam Bukhori" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/julak-imam-bukhori/">Julak Imam Bukhori</a></h3>
+						
+				<div class="author-bio">
+					Penggiat sastra asal Surabaya. Pernah menjadi wartawan di beberapa surat kabar di Kalimantan.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-114">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/karno-tackle/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Karno Tackle" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/karno-tackle/">Karno Tackle</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-89">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/kasno-mgg/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-kasno.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-kasno.jpg 2x" alt="Kasno MGG" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/kasno-mgg/">Kasno MGG</a></h3>
+						
+				<div class="author-bio">
+					<span style="font-weight: 400">Penggiat Maiyah Majlis Gugurgunung Ungaran Jawa Tengah.&nbsp;</span>				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-101">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/m-fatah-mustaqim/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/IMG_20230111_082213.jpg" width="175" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/IMG_20230111_082213.jpg 2x" alt="M. Fatah Mustaqim" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/m-fatah-mustaqim/">M. Fatah Mustaqim</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah tinggal di Wonosobo Jawa Tengah.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-63">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/mahaya-paradesa/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Mahaya Paradesa" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/mahaya-paradesa/">Mahaya Paradesa</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-77">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/mahmud-hasan/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Mahmud Hasan" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/mahmud-hasan/">Mahmud Hasan</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-123">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/marifatul-jannah/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/04/20230101_172339881-768x768.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/04/20230101_172339881-768x768.jpg 2x" alt="Ma'rifatul Jannah" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/marifatul-jannah/">Ma'rifatul Jannah</a></h3>
+						
+				<div class="author-bio">
+					Mahasiswi Jurusan Manajemen Pendidikan Islam, Fakultas Ilmu Tarbiyah dan Keguruan, UIN Maulana Malik Ibrahim Malang dan kelahiran Tulungagung.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.Id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-57">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/marzuki/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Marzuki" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/marzuki/">Marzuki</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-150">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/maulana-bayu-i/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2024/05/IMG-20240531-WA0005.jpg" width="157" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2024/05/IMG-20240531-WA0005.jpg 2x" alt="Maulana Bayu I" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/maulana-bayu-i/">Maulana Bayu I</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah tinggal di Purwokerto. Aktif sebagai pembelajar dan pengajar.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-121">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/moh-husen/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2025/02/moh-husen-768x768.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2025/02/moh-husen-768x768.jpg 2x" alt="Moh. Husen" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/moh-husen/">Moh. Husen</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah tinggal di Banyuwangi Jawa Timur				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-95">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/mohammad-bintang/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/12/7CE55249-99AE-4D7E-92BE-B49C15D9E989-500x500.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/12/7CE55249-99AE-4D7E-92BE-B49C15D9E989-500x500.jpeg 2x" alt="Muhammad Bintang Hardiansyah" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/mohammad-bintang/">Muhammad Bintang Hardiansyah</a></h3>
+						
+				<div class="author-bio">
+					Mahasiswa Pendidikan Bahasa Arab Universitas Negeri Malang. Jamaah Maiyah Malang Raya, Penggiat di Rumah Maiyah Al Manhal Malang				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-37">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/muhajir-arrosyid/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/IMG_20221029_105315.jpg" width="175" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/IMG_20221029_105315.jpg 2x" alt="Muhajir Arrosyid" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/muhajir-arrosyid/">Muhajir Arrosyid</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Majelis Ilmu Gambang Syafaat Semarang dan Simpul Maiyah Kalijagan Demak, menulis buku <em>Gelombang Maiyah</em>.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-148">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/muhamad-rizky-ramdani/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2024/05/IMG-20240527-WA0010.jpg" width="120" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2024/05/IMG-20240527-WA0010.jpg 2x" alt="Muhamad Rizky Ramdani" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/muhamad-rizky-ramdani/">Muhamad Rizky Ramdani</a></h3>
+						
+				<div class="author-bio">
+					Muhamad Rizky Ramdani, lahir di Bandung, 13 November 2002. Ia adalah jamaah Maiyah yang sedang menekuni dunia kepenulisan. Selain itu, ia juga merupakan pegiat Simpul Maiyah Lingkar Daulat Malaya Tasikmalayan dan Sakola Motékar.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-145">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/muhammad-amir/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Muhammad Amir" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/muhammad-amir/">Muhammad Amir</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Kebumen. Tinggal di Purwakarta, Jawa Barat&nbsp;				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-85">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/muhammad-aufa-marom/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Muhammad Aufa Marom" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/muhammad-aufa-marom/">Muhammad Aufa Marom</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-113">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/muhammad-awaluddin/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Muhammad Awaluddin" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/muhammad-awaluddin/">Muhammad Awaluddin</a></h3>
+						
+				<div class="author-bio">
+					<div><span lang="IN">Jamaah Maiyah berdomisili di kota Kolaka Sulawesi Tenggara.</span></div>				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-60">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/muhammad-beny-sp/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Muhammad Beny Sp" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/muhammad-beny-sp/">Muhammad Beny Sp</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-54">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/muhammad-irfan-mirhan/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-irfan-mirhan.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-irfan-mirhan.jpg 2x" alt="Muhammad Irfan Mirhan" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/muhammad-irfan-mirhan/">Muhammad Irfan Mirhan</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah dari Sepanjang Sidoarjo Jawa Timur.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-75">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/muhammad-sholahuddin/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Muhammad Sholahuddin" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/muhammad-sholahuddin/">Muhammad Sholahuddin</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-155">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/muhammad-syamsuddin/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2025/05/IMG-20250530-WA0024.jpg" width="142" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2025/05/IMG-20250530-WA0024.jpg 2x" alt="Muhammad Syamsuddin" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/muhammad-syamsuddin/">Muhammad Syamsuddin</a></h3>
+						
+				<div class="author-bio">
+					Pejalan Maiyah dari Klaten Jawa Tengah.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-15">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/muhammadona-setiawan/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/avatar-muhammadona-s-220x220-1.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/avatar-muhammadona-s-220x220-1.jpg 2x" alt="Muhammadona Setiawan" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/muhammadona-setiawan/">Muhammadona Setiawan</a></h3>
+						
+				<div class="author-bio">
+					Jannatul Maiyah Mocopat Syafaat Yogyakarta. Aktif menjadi penggiat Maiyah di Gemolong, Sragen, Jawa Tengah.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-158">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/mustholikh/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2025/07/IMG-20250703-WA0002-768x768.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2025/07/IMG-20250703-WA0002-768x768.jpg 2x" alt="Mustholikh" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/mustholikh/">Mustholikh</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Simpul Maiyah Cirrebes, Cirebon-Brebes.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-6">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/mustofa-w-hasyim/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/08/avatar-mustofa-wh.jpeg" width="144" height="144" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/08/avatar-mustofa-wh.jpeg 2x" alt="Mustofa W. Hasyim" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/mustofa-w-hasyim/">Mustofa W. Hasyim</a></h3>
+						
+				<div class="author-bio">
+					Sastrawan. Anggota Dewan Kebudayaan Kota Yogyakarta dan Lembaga Seni Budaya Muhammadiyah DIY. Ketua Majelis Ilmu Nahdlatul Muhammadiyin.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-127">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/nafisatul-wakhidah/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/06/IMG-20230603-WA0034.jpg" width="180" height="120" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/06/IMG-20230603-WA0034.jpg 2x" alt="Nafisatul Wakhidah" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/nafisatul-wakhidah/">Nafisatul Wakhidah</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah asal Magelang Jawa Tengah, saat ini bekerja sebagai Perawat di Negara Bagian Bayern, Jerman, dan aktif di Simpul Maiyah Eropa Mafaza.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-126">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/naharin-dwi-indah-k/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/05/IMG_20230528_143351.jpg" width="166" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/05/IMG_20230528_143351.jpg 2x" alt="Naharin Dwi Indah K." class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/naharin-dwi-indah-k/">Naharin Dwi Indah K.</a></h3>
+						
+				<div class="author-bio">
+					Mahasiswa Profesi Dokter, Fakultas Kedokteran dan Ilmu Kesehatan, UIN Maulana Malik Ibrahim Malang.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-138">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/nandha-yogi-hanggara/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/09/IMG_20230923_130426.jpg" width="180" height="173" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/09/IMG_20230923_130426.jpg 2x" alt="Nandha Yogi Hanggara" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/nandha-yogi-hanggara/">Nandha Yogi Hanggara</a></h3>
+						
+				<div class="author-bio">
+					Pemuda asal Yogyakarta yang sehari-hari menjadi karyawan swasta, dan alhamdulillah merupakan jamaah Mocopat Syafaat				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-100">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/nova-dwi-pamungkas/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Nova Dwi Pamungkas" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/nova-dwi-pamungkas/">Nova Dwi Pamungkas</a></h3>
+						
+				<div class="author-bio">
+					Mahasiswa aktif Universitas Airlangga Surabaya asal Mojokerto Jatim.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-17">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/novia-nuryany/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-novia.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-novia.jpg 2x" alt="Novia Nuryany" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/novia-nuryany/">Novia Nuryany</a></h3>
+						
+				<div class="author-bio">
+					Kepala Sekolah SD Muhammadiyah Karangkajen Yogyakarta.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-103">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ns-risno/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of NS Risno" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ns-risno/">NS Risno</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah asal Magetan Jawa Timur				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-111">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/nur-arif/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Nur Arif" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/nur-arif/">Nur Arif</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Mocopat Syafaat				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-14">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/nur-kholil/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-nur-kholil-500x500.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-nur-kholil-500x500.jpg 2x" alt="Nur Kholil" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/nur-kholil/">Nur Kholil</a></h3>
+						
+				<div class="author-bio">
+					Regional Manager 3 Wismilak
+Wilayah Jateng dan DIY.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-19">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/nurul-huda/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Nurul Huda" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/nurul-huda/">Nurul Huda</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-9">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/oni/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Oni" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/oni/">Oni</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Simpul Maiyah Semesta Lamongan				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-22">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/patub/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-patub.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-patub.jpeg 2x" alt="Patub" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/patub/">Patub</a></h3>
+						
+				<div class="author-bio">
+					Patub adalah Rumah Maiyah's Gatekeeper.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-149">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/pipink-riveea/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2024/05/IMG_20240527_205416.jpg" width="167" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2024/05/IMG_20240527_205416.jpg 2x" alt="Pipink Riveea" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/pipink-riveea/">Pipink Riveea</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Simpul Maiyah Warok Kaprawiran Madiun Raya.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-11">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/prayogi-saputra/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/avatar-prayogi-saputra-768x768.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/avatar-prayogi-saputra-768x768.jpg 2x" alt="Prayogi R. Saputra" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/prayogi-saputra/">Prayogi R. Saputra</a></h3>
+						
+				<div class="author-bio">
+					Pegiat Maiyah Relegi Malang, Dosen Universitas Muhammadiyah Malang, dan Penulis Buku Spiritual Journey Emha.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-16">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/priyo-handoko/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Priyo Handoko" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/priyo-handoko/">Priyo Handoko</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-88">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/r-aria-koesoemah/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-aria.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-aria.jpg 2x" alt="R. Aria Koesoemah Prawira" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/r-aria-koesoemah/">R. Aria Koesoemah Prawira</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Maiyah Balitar, sedang menyelesaikan studi di UII dan di pondok pesantren Sunan Pandanaran Yogyakarta. Aktif di UII Pers, dan beberapa media online.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-82">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rachmad-rudiyanto/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/12/avatar-rachmad-rudiyanto-220x220-1.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/12/avatar-rachmad-rudiyanto-220x220-1.jpg 2x" alt="Rachmad Rudiyanto" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rachmad-rudiyanto/">Rachmad Rudiyanto</a></h3>
+						
+				<div class="author-bio">
+					Biasa disapa Wak Mad. Mukim di Surabaya dan aktif di Majelis Ilmu Bangbang Wetan Surabaya.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-96">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rahmat-ade-putra/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-rahmat-ade.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-rahmat-ade.jpg 2x" alt="Rahmat Ade Putra" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rahmat-ade-putra/">Rahmat Ade Putra</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Majelis Ilmu Gambang Syafaat Semarang.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-153">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rahmat-tsani-h/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2024/08/1723451949896.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2024/08/1723451949896.jpg 2x" alt="Rahmat Tsani H." class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rahmat-tsani-h/">Rahmat Tsani H.</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah tinggal di Yogyakarta, bekerja sebagai pengembang buku elektronik.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-18">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rakawiedha-indra-t/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Rakawiedha Indra" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rakawiedha-indra-t/">Rakawiedha Indra</a></h3>
+						
+				<div class="author-bio">
+					Salah satu bagian dari jamaah maiyah Nusantara				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-46">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rakhmad-zaenuri-pribadi/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/IMG_20221102_053214.jpg" width="173" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/IMG_20221102_053214.jpg 2x" alt="Rakhmat Zaenuri Pribadi" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rakhmad-zaenuri-pribadi/">Rakhmat Zaenuri Pribadi</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Juguran Syafaat Banyumas,&nbsp; bekerja di bidang perhotelan dan menggeluti kreativitas sebagai <em>content writer</em> di Andretron.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-29">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/ridho-iqbal-firdaus/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-ridho-iqbal.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-ridho-iqbal.jpg 2x" alt="Ridho Iqbal Firdaus" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/ridho-iqbal-firdaus/">Ridho Iqbal Firdaus</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Simpul Maiyah Dualapanan Lampung dan seorang keturunan Lampung Pepadun.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-157">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rinto-setiyawan/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2025/06/IMG_20250627_134700.jpg" width="166" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2025/06/IMG_20250627_134700.jpg 2x" alt="Rinto Setiyawan" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rinto-setiyawan/">Rinto Setiyawan</a></h3>
+						
+				<div class="author-bio">
+					Ketua Umum IWPI, Anggota Majelis Tinggi Partai X, Wakil Direktur Sekolah Negarawan X Institute.
+
+&nbsp;				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-31">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rio-chandra/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Rio Chandra Prayoga" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rio-chandra/">Rio Chandra Prayoga</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-40">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/riodwialvian/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Rio Dwi Alvian" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/riodwialvian/">Rio Dwi Alvian</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-83">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rizal-mashuri/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Rizal Mashuri" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rizal-mashuri/">Rizal Mashuri</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-131">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rizal-tri-harjanto/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/08/IMG_20230819_060852.jpg" width="180" height="166" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/08/IMG_20230819_060852.jpg 2x" alt="Rizal Tri Harjanto" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rizal-tri-harjanto/">Rizal Tri Harjanto</a></h3>
+						
+				<div class="author-bio">
+					Penggiat Majelis Ilmu Maiyah Kenduri Cinta Jakarta.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-7">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rizky-d-rahmawan/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/08/avatar-rizky-juguran.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/08/avatar-rizky-juguran.jpeg 2x" alt="Rizky D. Rahmawan" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rizky-d-rahmawan/">Rizky D. Rahmawan</a></h3>
+						
+				<div class="author-bio">
+					Koordinator Simpul Maiyah dan Anggota Redaksi CakNun.com.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-59">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/robingul-ahsan/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-robingul-ahsan.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-robingul-ahsan.jpg 2x" alt="Robingul Ahsan" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/robingul-ahsan/">Robingul Ahsan</a></h3>
+						
+				<div class="author-bio">
+					Alumni Center for Religious and Cross-cultural Studies UGM.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-115">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/romadlon-chamidah/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Romadlon Chamidah" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/romadlon-chamidah/">Romadlon Chamidah</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-3">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rony-k-pratama/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/08/avatar-rony-k-pratama.jpeg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/08/avatar-rony-k-pratama.jpeg 2x" alt="Rony K. Pratama" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rony-k-pratama/">Rony K. Pratama</a></h3>
+						
+				<div class="author-bio">
+					Pembelajar di Maiyah. Jamaah Maiyah Yogyakarta dan aktif menghadiri Mocopat Syafaat.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-98">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/roy-widya/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Roy Widya" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/roy-widya/">Roy Widya</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Padhangmbulan Jombang.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-156">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/rumini-zulfikar/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Rumini Zulfikar" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/rumini-zulfikar/">Rumini Zulfikar</a></h3>
+						
+				<div class="author-bio">
+					Pengiat Komunitas sinau NGOPI BARENG Guyub Rukun dan Komunitas PUNAKAWAN Klaten.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-50">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/saiful-amri/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Saiful Amri" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/saiful-amri/">Saiful Amri</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-64">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/samsul-huda/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Samsul Huda" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/samsul-huda/">Samsul Huda</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-86">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/sinniar-ommadi/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Sinniar Ommadi" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/sinniar-ommadi/">Sinniar Ommadi</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-48">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/siwi-widjayanti-hadiprajitno/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/Siwi.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/Siwi.jpg 2x" alt="Siwi Widjayanti Hadiprajitno" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/siwi-widjayanti-hadiprajitno/">Siwi Widjayanti Hadiprajitno</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Kenduri Cinta. Pencinta masyarakat Urang Tangtu Kanekes (Baduy). Penggiat sastra dan literasi komunitas Semut Merah Kaizen dan The Writers. General Manager di Oerip Indonesia.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-74">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/soeparno-aznin/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Soeparno Aznin" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/soeparno-aznin/">Soeparno Aznin</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-73">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/suhadi/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Suhadi" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/suhadi/">Suhadi</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-107">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/suroto/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-suroto.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/01/avatar-suroto.jpg 2x" alt="Suroto" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/suroto/">Suroto</a></h3>
+						
+				<div class="author-bio">
+					Rakyat jelata				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-44">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/susilo-irawan/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Susilo Irawan" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/susilo-irawan/">Susilo Irawan</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-128">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/syarifuddin/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/06/IMG-20230528-WA0042.jpg" width="101" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/06/IMG-20230528-WA0042.jpg 2x" alt="Syarifuddin" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/syarifuddin/">Syarifuddin</a></h3>
+						
+				<div class="author-bio">
+					<span style="font-weight: 400">Manusia biasa yang tinggal di Cirebon.&nbsp;</span>				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-38">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/syuhada-nasrullah/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-syuhada-n-500x500.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/11/avatar-syuhada-n-500x500.jpg 2x" alt="Syuhada Nasrullah" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/syuhada-nasrullah/">Syuhada Nasrullah</a></h3>
+						
+				<div class="author-bio">
+					<span style="font-weight: 400">Penggiat Simpul Maiyah Damar Kedhaton Gresik.&nbsp;</span>				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-92">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/turah-asih-lestari/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/12/IMG_20221220_153131.jpg" width="180" height="177" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/12/IMG_20221220_153131.jpg 2x" alt="Turah Asih Lestari" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/turah-asih-lestari/">Turah Asih Lestari</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah Mocopat Syafaat Yogyakarta tinggal di Maguwoharjo Sleman Yogyakarta.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-116">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/wahyu-imam/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/02/IMG_20230204_101518.jpg" width="180" height="172" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/02/IMG_20230204_101518.jpg 2x" alt="Wahyu Imam" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/wahyu-imam/">Wahyu Imam</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah tinggal di Perth Australia, senang menelusuri sejarah Nusantara,				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-56">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/wahyu-sudrajat/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Wahyu Sudrajat" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/wahyu-sudrajat/">Wahyu Sudrajat</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-141">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/wawan-susetya/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/11/avatar-wawan-susetya-220x220-1.jpg" width="180" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/11/avatar-wawan-susetya-220x220-1.jpg 2x" alt="Wawan Susetya" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/wawan-susetya/">Wawan Susetya</a></h3>
+						
+				<div class="author-bio">
+					Penulis adalah pegiat Maiyah SWA Tulungagung.&nbsp; &nbsp;				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-51">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/wiku-nugroho/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Wiku Nugroho" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/wiku-nugroho/">Wiku Nugroho</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-130">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/wisnu-pujiantoro/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2023/06/Foto-Wisnu.jpeg" width="101" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2023/06/Foto-Wisnu.jpeg 2x" alt="Wisnu Pujiantoro" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/wisnu-pujiantoro/">Wisnu Pujiantoro</a></h3>
+						
+				<div class="author-bio">
+					<span style="font-weight: 400">Penggiat Komunitas Kenduri Cinta Jakarta yang saat ini aktif di Gambang Syafaat Semarang.&nbsp;</span>				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-39">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/yasin/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Yasin" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/yasin/">Yasin</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-94">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/yudi-rohmad/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/12/A5119553-4EF0-44EE-A604-5E8A4191A895.jpeg" width="178" height="180" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/12/A5119553-4EF0-44EE-A604-5E8A4191A895.jpeg 2x" alt="Yudi Rohmad" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 alignnone photo">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/yudi-rohmad/">Yudi Rohmad</a></h3>
+						
+				<div class="author-bio">
+					Jannatul Maiyah Malang				</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-144">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/yusuf-safura/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Yusuf Safura" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/yusuf-safura/">Yusuf Safura</a></h3>
+						
+				<div class="author-bio">
+					Jamaah Maiyah.				</div><!-- .author-bio /-->
+
+				<ul class="social-icons">
+								<li class="social-icons-item">
+									<a href="http://MyMaiyah.Id" rel="external noopener nofollow" target="_blank" class="social-link url-social-icon">
+										<span class="tie-icon-home" aria-hidden="true"></span>
+										<span class="screen-reader-text">Website</span>
+									</a>
+								</li>
+							</ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li><li>
+		<div class="about-author container-wrapper about-author-65">
+
+								<div class="author-avatar">
+						<a href="http://localhost/v2maiyah/author/zidan/">
+							<img src="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg" srcset="http://localhost/v2maiyah/wp-content/uploads/2022/10/82627C46-5A91-4B80-ABD7-215EB88E92DA-768x768.jpeg 2x" width="180" height="180" alt="Photo of Zidan" class="avatar avatar-180 wp-user-avatar wp-user-avatar-180 photo avatar-default">						</a>
+					</div><!-- .author-avatar /-->
+					
+			<div class="author-info">
+
+											<h3 class="author-name"><a href="http://localhost/v2maiyah/author/zidan/">Zidan</a></h3>
+						
+				<div class="author-bio">
+									</div><!-- .author-bio /-->
+
+				<ul class="social-icons"></ul>			</div><!-- .author-info /-->
+			<div class="clearfix"></div>
+		</div><!-- .about-author /-->
+		</li></ul>
+		</div>
